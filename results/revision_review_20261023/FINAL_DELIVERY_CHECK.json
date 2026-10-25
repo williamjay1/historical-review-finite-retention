@@ -1,0 +1,26 @@
+{
+  "completed": true,
+  "scope": "Final cross-file consistency; not a replacement for content/semantic/visual audits",
+  "frozen_core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "static_archives": 1392,
+  "formal_online_conditions": 32,
+  "formal_online_queries": 5280,
+  "manuscript_sources_match_word_receipts": true,
+  "embedded_figures_match_current_png": true,
+  "native_math_paragraphs_accounted_for": [
+    {
+      "document": "ESWA_Manuscript.docx",
+      "apparently_empty_with_math_or_image": 6
+    },
+    {
+      "document": "ESWA_Supplementary.docx",
+      "apparently_empty_with_math_or_image": 1
+    }
+  ],
+  "final_sources": {
+    "ESWA_Manuscript.md": "83ca59b096ef20144bce9c49872f75f88efffde0fff5609640e660b2baf8225e",
+    "ESWA_Manuscript.docx": "5835b88d4d12ab4e4f0388eb25d1d51bb20e6949c0d9c1eb115ab28c7353145f",
+    "ESWA_Supplementary.md": "d00291fb9b9be8de9151235778c07f9d0b19c08e6944ce2b92d8e4ec347c026c",
+    "ESWA_Supplementary.docx": "2ad02cdafdeaf8f51b24763af851a483adc6b4d73218fc6916d65257d97cd933"
+  }
+}

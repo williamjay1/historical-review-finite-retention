@@ -1,0 +1,97 @@
+{
+  "mode": "static",
+  "inputs": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs",
+  "output": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded",
+  "code_root": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023",
+  "script_directory": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts",
+  "selected_streams": [
+    [
+      "SMD",
+      "machine-3-4",
+      "ridge",
+      "fine"
+    ]
+  ],
+  "budgets": [
+    262144
+  ],
+  "block": 1024,
+  "pilot": true,
+  "no_training": true,
+  "record_scope": "Frozen high-score service records; selected window-last observations; no original raw-loader reads",
+  "completed": true,
+  "streams": 1,
+  "cost_rows": 6,
+  "metric_rows": 12,
+  "online_conditions": 0,
+  "elapsed_seconds": 16.234749900060706,
+  "comparison": {
+    "status": "pass",
+    "checks": {
+      "costs": {
+        "rows": 6,
+        "mismatches": [],
+        "passed": true
+      },
+      "metrics": {
+        "rows": 12,
+        "mismatches": [],
+        "passed": true
+      },
+      "files": [
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\adaptive_coverage_fill_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\bitmap_change_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\bitmap_change_fill_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\coverage_fill_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\coverage_summary_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static\\SMD_machine-3-4_ridge_fine\\full_262144.arc",
+          "passed": true,
+          "check": "byte-exact archive"
+        },
+        {
+          "file": "static_details\\SMD_machine-3-4_ridge_fine.csv.gz",
+          "passed": true,
+          "check": "non-timing CSV fields",
+          "rows": 576,
+          "selected_group_fields": [
+            "dataset",
+            "unit",
+            "backbone",
+            "cadence",
+            "budget",
+            "method"
+          ],
+          "mismatches": []
+        }
+      ]
+    },
+    "timings_compared": false
+  },
+  "frozen_core_unchanged": true,
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+  "input_manifest_sha256": "2c27add3e12de72d5d314a21917add932caed06051d53cb5eb353270f4012122",
+  "closure_modules": 12,
+  "scope": "Only the explicitly selected streams/conditions were rerun"
+}

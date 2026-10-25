@@ -1,0 +1,11 @@
+dataset,unit,backbone,cadence,budget,method,block,lo,now,bytes,chunks,evicted,rejected,encode_ms,write_ms,kind
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,0,256,1278,1,0,False,0.966,1.0842,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,256,512,3415,2,0,False,20.3074,0.6677,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,512,768,5628,3,0,False,22.774,0.6405,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,768,1024,7851,4,0,False,22.1855,0.6686,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,1024,1280,10082,5,0,False,21.4086,0.5362,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,1280,1536,12319,6,0,False,21.7079,0.5483,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,1536,1792,14473,7,0,False,19.7332,0.6155,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,1792,2048,16694,8,0,False,22.3244,0.7676,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,2048,2304,18901,9,0,False,19.9584,0.5808,coverage_summary
+SMD,machine-3-4,ridge,coarse,262144,coverage_summary,256,2304,2368,21041,10,0,False,6.1513,0.8142,coverage_summary

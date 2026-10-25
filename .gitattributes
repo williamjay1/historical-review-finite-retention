@@ -1,0 +1,7 @@
+* text=auto
+*.npz binary
+*.arc binary
+*.png binary
+*.pdf binary
+*.docx binary
+*.svg text

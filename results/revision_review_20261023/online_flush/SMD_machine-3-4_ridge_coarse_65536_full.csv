@@ -1,0 +1,4 @@
+dataset,unit,backbone,cadence,budget,method,now,bytes,chunks,evicted,rejected,encode_ms,write_ms,kind
+SMD,machine-3-4,ridge,coarse,65536,full,1024,990,0,0,True,27.0041,1.0171,full
+SMD,machine-3-4,ridge,coarse,65536,full,2048,990,0,0,True,39.6826,0.6456,full
+SMD,machine-3-4,ridge,coarse,65536,full,2368,50690,1,0,False,8.9641,1.2124,full

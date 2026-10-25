@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+temp/
+cache/
+replay/
+word_render/
+fine_codec/
+*.zip
+.DS_Store

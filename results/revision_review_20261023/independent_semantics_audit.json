@@ -1,0 +1,13 @@
+{
+  "random_cases": 8,
+  "channels": 2,
+  "n_cycles": 8,
+  "archive_conditions": 64,
+  "all_subset_query_checks": 32768,
+  "partial_group_archives": 11,
+  "refusal_archives": 8,
+  "false_or_avoidable_certificates": 0,
+  "nonmonotonic_tied_scores": true,
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "independent_script_sha256": "26c0b9ff9b91cf3ff53f5ed58924977f8d9157969545af08568720c983e9fc5e"
+}

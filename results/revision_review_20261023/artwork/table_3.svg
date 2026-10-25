@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="131.5pt" viewBox="0 0 518.740157 131.5" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T15:53:11.452377</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Source-exact editable paper table generator</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 131.5 
+L 518.740157 131.5 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="line2d_1">
+   <path d="M 6 6 
+L 512.740157 6 
+" style="fill: none; stroke: #000000; stroke-width: 0.75"/>
+  </g>
+  <g id="line2d_2">
+   <path d="M 6 33 
+L 512.740157 33 
+" style="fill: none; stroke: #000000; stroke-width: 0.45"/>
+  </g>
+  <g id="line2d_3">
+   <path d="M 6 125.5 
+L 512.740157 125.5 
+" style="fill: none; stroke: #000000; stroke-width: 0.75"/>
+  </g>
+  <g id="cell-r0-c0">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="21.314531" transform="rotate(-0 11 21.314531)">Representation</text>
+  </g>
+  <g id="cell-r0-c1">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="21.268594" transform="rotate(-0 223.965669 21.268594)">Actual bytes</text>
+  </g>
+  <g id="cell-r0-c2">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="21.31125" transform="rotate(-0 294.909291 21.31125)">Slack bytes</text>
+  </g>
+  <g id="cell-r0-c3">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="21.962578" transform="rotate(-0 365.852913 21.962578)">Unsaved atoms</text>
+  </g>
+  <g id="cell-r0-c4">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="22.005234" transform="rotate(-0 436.796535 22.005234)">Joint first / 20</text>
+  </g>
+  <g id="cell-r0-c5">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'" transform="translate(453.68047 17.415586)">Complete report</text>
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'" transform="translate(496.06547 25.946836)">/ 20</text>
+  </g>
+  <g id="cell-r1-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="44.102266" transform="rotate(-0 11 44.102266)">Complete, declined</text>
+  </g>
+  <g id="cell-r1-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="44.270156" transform="rotate(-0 223.965669 44.270156)">1,990</text>
+  </g>
+  <g id="cell-r1-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="44.270156" transform="rotate(-0 294.909291 44.270156)">260,154</text>
+  </g>
+  <g id="cell-r1-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="44.270156" transform="rotate(-0 365.852913 44.270156)">60,483</text>
+  </g>
+  <g id="cell-r1-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="44.722969" transform="rotate(-0 436.796535 44.722969)">0</text>
+  </g>
+  <g id="cell-r1-c5">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="44.722969" transform="rotate(-0 507.740157 44.722969)">0</text>
+  </g>
+  <g id="cell-r2-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="62.518594" transform="rotate(-0 11 62.518594)">Bitmap + change</text>
+  </g>
+  <g id="cell-r2-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="62.770156" transform="rotate(-0 223.965669 62.770156)">78,661</text>
+  </g>
+  <g id="cell-r2-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="62.770156" transform="rotate(-0 294.909291 62.770156)">183,483</text>
+  </g>
+  <g id="cell-r2-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="62.770156" transform="rotate(-0 365.852913 62.770156)">55,725</text>
+  </g>
+  <g id="cell-r2-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="63.221328" transform="rotate(-0 436.796535 63.221328)">13</text>
+  </g>
+  <g id="cell-r2-c5">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="63.265625" transform="rotate(-0 507.740157 63.265625)">2</text>
+  </g>
+  <g id="cell-r3-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="81.06125" transform="rotate(-0 11 81.06125)">Bitmap + change + fill</text>
+  </g>
+  <g id="cell-r3-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="81.270156" transform="rotate(-0 223.965669 81.270156)">262,133</text>
+  </g>
+  <g id="cell-r3-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="81.765625" transform="rotate(-0 294.909291 81.765625)">11</text>
+  </g>
+  <g id="cell-r3-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="81.270156" transform="rotate(-0 365.852913 81.270156)">44,258</text>
+  </g>
+  <g id="cell-r3-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="81.765625" transform="rotate(-0 436.796535 81.765625)">14</text>
+  </g>
+  <g id="cell-r3-c5">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="81.765625" transform="rotate(-0 507.740157 81.765625)">2</text>
+  </g>
+  <g id="cell-r4-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="99.56125" transform="rotate(-0 11 99.56125)">Coverage summary</text>
+  </g>
+  <g id="cell-r4-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="99.770156" transform="rotate(-0 223.965669 99.770156)">20,907</text>
+  </g>
+  <g id="cell-r4-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="99.770156" transform="rotate(-0 294.909291 99.770156)">241,237</text>
+  </g>
+  <g id="cell-r4-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="99.770156" transform="rotate(-0 365.852913 99.770156)">59,424</text>
+  </g>
+  <g id="cell-r4-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="100.222969" transform="rotate(-0 436.796535 100.222969)">10</text>
+  </g>
+  <g id="cell-r4-c5">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="100.265625" transform="rotate(-0 507.740157 100.265625)">2</text>
+  </g>
+  <g id="cell-r5-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="118.06125" transform="rotate(-0 11 118.06125)">Coverage + fill</text>
+  </g>
+  <g id="cell-r5-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="223.965669" y="118.270156" transform="rotate(-0 223.965669 118.270156)">262,139</text>
+  </g>
+  <g id="cell-r5-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="294.909291" y="118.678672" transform="rotate(-0 294.909291 118.678672)">5</text>
+  </g>
+  <g id="cell-r5-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="365.852913" y="118.270156" transform="rotate(-0 365.852913 118.270156)">44,347</text>
+  </g>
+  <g id="cell-r5-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="436.796535" y="118.765625" transform="rotate(-0 436.796535 118.765625)">11</text>
+  </g>
+  <g id="cell-r5-c5">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="118.765625" transform="rotate(-0 507.740157 118.765625)">2</text>
+  </g>
+ </g>
+</svg>

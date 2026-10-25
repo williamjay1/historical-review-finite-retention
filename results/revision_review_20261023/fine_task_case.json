@@ -1,0 +1,156 @@
+{
+  "dataset": "SMD",
+  "unit": "machine-3-4",
+  "backbone": "ridge",
+  "cadence": "fine",
+  "budget": 65536,
+  "incident_id": "2",
+  "channel_0based": 9,
+  "variable_1based": 10,
+  "event_start_sample": 6013,
+  "event_end_exclusive_sample": 6016,
+  "query_start_cycle": 6004,
+  "query_stop_cycle": 6007,
+  "reference_high_records": 3,
+  "reference_first_atom": {
+    "t": 6004,
+    "ch": 9,
+    "v": 6,
+    "q": 215.59866333007812,
+    "x": 1.0
+  },
+  "reference_first_source_sample": 6013,
+  "task": "replay high-support and reconstruct exact first high record; list missing high-report details",
+  "responses": {
+    "bitmap_change": {
+      "answer": "yes",
+      "first_certified": true,
+      "certified_first": true,
+      "first_cycle": 6004,
+      "earliest_possible": 6004,
+      "latest_possible_first": 6004,
+      "first_numeric_joint": false,
+      "complete_report": false,
+      "numeric_count": 0,
+      "numeric_first": -1,
+      "min_high_count": 3,
+      "max_high_count": 3,
+      "unusable_count": 0,
+      "usability_unknown_count": 0,
+      "usable_below_count": 0,
+      "reason": "support-only",
+      "bytes": 65528,
+      "retained_query_high_records": 0,
+      "first_retained_record": null,
+      "first_16_retained_records": []
+    },
+    "coverage_summary": {
+      "answer": "yes",
+      "first_certified": true,
+      "certified_first": true,
+      "first_cycle": 6004,
+      "earliest_possible": 6004,
+      "latest_possible_first": 6004,
+      "first_numeric_joint": true,
+      "complete_report": false,
+      "numeric_count": 1,
+      "numeric_first": 6004,
+      "min_high_count": 1,
+      "max_high_count": 3,
+      "unusable_count": 0,
+      "usability_unknown_count": 0,
+      "usable_below_count": 0,
+      "reason": "first-with-numeric",
+      "bytes": 49766,
+      "retained_query_high_records": 1,
+      "first_retained_record": {
+        "t": 6004,
+        "ch": 9,
+        "v": 6,
+        "q": 215.59866333007812,
+        "x": 1.0
+      },
+      "first_16_retained_records": [
+        {
+          "t": 6004,
+          "ch": 9,
+          "v": 6,
+          "q": 215.59866333007812,
+          "x": 1.0
+        }
+      ]
+    },
+    "coverage_fill": {
+      "answer": "yes",
+      "first_certified": true,
+      "certified_first": true,
+      "first_cycle": 6004,
+      "earliest_possible": 6004,
+      "latest_possible_first": 6004,
+      "first_numeric_joint": true,
+      "complete_report": false,
+      "numeric_count": 1,
+      "numeric_first": 6004,
+      "min_high_count": 1,
+      "max_high_count": 3,
+      "unusable_count": 0,
+      "usability_unknown_count": 0,
+      "usable_below_count": 0,
+      "reason": "first-with-numeric",
+      "bytes": 65526,
+      "retained_query_high_records": 1,
+      "first_retained_record": {
+        "t": 6004,
+        "ch": 9,
+        "v": 6,
+        "q": 215.59866333007812,
+        "x": 1.0
+      },
+      "first_16_retained_records": [
+        {
+          "t": 6004,
+          "ch": 9,
+          "v": 6,
+          "q": 215.59866333007812,
+          "x": 1.0
+        }
+      ]
+    },
+    "adaptive_coverage_fill": {
+      "answer": "yes",
+      "first_certified": true,
+      "certified_first": true,
+      "first_cycle": 6004,
+      "earliest_possible": 6004,
+      "latest_possible_first": 6004,
+      "first_numeric_joint": true,
+      "complete_report": false,
+      "numeric_count": 1,
+      "numeric_first": 6004,
+      "min_high_count": 1,
+      "max_high_count": 3,
+      "unusable_count": 0,
+      "usability_unknown_count": 0,
+      "usable_below_count": 0,
+      "reason": "first-with-numeric",
+      "bytes": 65526,
+      "retained_query_high_records": 1,
+      "first_retained_record": {
+        "t": 6004,
+        "ch": 9,
+        "v": 6,
+        "q": 215.59866333007812,
+        "x": 1.0
+      },
+      "first_16_retained_records": [
+        {
+          "t": 6004,
+          "ch": 9,
+          "v": 6,
+          "q": 215.59866333007812,
+          "x": 1.0
+        }
+      ]
+    }
+  }
+}

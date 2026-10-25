@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "tables": 9,
+  "source_sha256": {
+    "manuscript\\ESWA_Manuscript.md": "7d85637100925428a9a8ef7109ece2b1bb32423ea57c87a632521cb0ed7326df",
+    "manuscript\\ESWA_Supplementary.md": "b2df688caf34cc444f41ebc6e631b34a12eecf5d84fb338e3a75f34af433b37e"
+  },
+  "generator_sha256": "4a96762a01496591ee8b9552ef2e2fd72527c974ad787ed32e1679a2b471b9d7",
+  "Arial_font": "C:\\Windows\\Fonts\\arial.ttf",
+  "editable_svg": true,
+  "pdf_embedded_truetype": true,
+  "pdf_raster_images": 0,
+  "final_width_mm": 183.0,
+  "raster_dpi": 1200,
+  "preview_dpi": 150,
+  "geometry_violations": 0,
+  "source_cell_count": 285,
+  "files": [
+    {
+      "stem": "table_1",
+      "height_mm": 31.57361111111111,
+      "rows": 3,
+      "columns": 6
+    },
+    {
+      "stem": "table_2",
+      "height_mm": 52.916666666666664,
+      "rows": 6,
+      "columns": 5
+    },
+    {
+      "stem": "table_3",
+      "height_mm": 46.390277777777776,
+      "rows": 5,
+      "columns": 6
+    },
+    {
+      "stem": "table_4",
+      "height_mm": 39.86388888888889,
+      "rows": 4,
+      "columns": 6
+    },
+    {
+      "stem": "table_s1",
+      "height_mm": 64.20555555555555,
+      "rows": 8,
+      "columns": 5
+    },
+    {
+      "stem": "table_s2",
+      "height_mm": 51.15277777777777,
+      "rows": 6,
+      "columns": 5
+    },
+    {
+      "stem": "table_s3",
+      "height_mm": 38.099999999999994,
+      "rows": 4,
+      "columns": 5
+    },
+    {
+      "stem": "table_s4",
+      "height_mm": 38.099999999999994,
+      "rows": 4,
+      "columns": 5
+    },
+    {
+      "stem": "table_s5",
+      "height_mm": 38.099999999999994,
+      "rows": 4,
+      "columns": 6
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+# Supplementary information
+
+# S1. Source integrity, annotation cohorts and decision cadence
+
+The archive experiments reuse frozen PCA and ridge outputs; they do not compare newly trained anomaly detectors. The coarse experiment contains 60 fits with seed zero: two backbones for 28 Server Machine Dataset (SMD) devices and two ESA Anomaly Dataset Benchmark (ESA ADB) missions. SMD has 38 variables per device. The ESA evaluation uses 58 and 47 channels, with 55 and six annotated anomaly event IDs, respectively. Channels, backbones and repeated queries are related observations rather than independent incidents. Unknown ESA annotation regions are excluded from active evaluation rather than relabeled nominal. Rare nominal events receive no anomaly query credit.
+
+The audit of the SMD source to cache path compares all 708,420 official test rows and every variable as float32, with exact equality and exact binary label agreement. Nonoverlapping windows of ten samples yield 70,828 coarse decisions, at source samples starting at zero, 9, 19, and so forth; 140 trailing observations across devices do not complete a window. The original SMD paper reports nominal one minute observations and expert annotation using incident reports [1]. This supports a nominal sample scale and contributing variable annotations, but establishes neither calendar timestamps nor observed response times.
+
+Contiguous runs of binary anomaly labels define 327 incidents. These remain the full event denominator. Among four global index/end conventions, zero based, half open intervals uniquely maximize exact agreement with interpretation annotations: 322 exact rows, five rows with partial overlap and no invalid or nonoverlapping rows. The alternative conventions yield one, zero and zero exact rows. At incident level, 322 have an exact interpretation entry, three have matches that are only partial and two have none. The exact cohort supplies 2,254 incident variable targets before any detector filtering. Variable indices 1 to 38 map to columns 0 to 37. Two shorter interpretation rows overlap events already matched exactly; one has a differing variable list. It is not merged into the whole event annotation. The conservative annotation cohort excludes that event, leaving 321 incidents and 2,251 targets. Contributing variables are annotated associations rather than root causes validated by intervention.
+
+The original coarse windows contain ten SMD observations or 300/180 released seconds for ESA Missions 1/2. Each channel supplies mean, last, standard deviation, minimum, maximum and endpoint change. ESA uses a causal zero order hold without backward filling leading unknowns; designated counters use backward increments. Scaling subtracts fitting medians and divides by the larger of the interquartile range and 0.1 standard deviations. PCA retains 90% of fitting variance, while ridge predicts from four prior windows with regularization 10. Mean absolute residual across six scaled features is divided by the channel's calibration 95th percentile residual, floored at $10^{-6}$. The common threshold is the calibration 99.5th percentile of the maximum normalized score across channels, also floored at $10^{-6}$. SMD fits/calibrates the first 80%/last 20% of official training rows. ESA test starts are 1 January 2007/1 October 2001 in released coordinates; the preceding three months calibrate and earlier usable windows fit. No test labels select these parameters.
+
+The selective review tape opens candidates on baseline highs, closing after two lows or a cap. ESA caps a review at six released hours, allows four submissions per released week, and simulates an answer delay of 24 released hours. SMD uses 1,000 source samples, four submissions per 10,000 samples, and a delay of 100 samples. The perfect oracle answer uses annotation overlap, taking effect no earlier than the next decision after closure. These simulated labels determine context provenance rather than archive admission or an actual person's response.
+
+Fine SMD decisions advance one source observation while preserving windows of ten observations and preprocessing derived from training, model parameters and thresholds. Existing fine score caches provide 708,168 decisions. At every shared timestamp, fine and coarse scores are bit identical; all 56 reconstructed coarse score arrays match their original frozen arrays, with no channel high discrepancy. Ridge predictors retain the original source sample lags 10, 20, 30 and 40. The original coarse review tape is projected causally onto both cadences, providing common update provenance rather than introducing additional oracle feedback at fine cadence. No model is refitted for this comparison. Table S1 separates opportunities from detected and archived evidence.
+
+**Table S1. SMD opportunity and evidence denominators.** Each column pools 28 devices for one backbone. A positive annotated target contains at least one eligible high on its annotated variable; counts do not measure distinct faults successfully diagnosed.
+
+| Quantity | PCA coarse | PCA fine | Ridge coarse | Ridge fine |
+|---|---:|---:|---:|---:|
+| Binary incidents | 327 | 327 | 327 | 327 |
+| Incidents with an active decision opportunity | 249 | 327 | 249 | 327 |
+| Incidents with any channel high | 143 | 238 | 142 | 239 |
+| Incidents with annotated variable high | 122 | 216 | 135 | 224 |
+| Annotated incident variable targets | 2,254 | 2,254 | 2,254 | 2,254 |
+| Targets without an active decision | 371 | 0 | 371 | 0 |
+| Positive annotated targets | 749 | 1,101 | 932 | 1,228 |
+| Original high records | 24,415 | 238,339 | 111,954 | 1,124,754 |
+
+Available finer ESA caches contain local windows selected around events, with 54 and five internal schedule gaps for Missions 1 and 2. Their continuity and label independence are limited, so they are excluded from the primary fine archive comparison. Those caches also use a numerical PCA refit because original fitted weights were not persisted. Reproducing coarse alarm decisions does not establish bit identical residuals. ESA released timestamps underwent an anonymizing affine transformation; released seconds cannot establish a spacecraft response deadline.
+
+ESA ADB version 2 is distributed under CC BY 3.0 IGO, subject to its attribution and IGO provisions. SMD has an MIT license specific to the dataset, verified separately from the repository's code license. Source versions and license texts accompany the replication materials. Complete raw datasets are not redistributed; derived service records of high scores include selected original last values of completed windows.
+
+# S2. Serialized representation and certification
+
+The service stores eligible threshold crossings, not every observation. An original atom is exactly 16 bytes: uint32 decision index, uint16 channel, uint16 update version, float32 score and float32 unscaled last value of the completed window. For counter channels, the last value may be a preprocessed increment. The version identifies arrived review provenance; it does not imply that an unchanged frozen score was recomputed. A header specifies the clock, schema, channel map and threshold.
+
+The static outer frame occupies 13 bytes, followed by canonical JSON and a payload descriptor of 37 bytes. The descriptor records representation kind, absolute start/stop, bucket width, group count and five segment lengths. A separately charged usability bitmap distinguishes unavailable decisions from observed decisions below the threshold. It is shared across channels because usability is shared in these inputs; missingness specific to a channel would require a different schema. Bitmaps use little endian bit packing and zlib level 9. Each uncompressed complete bucket/channel group costs 31 bytes: start, stop, channel, flags, high count and the positions of the first, last, minimum score and maximum score highs. Empty groups are explicitly serialized, including their zero count. Repeated role atoms are stored once. Omitted groups convey no completeness. Method identifiers occupy the same field of 32 characters in every header. All frames, metadata, bitmaps, groups and numerical payloads are charged.
+
+Let a compatible history preserve every stored atom, known support or usability position and admitted group's cardinality and roles. Certification asks whether all compatible histories give the same typed answer [2,3]. A positive witness proves existence even outside a complete group; an answer for the first position additionally needs to exclude every earlier possibility within the query. For example, known negative positions 1 and 2 plus a retained positive at 3 certify first position 3. Conversely, a complete group's first position 20 proves no high in positions 0 to 19 even without a full support bitmap.
+
+After applying explicit positive/negative constraints, consider disjoint groups with unknown position set size $n_g$ and remaining required high count $r_g$. A query intersects $u_g$ of these positions. Let $p$ be its known positive count and $v$ its otherwise unconstrained positions. Its compatible high count bounds are
+
+\[
+L=p+\sum_g\max\{0,r_g-(n_g-u_g)\},\qquad
+U=p+v+\sum_g\min\{r_g,u_g\}.
+\]
+
+The lower contribution follows because at most $n_g-u_g$ required highs can be placed outside the query. The upper contribution places as many as possible inside. Disjoint groups attain their bounds independently, so the expressions are sharp under these retained constraints. The answer is yes when $L>0$, no when $U=0$, and unknown otherwise. Earliest and latest compatible first positions are computed using the same constraints; their equality certifies the first position only when $L>0$. A complete numerical report is certified when $L=U$ equals the number of returned original atoms. Empty queries have a complete empty report. A nonempty negative query needs a proof of zero high count. Unusable decisions contribute no eligible high, while their input status remains separately visible.
+
+Count and score extrema constraints cannot generally recover discarded original atoms. Compatible unretained scores can be assigned an admitted score without violating stored extrema. Even when score values are forced, an unretained float32 last value of the window has no retained determining function in this service. Exact numerical completeness therefore requires original atom payloads. This argument assumes valid groups produced by the encoder, disjoint group scopes and no additional saved constraint determining discarded values. It is not a guarantee against maliciously corrupted files.
+
+An elementary storage boundary defines the limit of unrestricted guarantees. With one channel always high and the remaining $C-1$ channels taking arbitrary binary patterns over $T$ decisions, there are $2^{(C-1)T}$ distinguishable supports. Exact answers for every singleton query require at least $(C-1)T$ bits before numerical values and metadata. Fixed persistent memory must eventually narrow the supported history or task, or abstain. This counting argument defines a service boundary.
+
+# S3. Static baselines, tasks and observed failures
+
+All six methods receive identical atoms, support, usability and provenance. Annotations enter only offline query construction and truth. Complete storage chooses the smaller actual file between independently compressed t/channel/version/score/value columns and support organized by channel plus compressed numerical columns. An oversized complete candidate declines service; its required size is reported separately from its small refusal frame. The bitmap/change baseline keeps exact support and original parent/channel first, last, score minimum, score maximum and changes of at least 0.25 times the threshold. Parents are contiguous runs of highs from any channel with zero gap. Selected numerical records are chronologically truncated if necessary; the mandatory support remains exact.
+
+Coverage summaries retain complete bucket/channel groups and their original role atoms. Static width starts at 256 decisions and doubles if needed. If even whole history groups exceed capacity, only wholly admitted groups confer completeness. The two fill variants spend available slack on additional original atoms at deterministic uniform time ranks among unselected atoms. They are independent of labeled evaluation outcomes. Adaptive coverage uses complete storage whenever it fits, otherwise coverage plus fill. Static capacity is 65,536 or 262,144 bytes. Relative capacity divides this ceiling by complete compressed size under the same record contract; these illustrative caps are experimental conditions rather than measured deployment requirements.
+
+Task 1 reconstructs an eligible trigger's first position and original score/value/version with a first position certificate. A correct atom without a precedence certificate is insufficient. Task 2 returns every original high atom in the requested scope with a completeness flag. Complete positive reports are shown separately because negative queries can have correct empty reports. The workload includes all exact annotated incident channel scopes, 64 scopes independent of labels with 16 starts and lengths 1, 10, 100 and 1,000 decisions, and two empty scopes per fit. Interval endpoints are clipped to the available history. The secondary empirical tolerance accepts a retained atom within one decision of the true first, absolute score and value differences at most 0.01, and the same version. It measures offline fidelity and remains separate from a certificate over compatible histories. Value units differ across channels, and one decision spans different nominal time at the two cadences.
+
+The fine experiment writes and reopens 672 budgeted archives across 56 fits, six methods and two capacities. Table S2 reports results for annotated targets, retaining both numerical and support failures. At 64 KiB, complete storage fits 22/28 PCA and 14/28 ridge histories; at 256 KiB it fits 28/28 and 25/28. A declined complete history is reported as unavailable.
+
+Every empirical query in the fixed grid has zero unusable decisions in both coarse and fine runs. Thus unavailable input semantics have synthetic verification; the grid itself contains no missing input episodes. The earlier endpoint audit expanded annotated scopes by one decision on each side and reapplied eligibility and masks for valid labels. It separated originally positive and newly positive targets rather than changing denominators silently: SMD added 28 PCA and 93 ridge positive targets; ESA added four and two. Those are findings about scope sensitivity for the preceding witness experiment rather than certificates for the present formats. Excluded unknown annotation regions remain unvalidated; endpoint expansion does not establish their physical state.
+
+**Table S2. Fine SMD annotated target service.** Denominators are 1,101 positive/2,254 total queries for PCA and 1,228 positive/2,254 total for ridge. Each cell gives joint first position/numeric successes, complete positive reports and unknown support answers, in that order. Unknown counts use all queries. Every evaluated certificate agrees with original records.
+
+| Method | PCA 64 KiB | Ridge 64 KiB | PCA 256 KiB | Ridge 256 KiB |
+|---|---:|---:|---:|---:|
+| Complete | 810 / 810 / 317 | 434 / 434 / 1,089 | 1,101 / 1,101 / 0 | 1,066 / 1,066 / 167 |
+| Bitmap + change | 892 / 307 / 0 | 885 / 257 / 0 | 1,065 / 332 / 0 | 1,115 / 301 / 0 |
+| Bitmap + change + fill | 893 / 478 / 0 | 887 / 318 / 0 | 1,077 / 871 / 0 | 1,122 / 650 / 0 |
+| Coverage summary | 928 / 196 / 27 | 976 / 126 / 74 | 928 / 196 / 27 | 984 / 129 / 52 |
+| Coverage + fill | 953 / 407 / 12 | 987 / 232 / 68 | 1,047 / 866 / 7 | 1,076 / 596 / 22 |
+| Adaptive coverage + fill | 1,015 / 825 / 11 | 993 / 462 / 67 | 1,101 / 1,101 / 0 | 1,146 / 1,073 / 7 |
+
+The alternatives preserve different capabilities. Exact support certifies all tested presence/absence answers while losing some numerical first records. Coverage can improve joint reconstruction yet leave support unknown. Full storage supplies every detail whenever feasible. On machine 3-4 ridge, incident 2 and annotated variable 10 span source samples 6013 to 6015, with three eligible high records. At 64 KiB, bitmap/change certifies the first position but retains none of those numerical records. Coverage retains the original first atom and certifies its precedence, yet returns only one of the three records; its completeness flag remains false. Filling consumes further bytes without recovering the other two. Thus a successful first trigger reconstruction must not be reported as a complete incident report.
+
+# S4. Chronological finite retention service
+
+The online comparison uses Mission 1 PCA/ridge and machine 3-4 ridge at both cadences. It processes consecutive 1,024 decision chunks, including empty chunks; first/last/extrema become available only at closure. Complete, bitmap/change and coverage summary services encode each closed chunk and expire oldest chunks until the global ceiling is met. A chunk that cannot fit alone is rejected, leaving an unknown hole. Parents close at chunk boundaries. Adaptive admission stores a complete incoming chunk if it fits the current remaining budget; otherwise it expires oldest chunks until a coverage representation fits and fills remaining space with that incoming chunk's original records. It does not revisit expired atoms. This policy that uses only past data and favors recency is evaluated as a concrete policy across the tested query ages. A sensitivity with 256 decision chunks checks whether oversized chunks drive the hard server result.
+
+A header for the shared prefix, an outer frame of 20 bytes, real chunk directory entries of 21 bytes and retained payloads are all charged. The persistent ceiling is asserted at every closure and snapshot write. Queries reopen the snapshot and decode retained bytes. Four approximately quarterly closure checkpoints use lengths 1, 64, 1,024 and 4,096 decisions, endpoint ages zero, one, four and sixteen chunks, and endpoints at 25%, 50% and 75% of the observed prefix. Additional anchors use eight quantiles of already observed high decisions, without event labels. Age is latest observed index minus queried endpoint, not an observed human response delay. Age, length, retained range intersection and rejected hole intersection are retained as separate strata. Rejected hole intersection is an offline admission log attribution; clients that see only the snapshot are not promised the distinction between expired and rejected history. Queries run only at closures; an unflushed buffer cannot rescue an answer.
+
+Open high atoms, support/usability work and compressed transient objects are recorded separately. These are tracked lower bounds for archive owned memory, not process resident memory. Neither persistent bytes nor a fast average update establishes bounded total RAM, crash durability or worst case latency. Measurements of query and closure p95 in warm cache include Python serialization and filesystem effects. Forecasts based only on past data extrapolate complete byte increments from earlier quarters, with unbuffered and fixed 1.25 payload margin policies. False feasible and false infeasible outcomes remain visible; outcomes held for the future leave the margin unchanged.
+
+## S4.1. Actual online task and access results
+
+The formal run comprises 32 history/capacity/method conditions and 5,280 query evaluations, with no false certificate. All written snapshots meet their persistent ceilings. Tables S3 and S4 show two contrasting 256 KiB histories; complete report counts refer only to positive queries, while unknown uses every query. Timings are descriptive warm cache p95 values. The benefit of the adaptive policy depends on the stream: preferring complete incoming chunks can consume bytes that otherwise retain older evidence.
+
+**Table S3. Mission 1 ridge, 256 KiB, 1,024 decision chunks.** There are 69 positive and 176 total queries per method.
+
+| Method | Joint first / 69 | Complete positive / 69 | Unknown / 176 | Query p95 (ms) |
+|---|---:|---:|---:|---:|
+| Complete | 42 | 42 | 36 | 87.65 |
+| Bitmap + change | 56 | 48 | 0 | 38.68 |
+| Coverage summary | 38 | 33 | 25 | 5.86 |
+| Adaptive | 39 | 34 | 36 | 50.75 |
+
+**Table S4. Fine machine 3-4 ridge, 256 KiB, 1,024 decision chunks.** There are 134 positive and 176 total queries per method.
+
+| Method | Joint first / 134 | Complete positive / 134 | Unknown / 176 | Query p95 (ms) |
+|---|---:|---:|---:|---:|
+| Complete | 24 | 24 | 144 | 10.13 |
+| Bitmap + change | 50 | 12 | 3 | 4.29 |
+| Coverage summary | 56 | 12 | 0 | 3.50 |
+| Adaptive | 24 | 6 | 118 | 6.63 |
+
+## S4.2. Query length, expired boundaries and admission holes
+
+On the fine server at 256 KiB, coverage summary reconstructs 6/48 positive queries of length 64 and 27/56 positive queries of length 1,024; complete reports number zero and one. The corresponding bitmap/change results are 5/48 and 23/56, again with zero and one complete reports. These lengths select different scopes, so they describe task strata rather than the causal effect of length. Complete storage has 151/176 queries intersecting missing history, including 110 positive queries; none has joint first reconstruction, and 144 are unknown. Nine queries cross a retained/missing boundary, eight are positive, and none has a complete report. This loss arises despite zero rejected chunks at this capacity: 22 FIFO evictions remove evidence.
+
+At 64 KiB, complete storage rejects 20 fine server chunks. Of 137 queries intersecting a rejected hole, 130 are unknown and none has a complete report. Four still have certified original first atoms before the missing portion: missing later detail need not invalidate an already established first position. The 256 decision sensitivity eliminates oversized complete chunk rejection on this server, but its 64 KiB run still has 149/176 unknown queries after expiration. Native chunk based checkpoints and delays change the actual query scopes; its positive denominator is 143, versus 134 with 1,024 decision chunks. These results are descriptive across different query sets rather than a paired effect of changing chunk size.
+
+The forecast census based only on past data includes 112 paired cadence SMD histories and four ESA histories. Three successive forecast origins yield 348 predictions per capacity/margin rule. Table S5 reports the confusion counts. The fixed margin reduces some false promises but also declines feasible complete histories; four false feasible outcomes remain at 256 KiB under either rule. Forecasts therefore guide planning while actual byte checks govern admission and certificates.
+
+**Table S5. Forecasts of complete size for the next prefix.** Feasible means the next complete archive actually fits. False feasible is an incorrect promise of fit; false infeasible is a missed complete storage opportunity. Repeated forecasts are related observations.
+
+| Cap | Payload factor | True feasible | False feasible | True infeasible | False infeasible |
+|---|---:|---:|---:|---:|---:|
+| 64 KiB | 1.00 | 299 | 15 | 32 | 2 |
+| 64 KiB | 1.25 | 297 | 11 | 36 | 4 |
+| 256 KiB | 1.00 | 334 | 4 | 9 | 1 |
+| 256 KiB | 1.25 | 332 | 4 | 9 | 3 |
+
+# S5. Finite domains and independent checks
+
+The core regression exhaustively enumerates 64 binary support histories on six decisions, seven archive configurations and all 64 query subsets, producing 28,672 checks. It independently filters compatible support and tests presence/absence/unknown, first position, complete report and avoidable abstention. Explicit cases cover empty and nonempty negative queries, unavailable input, partial groups, positive witnesses outside complete ranges, expired/future suffixes and absolute chunk merging. The executed checks report zero false certificates and zero unnecessary unknown answers within this finite domain.
+
+An independent extension that reads only the archive constructs eight streams with eight decisions and two channels with nonmonotone and tied scores and independently varied last values. Eight configurations per stream include widths 2/3/8, constrained partial admission, fill, bitmap, complete and refusal cases. Direct enumeration of 256 supports on one channel from the decoded schema, without the core state or compatibility routines, gives 32,768 query subset checks across 64 archive conditions, including 11 partially admitted and eight fully declined archives. It finds no false certificate or avoidable abstention and also checks count bounds, first positions, numerical round trips and finite budgets. These software cases are additional constructed checks rather than application incidents. Support enumeration covers a finite domain; numerical report reasoning uses the explicit assumption in S2.
+
+A separate online audit evaluates 96 snapshot conditions and 16,320 arbitrary query subsets, including 30 evictions, ten rejections and 8,208 partly covered scopes. Before each query it removes the preloaded source stream object; all answers still match the independently enumerated retained semantics, with no false certificate or avoidable refusal. Twenty four pairs of future suffix perturbations produce identical preceding snapshots. Scanning 232 formal saved snapshots and 22,330 directory entries finds no budget, overlap or violation of the directory layout. These checks concern the implemented service based on closed blocks; crash recovery and adversarial file corruption remain outside their scope. The rejected hole attribution remains an offline log annotation, as specified in S4.
+
+# S6. Scope and reproducibility
+
+An experiment with richer records stores time/channel/version/score plus all six unscaled window features: 36 bytes without duplicating last. Sixty files were written, reopened and matched at their source coordinates, with their own charged schema headers. This enables feature inspection. Original fitted predictor objects are unavailable, so the study cannot reconstruct separate feature residuals or infer counterfactual scores or physical causes. The current service with 16 byte atoms does not borrow numerical guarantees from those richer files. Simulated selective perfect oracle feedback is not observed human review. Human error, actual query frequency, labour, safety and operational capacity requirements remain unmeasured. Prior losses in timely delivery at fine cadence and failure of retention selected from past data to hold in the future remain limitations of the earlier notification study; archive results do not repair them.
+
+The replication materials retain source receipts, annotation reconciliation, frozen score checks, exact archive files, per query results, byte/slack/unsaved record tables and semantic audit receipts. From the project root, the actual entrypoints are:
+
+```text
+python scripts/review_archive_core_20261023.py
+python scripts/review_independent_semantics_20261023.py
+python results/revision_review_20261023/online_independent_audit.py
+python scripts/review_experiments_20261023.py
+python scripts/review_fine_stream_20261023.py --audit
+python scripts/review_fine_experiments_20261023.py
+python scripts/review_fine_findings_20261023.py
+python scripts/review_online_20261023.py
+python scripts/review_online_20261023.py --pilot --block 256
+python scripts/review_past_policy_20261023.py --all-smd
+python scripts/review_analyse_20261023.py
+```
+
+Coarse static, fine static and online experiments have separate executable drivers. Original source drivers require the original cached scores and source receipts. The replication package additionally supplies 116 portable frozen service streams and `review_replay_frozen_20261023.py`, with `--mode static` or `--mode online` and a required new `--output` directory. Its README distinguishes representative reruns from the original complete experiment. Outputs are descriptive at device, mission and event identity levels; repeated hits, queries or backbones do not supply extra independent faults or justify significance claims.
+
+# References
+
+[1] Su, Y., Zhao, Y., Niu, C., Liu, R., Sun, W., Pei, D., 2019. Robust anomaly detection for multivariate time series through stochastic recurrent neural network. Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2828–2837. https://doi.org/10.1145/3292500.3330672.
+
+[2] Razniewski, S., Nutt, W., 2011. Completeness of queries over incomplete databases. Proceedings of the VLDB Endowment 4 (11), 749–760. https://doi.org/10.14778/3402707.3402715.
+
+[3] Libkin, L., 2015. How to define certain answers. Proceedings of the Twenty-Fourth International Joint Conference on Artificial Intelligence, 4282–4288. https://www.ijcai.org/Proceedings/15/Papers/609.pdf.

@@ -1,0 +1,44 @@
+{
+  "main_docx": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Manuscript.docx",
+    "sha256": "b56cbd3ec959dbd31a030d828bc60e879c2161c78dff9d12811efb5969bf6a0b",
+    "pages": 16,
+    "tables": 4,
+    "figures": 2,
+    "equations": 35
+  },
+  "supplementary_docx": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Supplementary.docx",
+    "sha256": "ab585c19cff09e064720481f07bad89a1ec13ae37527848658d785fa1a4e224d",
+    "pages": 7,
+    "tables": 5,
+    "equations": 17
+  },
+  "cover_letter_pdf": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Cover_Letter.pdf",
+    "sha256": "a4398243506ca8b5fb66dddae338088d40d24614147d254da3c86e8d5e0bf123",
+    "pages": 1
+  },
+  "cover_letter_docx": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Cover_Letter.docx",
+    "sha256": "089e449c5e4523242bfeb409753c8de3e2997e69ba697b192200fb0ba03f26db"
+  },
+  "response": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\REVISION_RESPONSE_20261023.md",
+    "sha256": "a6befdfb69ee385b04cf5e8fb3521a5c406309be3bee10a69ea7265ae8de17e6"
+  },
+  "audit": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\FINAL_SUBMISSION_AUDIT.json",
+    "sha256": "8d20977bde47aa33a5b19f78f9b55cbbc9dc6e8530da0ab9805f4fee11960bb3"
+  },
+  "reference_verification": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\REFERENCE_VERIFICATION_FINAL.md",
+    "sha256": "61a4f24a6f55be5cd0dd7306590b56dd34f1dd96e1deca78f808d2a7b3d48210"
+  },
+  "layout_qa": {
+    "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\WORD_LAYOUT_QA_FINAL_20261023.md",
+    "sha256": "5d62facd1ba5ea579f65a771d0a4da4f572cc088987354f2fe057d37943dfc95"
+  },
+  "scientific_content_changed": false,
+  "note": "Experiments, numbers, denominators, methods and conclusions are unchanged. Figure 1b legend label changed from Full-if-fits to Full if fits; plotted values unchanged."
+}

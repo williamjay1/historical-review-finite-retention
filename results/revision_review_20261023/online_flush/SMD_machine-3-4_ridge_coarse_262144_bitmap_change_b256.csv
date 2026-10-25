@@ -1,0 +1,11 @@
+dataset,unit,backbone,cadence,budget,method,block,lo,now,bytes,chunks,evicted,rejected,encode_ms,write_ms,kind
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,0,256,1170,1,0,False,1.2475,1.059,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,256,512,28451,2,0,False,22.5991,0.5407,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,512,768,39820,3,0,False,20.156,0.7753,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,768,1024,47412,4,0,False,22.0829,1.1949,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,1024,1280,59461,5,0,False,28.0262,0.8184,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,1280,1536,68118,6,0,False,24.8798,0.6102,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,1536,1792,73176,7,0,False,25.3791,0.6402,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,1792,2048,81018,8,0,False,28.1981,0.7169,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,2048,2304,85687,9,0,False,28.8858,0.7309,bitmap_change
+SMD,machine-3-4,ridge,coarse,262144,bitmap_change,256,2304,2368,88512,10,0,False,7.2448,0.7943,bitmap_change

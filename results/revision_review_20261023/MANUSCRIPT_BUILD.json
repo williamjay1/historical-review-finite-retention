@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ESWA_Manuscript.md",
+    "words": 8582,
+    "tables": 4,
+    "figures": 2,
+    "references": 20,
+    "citation_style": "numeric, first appearance order",
+    "sha256": "7d85637100925428a9a8ef7109ece2b1bb32423ea57c87a632521cb0ed7326df"
+  },
+  {
+    "file": "ESWA_Supplementary.md",
+    "words": 4135,
+    "tables": 5,
+    "figures": 0,
+    "references": 3,
+    "citation_style": "numeric, first appearance order",
+    "sha256": "b2df688caf34cc444f41ebc6e631b34a12eecf5d84fb338e3a75f34af433b37e"
+  }
+]

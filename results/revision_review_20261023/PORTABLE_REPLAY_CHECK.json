@@ -1,0 +1,195 @@
+{
+  "status": "PASS_FOR_REPORTED_SCOPE",
+  "generated_utc": "2026-10-22T20:05:41.338988+00:00",
+  "wrapper": "D:\\MLWork\\ESWA_feedback_design_20260927\\scripts\\review_replay_frozen_20261023.py",
+  "wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+  "frozen_core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "manifest_sha256": "2c27add3e12de72d5d314a21917add932caed06051d53cb5eb353270f4012122",
+  "input_streams": 116,
+  "input_npz_bytes": 15404641,
+  "complete_116_stream_portable_rerun": false,
+  "reruns": [
+    {
+      "label": "representative_static",
+      "output": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\portable_static_check_20261023",
+      "receipt_sha256": "e14115a8053c4096317eafdb193f8308ffc70d3ff373c21a1e27ffaa9f04541c",
+      "completed": true,
+      "comparison_status": "pass",
+      "selected_streams": [
+        [
+          "ESA",
+          "1",
+          "ridge",
+          "coarse"
+        ],
+        [
+          "SMD",
+          "machine-3-4",
+          "ridge",
+          "coarse"
+        ],
+        [
+          "SMD",
+          "machine-3-4",
+          "ridge",
+          "fine"
+        ]
+      ],
+      "budgets": [
+        262144
+      ],
+      "block": 1024,
+      "cost_rows": 18,
+      "metric_rows": 36,
+      "online_conditions": 0,
+      "elapsed_seconds": 43.133336000028066,
+      "archives_byte_exact": 18,
+      "csv_files_non_timing_equal": 3,
+      "compared_csv_detail_rows": 4770,
+      "frozen_core_unchanged": true,
+      "execution_wrapper_sha256": "657d9d83270926bea748243e8610ce28314c40bd755664c00d1cb9d58713b835",
+      "comparison_wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58"
+    },
+    {
+      "label": "representative_online",
+      "output": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\portable_online_check_20261023",
+      "receipt_sha256": "bd8b05c24dc51f1ba6741ec315ca6550b7fddfd0bfab098ce7a3019f2b97eddc",
+      "completed": true,
+      "comparison_status": "pass",
+      "selected_streams": [
+        [
+          "ESA",
+          "1",
+          "ridge",
+          "coarse"
+        ],
+        [
+          "SMD",
+          "machine-3-4",
+          "ridge",
+          "coarse"
+        ],
+        [
+          "SMD",
+          "machine-3-4",
+          "ridge",
+          "fine"
+        ]
+      ],
+      "budgets": [
+        262144
+      ],
+      "block": 1024,
+      "cost_rows": 0,
+      "metric_rows": 0,
+      "online_conditions": 12,
+      "elapsed_seconds": 98.88250099995639,
+      "archives_byte_exact": 56,
+      "csv_files_non_timing_equal": 24,
+      "compared_csv_detail_rows": 4924,
+      "frozen_core_unchanged": true,
+      "execution_wrapper_sha256": "657d9d83270926bea748243e8610ce28314c40bd755664c00d1cb9d58713b835",
+      "comparison_wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58"
+    },
+    {
+      "label": "isolated_guarded_static",
+      "output": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded",
+      "receipt_sha256": "d29bcce6bf8feda80b66ba1bfbbf80f24b33c74fe230e12c2e219347dd8963ba",
+      "completed": true,
+      "comparison_status": "pass",
+      "selected_streams": [
+        [
+          "SMD",
+          "machine-3-4",
+          "ridge",
+          "fine"
+        ]
+      ],
+      "budgets": [
+        262144
+      ],
+      "block": 1024,
+      "cost_rows": 6,
+      "metric_rows": 12,
+      "online_conditions": 0,
+      "elapsed_seconds": 16.234749900060706,
+      "archives_byte_exact": 6,
+      "csv_files_non_timing_equal": 1,
+      "compared_csv_detail_rows": 576,
+      "frozen_core_unchanged": true,
+      "execution_wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+      "comparison_wrapper_sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+      "package_relative_receipt": "portable_isolation_receipts/replay_completion.json"
+    }
+  ],
+  "comparison_rule": {
+    "timings_excluded": true,
+    "numeric_relative_tolerance": 1e-12,
+    "numeric_absolute_tolerance": 1e-12,
+    "archives": "byte-exact SHA-256 equality",
+    "selected_budget_groups_only": true
+  },
+  "isolation": {
+    "code_root": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023",
+    "script_directory": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts",
+    "copied_modules": 12,
+    "filesystem_guard_receipt": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\filesystem_guard_receipt.json",
+    "filesystem_guard_receipt_sha256": "9d032f9149517d8e9d88e617d9a47b8ccd310cb40ed5dba466575255cac00ade",
+    "guarded_project_open_events": 79,
+    "unexpected_project_opens": 0,
+    "missing_isolated_folders": {
+      "cache": true,
+      "datasets": true,
+      "raw": true,
+      "venv": true,
+      "checkpoints": true
+    },
+    "restriction": "All file opens allowed only in isolated code/output, frozen inputs, canonical static references, or C: system/runtime; E:/F: original data drives and original project scripts/cache/datasets were blocked.",
+    "audited_file_open_events": 503,
+    "unexpected_file_opens": 0,
+    "blocked_E_F_raw_drives": true,
+    "E_F_file_opens": 0,
+    "package_relative_receipts": {
+      "replay_completion.json": "portable_isolation_receipts/replay_completion.json",
+      "replay_protocol.json": "portable_isolation_receipts/replay_protocol.json",
+      "filesystem_guard_receipt.json": "portable_isolation_receipts/filesystem_guard_receipt.json",
+      "local_import_closure.json": "portable_isolation_receipts/local_import_closure.json",
+      "static_costs.csv": "portable_isolation_receipts/static_costs.csv",
+      "static_metrics.csv": "portable_isolation_receipts/static_metrics.csv",
+      "copied_code_manifest.json": "portable_isolation_receipts/copied_code_manifest.json",
+      "isolation_copy_manifest.json": "portable_isolation_receipts/isolation_copy_manifest.json"
+    }
+  },
+  "dependencies": {
+    "nonstandard_runtime_packages": [
+      "numpy",
+      "pandas"
+    ],
+    "extra_packages_not_required_for_replay": [
+      "scipy",
+      "scikit-learn",
+      "torch",
+      "matplotlib"
+    ],
+    "original_tested_runtime": {
+      "python": "3.12.10",
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "zlib": "1.3.1",
+      "zlib_runtime": "1.3.1"
+    },
+    "isolated_tested_runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "zlib": "1.3.2",
+      "zlib_runtime": "1.3.2"
+    },
+    "minimum_supported_versions": "Not inferred; only the listed environments were tested."
+  },
+  "local_import_closure": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\PORTABLE_IMPORT_CLOSURE.json",
+  "initial_comparator_issue": "The first static check compared selected 256-KiB detail rows against canonical 64+256-KiB detail rows and reported a row-count mismatch. The comparator was corrected to match selected groups; saved experimental outputs were unchanged and rechecked successfully.",
+  "scope_boundary": "Frozen high-score service records include selected original window-last observations; no detector training or source-adapter reads occur. All 116 files were exported and reopened exactly; only the representative reruns listed here were executed. This is not a full raw-data/detector reproducibility claim.",
+  "package_relative_import_closure": "PORTABLE_IMPORT_CLOSURE.json",
+  "package_relative_wrapper": "../../scripts/review_replay_frozen_20261023.py"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "ESA",
+    "unit": "1",
+    "backbone": "ridge",
+    "old_change_atoms": 7201,
+    "current_change_atoms": 7201,
+    "same_record_ids": true,
+    "method_header_bytes": 12173,
+    "all_six_method_headers_equal": true
+  },
+  {
+    "dataset": "SMD",
+    "unit": "machine-3-4",
+    "backbone": "ridge",
+    "old_change_atoms": 4758,
+    "current_change_atoms": 4758,
+    "same_record_ids": true,
+    "method_header_bytes": 1953,
+    "all_six_method_headers_equal": true
+  }
+]

@@ -1,0 +1,2547 @@
+{
+  "completed": true,
+  "code_root": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023",
+  "allowlist": [
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023",
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs",
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static",
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static_details",
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\all_static_costs.csv",
+    "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\all_static_metrics.csv",
+    "C: system/runtime files"
+  ],
+  "file_open_events": [
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\pkgutil.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\weakref.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\_weakrefset.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\typing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\collections\\__pycache__\\abc.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\contextlib.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\argparse.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\gettext.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\ast.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\csv.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\datetime.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\gzip.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\_compression.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\struct.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\hashlib.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\version.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\_expired_attrs_2_0.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\_globals.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\_convertions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\_distributor_init.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\__config__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\multiarray.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\exceptions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_exceptions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\printoptions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\contextvars.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\dtypes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\overrides.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\_inspect.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\umath.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\numerictypes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\numbers.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_dtype.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_string_helpers.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_type_aliases.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_machar.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_ufunc_config.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\fromnumeric.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_methods.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\pickle.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\_compat_pickle.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\einsumfunc.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\numeric.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\shape_base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_asarray.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\arrayprint.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\function_base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\getlimits.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\memmap.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\records.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_add_newdocs.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_add_newdocs_scalars.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_dtype_ctypes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_internal.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\ctypes\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\ctypes\\__pycache__\\_endian.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\_pytesttester.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arraypad_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_index_tricks_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\defmatrix.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\_linalg.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_array_like.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nbit_base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nested_sequence.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_shape.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_char_codes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_dtype_like.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nbit.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_scalars.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_ufunc.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_twodim_base_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_stride_tricks_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\array_utils.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_array_utils_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\linalg.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_function_base_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_histograms_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\stride_tricks.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arraysetops_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arrayterator_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_nanfunctions_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_npyio_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\format.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_format_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_utils_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\textwrap.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_datasource.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_iotools.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_polynomial_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_type_check_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_ufunclike_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_shape_base_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_version.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\introspect.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\mixins.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\npyio.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\scimath.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_scimath_impl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\__pycache__\\_array_api_info.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\review_frozen_inputs_20261023.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\shutil.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\bz2.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\lzma.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\locale.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs\\manifest.json",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\review_experiments_20261023.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\evidence_representation_audit.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\__future__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\__pycache__\\_version.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\__pycache__\\_constants.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\sysconfig.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\threading.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\socket.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\selectors.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\numpy\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\version\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\__pycache__\\pyarrow.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_config\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_config\\__pycache__\\config.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__pycache__\\_typing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\typing\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_add_docstring.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\random\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\secrets.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\base64.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\hmac.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\random.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\bisect.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\random\\__pycache__\\_pickle.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\_exceptions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\inspect.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\dis.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\opcode.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\linecache.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\tokenize.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\token.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_config\\__pycache__\\dates.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_config\\__pycache__\\display.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\config_init.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\errors\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_libs\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_libs\\tslibs\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zoneinfo\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zoneinfo\\__pycache__\\_tzpath.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zoneinfo\\__pycache__\\_common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\__pycache__\\_optional.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\tz\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\tz\\__pycache__\\tz.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\__pycache__\\six.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\tz\\__pycache__\\_common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\tz\\__pycache__\\_factories.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\tz\\__pycache__\\win.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\ctypes\\__pycache__\\wintypes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\_decorators.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\_strptime.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\calendar.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_config\\__pycache__\\localization.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\subprocess.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\signal.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\__pycache__\\easter.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\decimal.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\parser\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\parser\\__pycache__\\_parser.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\string.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\__pycache__\\relativedelta.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\__pycache__\\_common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\dateutil\\parser\\__pycache__\\isoparser.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\dtypes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\generic.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\inference.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\missing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\algorithms.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\cast.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\_util.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\concat.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\astype.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\take.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\construction.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\ma\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\ma\\__pycache__\\core.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\numpy\\ma\\__pycache__\\extras.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\col.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexers\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexers\\__pycache__\\utils.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__pycache__\\accessors.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__pycache__\\array.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\missing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\array_ops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\roperator.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\expressions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\check.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\missing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\dispatch.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\invalid.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\docstrings.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\ops\\__pycache__\\mask_ops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\arraylike.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\_arrow_string_mixins.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\_utils.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\numpy\\__pycache__\\function.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\_validators.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\quantile.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\sorting.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\masked.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\nanops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\masked_accumulations.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\masked_reductions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\transforms.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\util\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\util\\__pycache__\\hashing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\string_.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\floating.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\numeric.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\integer.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\numpy_.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\_mixins.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\strings\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\strings\\__pycache__\\object_array.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\formats\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\formats\\__pycache__\\printing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\formats\\__pycache__\\console.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\tseries\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\tseries\\__pycache__\\frequencies.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\boolean.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\categorical.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\accessor.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\datetimes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\datetimelike.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\datetimelike_accumulations.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\_ranges.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\tseries\\__pycache__\\offsets.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\interval.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\timedeltas.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\period.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__pycache__\\accessor.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__pycache__\\array.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\arrays\\__pycache__\\string_arrow.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\flags.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\generic.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\dataclasses.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\copy.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\apply.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\_numba\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\_numba\\__pycache__\\executor.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\util\\__pycache__\\numba_.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\frame.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\errors\\__pycache__\\cow.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\generic.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\indexing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\putmask.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\frozen.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\strings\\__pycache__\\accessor.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\category.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\extension.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\datetimes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\datetimelike.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\range.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\tools\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\tools\\__pycache__\\timedeltas.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\tools\\__pycache__\\times.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\interval.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\multi.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\timedeltas.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\period.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\sample.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\array_algos\\__pycache__\\replace.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\blocks.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\concat.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\managers.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\ops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\methods\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\methods\\__pycache__\\describe.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\concat.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\formats\\__pycache__\\format.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\tarfile.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\shared_docs.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\ewm.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_libs\\window\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexers\\__pycache__\\objects.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\numba_.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\online.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\rolling.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\window\\__pycache__\\expanding.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\internals\\__pycache__\\construction.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\methods\\__pycache__\\selectn.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\melt.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\tools\\__pycache__\\numeric.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\series.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\indexes\\__pycache__\\accessors.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\tools\\__pycache__\\datetimes.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\arrays\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\formats\\__pycache__\\info.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\plotting\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\plotting\\__pycache__\\_core.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\plotting\\__pycache__\\_misc.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\groupby.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\numba_.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\ops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\grouper.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\categorical.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\groupby\\__pycache__\\indexing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\tseries\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\eval.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\engines.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\align.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\common.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\ops.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\scope.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\pprint.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\expr.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\parsing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\encoding.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\merge.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\uuid.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\pivot.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\reshape\\__pycache__\\tile.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\executors\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\extensions\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\indexers\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\interchange\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\interchange\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\interchange\\__pycache__\\dataframe_protocol.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\interchange\\__pycache__\\from_dataframe.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\interchange\\__pycache__\\utils.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\types\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\dtypes\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\api\\typing\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\__pycache__\\resample.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\json\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\json\\__pycache__\\_json.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\json\\__pycache__\\_normalize.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\json\\__pycache__\\_table_schema.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\readers.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\arrow_parser_wrapper.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\base_parser.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\c_parser_wrapper.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\parsers\\__pycache__\\python_parser.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\sas\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\sas\\__pycache__\\sasreader.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\stata.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__pycache__\\testing.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\__pycache__\\_base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\logging\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\traceback.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\__pycache__\\thread.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\queue.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\__pycache__\\heapq.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\_io.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\_warnings.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\asserters.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\compat.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\_testing\\__pycache__\\contexts.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\_print_versions.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\api.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\clipboards.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\__init__.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_base.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_util.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_calamine.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_odfreader.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_openpyxl.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_pyxlsb.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_xlrd.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_odswriter.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\excel\\__pycache__\\_xlsxwriter.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\feather_format.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\html.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\iceberg.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\orc.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\parquet.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\pickle.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\compat\\__pycache__\\pickle_compat.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\pytables.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\core\\computation\\__pycache__\\pytables.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\spss.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\sql.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\io\\__pycache__\\xml.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\util\\__pycache__\\_tester.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__pycache__\\_version_meson.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\revision_decision_audit.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\notification_workflow_analysis.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\notification_design.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\archive_task_audit_20261009.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\archive_codec_20261009.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\review_archive_core_20261023.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\review_online_20261023.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\__pycache__\\review_fine_stream_20261023.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_archive_core_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_online_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_online_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_fine_stream_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_fine_stream_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\evidence_representation_audit.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\evidence_representation_audit.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\revision_decision_audit.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\revision_decision_audit.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\notification_workflow_analysis.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\notification_workflow_analysis.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\notification_design.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\notification_design.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\archive_task_audit_20261009.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\archive_task_audit_20261009.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\archive_codec_20261009.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\archive_codec_20261009.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_experiments_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_experiments_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_archive_core_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_archive_core_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_frozen_inputs_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_frozen_inputs_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\local_import_closure.json",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\replay_protocol.json",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs\\SMD_machine-3-4_ridge_fine.npz",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs\\SMD_machine-3-4_ridge_fine.npz",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\encodings\\__pycache__\\cp437.cpython-312.pyc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\full_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\full_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_fill_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_summary_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_summary_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_fill_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\adaptive_coverage_fill_262144.arc",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\adaptive_coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_details\\SMD_machine-3-4_ridge_fine.csv.gz",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_costs.csv",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_metrics.csv",
+      "mode": "w",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\all_static_costs.csv",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\all_static_metrics.csv",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\adaptive_coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\adaptive_coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\bitmap_change_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\coverage_fill_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\coverage_summary_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\coverage_summary_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static\\SMD_machine-3-4_ridge_fine\\full_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static\\SMD_machine-3-4_ridge_fine\\full_262144.arc",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_details\\SMD_machine-3-4_ridge_fine.csv.gz",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\static_details\\SMD_machine-3-4_ridge_fine.csv.gz",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_archive_core_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts\\review_replay_frozen_20261023.py",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs\\manifest.json",
+      "mode": "r",
+      "permitted": true
+    },
+    {
+      "path": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\replay_completion.json",
+      "mode": "w",
+      "permitted": true
+    }
+  ],
+  "unexpected_file_opens": [],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "zlib": "1.3.2",
+    "zlib_runtime": "1.3.2"
+  },
+  "blocked_original_code_and_cache": true,
+  "blocked_E_F_raw_drives": true,
+  "missing_isolated_folders": {
+    "cache": true,
+    "datasets": true,
+    "raw": true,
+    "venv": true,
+    "checkpoints": true
+  }
+}

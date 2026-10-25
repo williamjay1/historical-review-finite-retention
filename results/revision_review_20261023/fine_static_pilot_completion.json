@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "in_progress": false,
+  "fits_completed": 1,
+  "fits_planned": 1,
+  "source_sha256": {
+    "review_fine_experiments_20261023.py": "85b2d38c91450e10713da0f6a97a32ab48e1eb168838d61c8bdcd322d2b12b3a",
+    "review_fine_stream_20261023.py": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+    "review_experiments_20261023.py": "3e3ba40486202d887dffc8ead0ed704112afcb500c1db870a00efa132aa0a22c",
+    "review_archive_core_20261023.py": "9f1b87264fe2de19a067b81544a905933485d829e6e407bd9d6bf8007661decf"
+  },
+  "completed": [
+    {
+      "unit": "machine-3-4",
+      "backbone": "ridge",
+      "seconds": 60.85575969994534,
+      "atoms": 605210,
+      "queries": 96
+    }
+  ],
+  "elapsed_seconds": 60.974089100025594,
+  "no_new_training": true,
+  "review_tape": "same original coarse review provenance at both cadences",
+  "method": [
+    "full",
+    "bitmap_change",
+    "bitmap_change_fill",
+    "coverage_summary",
+    "coverage_fill",
+    "adaptive_coverage_fill"
+  ],
+  "budgets": [
+    65536,
+    262144
+  ],
+  "cost_rows": 12,
+  "metric_rows": 24,
+  "source_files_unchanged": false,
+  "source_after_sha256": {
+    "review_fine_experiments_20261023.py": "85b2d38c91450e10713da0f6a97a32ab48e1eb168838d61c8bdcd322d2b12b3a",
+    "review_fine_stream_20261023.py": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+    "review_experiments_20261023.py": "ae901929ca8496120901fe69f9ba6a13531e74ed95df4290a544113ee51c7758",
+    "review_archive_core_20261023.py": "fbb4d5c0c6ea8cbed95691394a6f8636f9fc32f26f6f9367646bd1c1172ffffd"
+  },
+  "superseded": true,
+  "superseded_reason": "Exploratory pilot preceded final common-core parent-selection and equal-header fixes; all56 final conditions rerun from scratch.",
+  "definitive_completion": "fine_static_completion.json"
+}

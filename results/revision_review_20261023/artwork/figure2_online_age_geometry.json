@@ -1,0 +1,400 @@
+{
+  "all_text": [
+    {
+      "text": "Query age (% of observed prefix)",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        202.2037401574803,
+        159.68834135601216,
+        419.2037401574803,
+        173.757392462783
+      ]
+    },
+    {
+      "text": "0\u20131%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        124.34899061819402,
+        190.42405912944966,
+        161.34899061819402,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "1\u201325%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        204.2763653878372,
+        190.42405912944966,
+        249.2763653878372,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "25\u201350%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        284.20374015748035,
+        190.42405912944966,
+        337.20374015748035,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "50\u201375%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        368.1311149271235,
+        190.42405912944966,
+        421.1311149271235,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "75\u2013100%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        448.0584896967667,
+        190.42405912944966,
+        509.0584896967667,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "Fraction of positive queries",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        43.69702500871473,
+        277.9035433070867,
+        57.766076115485575,
+        452.9035433070867
+      ]
+    },
+    {
+      "text": "0",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        92.3494094488189,
+        209.04905912944966,
+        100.3494094488189,
+        223.1181102362205
+      ]
+    },
+    {
+      "text": "0.25",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        72.3494094488189,
+        282.94177566488275,
+        100.3494094488189,
+        297.01082677165357
+      ]
+    },
+    {
+      "text": "0.50",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        72.3494094488189,
+        356.8344922003159,
+        100.3494094488189,
+        370.9035433070867
+      ]
+    },
+    {
+      "text": "0.75",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        72.3494094488189,
+        430.72720873574895,
+        100.3494094488189,
+        444.79625984251976
+      ]
+    },
+    {
+      "text": "1.00",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        72.3494094488189,
+        504.619925271182,
+        100.3494094488189,
+        518.6889763779528
+      ]
+    },
+    {
+      "text": "Query age (% of observed prefix)",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        737.1545275590552,
+        159.68834135601216,
+        954.1545275590552,
+        173.757392462783
+      ]
+    },
+    {
+      "text": "0\u20131%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        659.2997780197688,
+        190.42405912944966,
+        696.2997780197688,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "1\u201325%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        739.227152789412,
+        190.42405912944966,
+        784.227152789412,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "25\u201350%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        819.1545275590552,
+        190.42405912944966,
+        872.1545275590552,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "50\u201375%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        903.0819023286983,
+        190.42405912944966,
+        956.0819023286983,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "75\u2013100%",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        983.0092770983415,
+        190.42405912944966,
+        1044.0092770983415,
+        204.4931102362205
+      ]
+    },
+    {
+      "text": "Fraction of positive queries",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        578.6478124102895,
+        277.9035433070867,
+        592.7168635170603,
+        452.9035433070867
+      ]
+    },
+    {
+      "text": "0",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        627.3001968503937,
+        209.04905912944966,
+        635.3001968503937,
+        223.1181102362205
+      ]
+    },
+    {
+      "text": "0.25",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        607.3001968503937,
+        282.94177566488275,
+        635.3001968503937,
+        297.01082677165357
+      ]
+    },
+    {
+      "text": "0.50",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        607.3001968503937,
+        356.8344922003159,
+        635.3001968503937,
+        370.9035433070867
+      ]
+    },
+    {
+      "text": "0.75",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        607.3001968503937,
+        430.72720873574895,
+        635.3001968503937,
+        444.79625984251976
+      ]
+    },
+    {
+      "text": "1.00",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        607.3001968503937,
+        504.619925271182,
+        635.3001968503937,
+        518.6889763779528
+      ]
+    },
+    {
+      "text": "Fine SMD \u00b7 machine-3-4 \u00b7 ridge \u00b7 256 KiB",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        113.4744094488189,
+        604.1338582677166,
+        383.4744094488189,
+        618.2029093744875
+      ]
+    },
+    {
+      "text": "a",
+      "font_pt": 8.0,
+      "bbox_pixels": [
+        48.631889763779526,
+        548.9173228346457,
+        57.631889763779526,
+        564.5585988763123
+      ]
+    },
+    {
+      "text": "First evidence with numeric record",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        113.4744094488189,
+        548.9173228346457,
+        356.4744094488189,
+        562.9863739414166
+      ]
+    },
+    {
+      "text": "b",
+      "font_pt": 8.0,
+      "bbox_pixels": [
+        583.5826771653544,
+        548.9173228346457,
+        593.5826771653544,
+        564.5585988763123
+      ]
+    },
+    {
+      "text": "Complete numeric report",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        648.4251968503937,
+        548.9173228346457,
+        823.4251968503937,
+        562.9863739414166
+      ]
+    },
+    {
+      "text": "Complete archive",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        170.3494094488189,
+        68.75573089679709,
+        285.3494094488189,
+        82.82478200356792
+      ]
+    },
+    {
+      "text": "Bitmap + change",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        170.3494094488189,
+        41.56167979002625,
+        281.3494094488189,
+        55.63073089679708
+      ]
+    },
+    {
+      "text": "Coverage summary",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        374.3077427821523,
+        68.75573089679709,
+        505.3077427821523,
+        82.82478200356792
+      ]
+    },
+    {
+      "text": "Adaptive full / summary",
+      "font_pt": 7.0,
+      "bbox_pixels": [
+        374.3077427821523,
+        41.56167979002625,
+        528.3077427821522,
+        55.63073089679708
+      ]
+    }
+  ],
+  "text_text_overlaps": [],
+  "text_data_intersections": [],
+  "text_spine_intersections": [],
+  "clipped_text": [],
+  "ok": true,
+  "files": {
+    "pdf": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\artwork\\figure2_online_age.pdf",
+    "svg": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\artwork\\figure2_online_age.svg",
+    "png": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\artwork\\figure2_online_age.png"
+  },
+  "preview": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\artwork\\figure2_online_age_preview.png",
+  "pdf_physical_mm": [
+    182.9999999999947,
+    109.99999999998333
+  ],
+  "raster_pixels": [
+    8645,
+    5196
+  ],
+  "raster_dpi": [
+    1199.9976,
+    1199.9976
+  ],
+  "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+  "svg_editable_text_elements": 33,
+  "svg_raster_images": 0,
+  "pdf_raster_images": 0,
+  "pdf_type3_fonts": 0,
+  "house_style": {
+    "nominal_mm": [
+      183.0,
+      110.0
+    ],
+    "tight_mm": [
+      169.4,
+      98.6
+    ],
+    "tight_growth_mm": -13.6,
+    "tight_within_max": "True",
+    "max_width_mm": 183,
+    "panel_titles": [],
+    "left_titles_found": 0,
+    "min_font_pt": 7.0,
+    "fonts_under_5pt": [],
+    "pdf_fonttype": 42,
+    "ok": true
+  },
+  "source_hashes": {
+    "results\\revision_review_20261023\\online_age_summary.csv": "a057c792e8505354b222f0431e5f6814fc2554954cd00044279b667d8614982e",
+    "results\\revision_review_20261023\\online_summary_b1024.csv": "f87e56f4aa295af07939149650a767766ce63b71af1918ef45c9c40670a7f6ca"
+  },
+  "source_style": "https://github.com/garrettj403/SciencePlots",
+  "reference_commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+  "vision_review": {
+    "status": "pass",
+    "mechanism": "Actual preview inspection with native view_image",
+    "inspected_preview_sha256": "ffdd16de5723d9c68562f56c7a2351af84c67f09fe2d198fb04f4b2d6a3d1bce",
+    "checks": [
+      "No overlapping text",
+      "No text crossing data lines or spines",
+      "No clipped labels",
+      "Legends outside data",
+      "Readable Arial text at the stated physical canvas"
+    ],
+    "scope": "Visual layout only; values verified from source CSVs, not read from the image"
+  }
+}

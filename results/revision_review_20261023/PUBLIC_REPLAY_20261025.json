@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "scope": "Fresh replay from the public repository tree, using the repository's own frozen inputs and canonical references",
+  "static": {
+    "mode": "static",
+    "pilot": true,
+    "budget_kib": 256,
+    "streams": 3,
+    "cost_rows": 18,
+    "metric_rows": 36,
+    "archives": 18,
+    "comparison": "pass",
+    "mismatches": 0
+  },
+  "online": {
+    "mode": "online",
+    "pilot": true,
+    "budget_kib": 256,
+    "block": 1024,
+    "streams": 3,
+    "conditions": 12,
+    "snapshots": 56,
+    "comparison": "pass",
+    "mismatches": 0
+  },
+  "frozen_core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "note": "Local output paths are omitted. Times are machine-specific and are not compared."
+}

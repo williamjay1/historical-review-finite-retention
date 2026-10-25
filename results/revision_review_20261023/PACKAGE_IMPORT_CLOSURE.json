@@ -1,0 +1,235 @@
+{
+  "scope": "Conservative recursive AST closure, including optional-function imports",
+  "local_modules": [
+    {
+      "file": "archive_codec_20261009.py",
+      "sha256": "5c801770c4dab28b53a1a4c49b9ccc28ab65cba4e02b39bc777bacd29e5817d9",
+      "local_imports": [
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "archive_task_audit_20261009.py",
+      "sha256": "12e98f300b7ff8aaf39d4f7d54e5bb41010cb4210076bb2bbd25609f33749a9a",
+      "local_imports": [
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "evidence_representation_audit.py",
+      "sha256": "76544bdb11b50fc79447751d893a439d0f890c6c7dfe432ab634fe3d7dfefa33",
+      "local_imports": [
+        "notification_workflow_analysis",
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "figstyle.py",
+      "sha256": "f438c891483a40ec4e0f5bcc0593df533b39c19f73da3de309d5c872b7f90ba0",
+      "local_imports": []
+    },
+    {
+      "file": "notification_design.py",
+      "sha256": "0ab1d3a4c73bc64a3861f3b5e984c1e1e52bb9fea55053a9faa7b63cb774fb89",
+      "local_imports": [
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "notification_workflow_analysis.py",
+      "sha256": "c8aa568326c0515ede249ef8e1edf0a7bc0ae879a413ad5c64bbc79a7449821f",
+      "local_imports": [
+        "notification_design",
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "review_analyse_20261023.py",
+      "sha256": "d9151923fc5539fa1a96c14b722643cdf65fed681ddd415409a0e9698a484731",
+      "local_imports": []
+    },
+    {
+      "file": "review_archive_core_20261023.py",
+      "sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+      "local_imports": [
+        "archive_codec_20261009"
+      ]
+    },
+    {
+      "file": "review_article_numbers_20261023.py",
+      "sha256": "0822bbf16dc60f597e6a41ea5ee45d0aff031469fda5dbd5ab10f6557b5250f8",
+      "local_imports": []
+    },
+    {
+      "file": "review_artwork_portability_check_20261023.py",
+      "sha256": "e4eb7550b2e06a42e5f4d18aa81d5d0b5498a7fe658e62c2823ba22a9be2259c",
+      "local_imports": []
+    },
+    {
+      "file": "review_crop_word_20261023.py",
+      "sha256": "baa4cacc8bd7b79fb3a4ba3199e00574c96787d75ffc7b3d2fd180fc3f62fdb6",
+      "local_imports": []
+    },
+    {
+      "file": "review_experiments_20261023.py",
+      "sha256": "6493f667b1d5b4f3ea8173f3f3efce35f949a8db74fd10307fc3cd92ff9cc170",
+      "local_imports": [
+        "archive_codec_20261009",
+        "archive_task_audit_20261009",
+        "evidence_representation_audit",
+        "review_archive_core_20261023"
+      ]
+    },
+    {
+      "file": "review_export_word_20261023.py",
+      "sha256": "cc3856d1255d4c3190919b57f3f1f9aa24bd7137edf1bfe94090ab6e650b1d66",
+      "local_imports": []
+    },
+    {
+      "file": "review_figures_20261023.py",
+      "sha256": "663bbb03c4d89d66b0d613cb101a710cb9792f1f544c0f5c5902a94b8099aea7",
+      "local_imports": [
+        "figstyle"
+      ]
+    },
+    {
+      "file": "review_finalize_checks_20261023.py",
+      "sha256": "f9372fa7e9dbea02c7be1b2145bc46a7a2ddfc99e5c0493f42c0adc2163de27a",
+      "local_imports": []
+    },
+    {
+      "file": "review_fine_experiments_20261023.py",
+      "sha256": "85b2d38c91450e10713da0f6a97a32ab48e1eb168838d61c8bdcd322d2b12b3a",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_fine_findings_20261023.py",
+      "sha256": "ecb63a059fbfb7c53376cc7fedecccfd1a5850332d83961df2d1bc40c0e38dce",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_fine_stream_20261023.py",
+      "sha256": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+      "local_imports": [
+        "archive_codec_20261009",
+        "archive_task_audit_20261009",
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "review_frozen_inputs_20261023.py",
+      "sha256": "209b50313c03fcafb5f1bef2c0891624d37d2a8a153c1c70b1ee209f40402675",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_independent_semantics_20261023.py",
+      "sha256": "26c0b9ff9b91cf3ff53f5ed58924977f8d9157969545af08568720c983e9fc5e",
+      "local_imports": [
+        "review_archive_core_20261023"
+      ]
+    },
+    {
+      "file": "review_integrate_manuscript_20261023.py",
+      "sha256": "ba32e8e7d1c9a74241fdf9e17e76863e22843989610f74c1e4dbfca549e39525",
+      "local_imports": []
+    },
+    {
+      "file": "review_online_20261023.py",
+      "sha256": "366c446dbc538818753049711526d7e1b1ee7ee3ebcf5adb286b7ef04314902e",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_package_20261023.py",
+      "sha256": "447a5796e70488fda4fff6dc429b44e5ee83d307d881e574567129de811d5480",
+      "local_imports": [
+        "review_replay_frozen_20261023"
+      ]
+    },
+    {
+      "file": "review_past_policy_20261023.py",
+      "sha256": "2faa9aa2eb14ecd03336b8fcf624c8074de7bb9dc492f83669a6594ba984555b",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_replay_frozen_20261023.py",
+      "sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_frozen_inputs_20261023",
+        "review_online_20261023"
+      ]
+    },
+    {
+      "file": "review_setup_20261023.py",
+      "sha256": "92c91dbc71f957039f473153168cd7d145b97afdc2fb6545fe6d5b4b1166853d",
+      "local_imports": []
+    },
+    {
+      "file": "review_table_artwork_20261023.py",
+      "sha256": "b76702efc7fa3f76881941471c989ace27284edc24a64051c385fdd5b1e75802",
+      "local_imports": [
+        "figstyle"
+      ]
+    },
+    {
+      "file": "revision_decision_audit.py",
+      "sha256": "d8e8b341bd79d22339897a47b203ad4ae72d22c27f0c1b9e27a27eea91bdf9da",
+      "local_imports": []
+    }
+  ],
+  "nonlocal_import_roots": [
+    "PIL",
+    "__future__",
+    "argparse",
+    "ast",
+    "concurrent",
+    "csv",
+    "ctypes",
+    "dataclasses",
+    "datetime",
+    "docx",
+    "gzip",
+    "hashlib",
+    "itertools",
+    "json",
+    "lxml",
+    "math",
+    "matplotlib",
+    "numpy",
+    "os",
+    "pandas",
+    "pathlib",
+    "platform",
+    "pymupdf",
+    "re",
+    "scienceplots",
+    "shutil",
+    "struct",
+    "subprocess",
+    "sys",
+    "time",
+    "xml",
+    "zipfile",
+    "zlib"
+  ]
+}

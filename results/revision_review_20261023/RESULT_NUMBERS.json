@@ -1,0 +1,43 @@
+{
+  "static_archives": 1392,
+  "static_aggregate_rows": 2784,
+  "complete_feasibility": [
+    {
+      "dataset": "ESA",
+      "cadence": "coarse",
+      "histories": 4,
+      "fit64": 1,
+      "fit256": 2,
+      "fit1024": 4,
+      "min_bytes": 57135,
+      "median_bytes": 210967.0,
+      "max_bytes": 554282
+    },
+    {
+      "dataset": "SMD",
+      "cadence": "coarse",
+      "histories": 56,
+      "fit64": 54,
+      "fit256": 55,
+      "fit1024": 56,
+      "min_bytes": 2011,
+      "median_bytes": 6338.0,
+      "max_bytes": 305207
+    },
+    {
+      "dataset": "SMD",
+      "cadence": "fine",
+      "histories": 56,
+      "fit64": 36,
+      "fit256": 53,
+      "fit1024": 55,
+      "min_bytes": 2242,
+      "median_bytes": 39840.0,
+      "max_bytes": 2743495
+    }
+  ],
+  "false_certificates": 0,
+  "online_conditions": 32,
+  "online_queries": 5280,
+  "online_false_certificates": 0
+}

@@ -1,0 +1,19 @@
+{
+  "support_worlds": 64,
+  "archive_conditions": 448,
+  "interval_set_queries": 28672,
+  "false_certificates": 0,
+  "unnecessary_unknowns": 0,
+  "complete_reports": 20860,
+  "explicit_cases": [
+    "empty",
+    "nonempty negative",
+    "partial coverage",
+    "unavailable input",
+    "positive outside complete range",
+    "expired/future suffix",
+    "absolute chunk merge"
+  ],
+  "elapsed_seconds": 7.65186470001936,
+  "script_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637"
+}

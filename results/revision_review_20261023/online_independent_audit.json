@@ -1,0 +1,27 @@
+{
+  "random_streams": 2,
+  "channels": 2,
+  "n_cycles": 8,
+  "budgets": [
+    300,
+    500,
+    1000
+  ],
+  "snapshot_conditions": 96,
+  "all_subset_query_checks": 16320,
+  "poisoned_source_query_checks": 16320,
+  "future_perturbation_prefix_checks": 24,
+  "evictions": 30,
+  "rejections": 10,
+  "partially_covered_query_checks": 8208,
+  "false_or_avoidable_certificates": 0,
+  "formal_directory_check": {
+    "files": 232,
+    "directory_entries": 22330,
+    "max_capacity_fraction": 1.0,
+    "byte_or_overlap_violations": 0
+  },
+  "online_sha256": "366c446dbc538818753049711526d7e1b1ee7ee3ebcf5adb286b7ef04314902e",
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "independent_script_sha256": "2da4c67722d0c403f810e36600cc8f0dfd08b31da7c0c4e623db46bb53518951"
+}

@@ -1,0 +1,4 @@
+dataset,cadence,histories,fit64,fit256,fit1024,min_bytes,median_bytes,max_bytes
+ESA,coarse,4,1,2,4,57135,210967.0,554282
+SMD,coarse,56,54,55,56,2011,6338.0,305207
+SMD,fine,56,36,53,55,2242,39840.0,2743495

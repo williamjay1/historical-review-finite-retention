@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "histories": 10,
+  "prefix_costs": 50,
+  "forecast_conditions": 120,
+  "no_training": true,
+  "selection_used_labels": false,
+  "forecast_is_guarantee": false,
+  "prespecified_devices": [
+    "machine-1-1",
+    "machine-3-4"
+  ],
+  "budgets": [
+    65536,
+    262144
+  ],
+  "fixed_payload_factors": [
+    1.0,
+    1.25
+  ],
+  "scope": "ten preselected stress/control histories",
+  "elapsed_seconds": 14.076858500018716,
+  "script_sha256": "2faa9aa2eb14ecd03336b8fcf624c8074de7bb9dc492f83669a6594ba984555b",
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "protocol_sha256": "968b269600945cf3535d8f8dccca48599883192dec1a01c1d720e0b1ad4ef4c9",
+  "python": "3.12.10"
+}

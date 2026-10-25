@@ -1,0 +1,430 @@
+{
+  "passed": true,
+  "in_progress": false,
+  "fits_completed": 56,
+  "fits_planned": 56,
+  "source_sha256": {
+    "review_fine_experiments_20261023.py": "85b2d38c91450e10713da0f6a97a32ab48e1eb168838d61c8bdcd322d2b12b3a",
+    "review_fine_stream_20261023.py": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+    "review_experiments_20261023.py": "ae901929ca8496120901fe69f9ba6a13531e74ed95df4290a544113ee51c7758",
+    "review_archive_core_20261023.py": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637"
+  },
+  "completed": [
+    {
+      "unit": "machine-1-1",
+      "backbone": "pca",
+      "seconds": 2.2000593000557274,
+      "atoms": 22418,
+      "queries": 138
+    },
+    {
+      "unit": "machine-1-1",
+      "backbone": "ridge",
+      "seconds": 2.057092300034128,
+      "atoms": 23201,
+      "queries": 138
+    },
+    {
+      "unit": "machine-1-2",
+      "backbone": "pca",
+      "seconds": 0.7548492000205442,
+      "atoms": 170,
+      "queries": 132
+    },
+    {
+      "unit": "machine-1-2",
+      "backbone": "ridge",
+      "seconds": 0.9101851000450552,
+      "atoms": 1019,
+      "queries": 132
+    },
+    {
+      "unit": "machine-1-3",
+      "backbone": "pca",
+      "seconds": 0.7443258999846876,
+      "atoms": 133,
+      "queries": 112
+    },
+    {
+      "unit": "machine-1-3",
+      "backbone": "ridge",
+      "seconds": 0.7296365000074729,
+      "atoms": 93,
+      "queries": 112
+    },
+    {
+      "unit": "machine-1-4",
+      "backbone": "pca",
+      "seconds": 0.7869473999598995,
+      "atoms": 39,
+      "queries": 164
+    },
+    {
+      "unit": "machine-1-4",
+      "backbone": "ridge",
+      "seconds": 0.7821222000056878,
+      "atoms": 39,
+      "queries": 164
+    },
+    {
+      "unit": "machine-1-5",
+      "backbone": "pca",
+      "seconds": 1.6178981999401003,
+      "atoms": 1348,
+      "queries": 138
+    },
+    {
+      "unit": "machine-1-5",
+      "backbone": "ridge",
+      "seconds": 1.2256290999939665,
+      "atoms": 5682,
+      "queries": 138
+    },
+    {
+      "unit": "machine-1-6",
+      "backbone": "pca",
+      "seconds": 1.8142743000062183,
+      "atoms": 7276,
+      "queries": 360
+    },
+    {
+      "unit": "machine-1-6",
+      "backbone": "ridge",
+      "seconds": 2.9722691000206396,
+      "atoms": 19530,
+      "queries": 360
+    },
+    {
+      "unit": "machine-1-7",
+      "backbone": "pca",
+      "seconds": 1.0055752000771463,
+      "atoms": 486,
+      "queries": 196
+    },
+    {
+      "unit": "machine-1-7",
+      "backbone": "ridge",
+      "seconds": 1.135703400010243,
+      "atoms": 4448,
+      "queries": 196
+    },
+    {
+      "unit": "machine-1-8",
+      "backbone": "pca",
+      "seconds": 1.5828039000043646,
+      "atoms": 1484,
+      "queries": 172
+    },
+    {
+      "unit": "machine-1-8",
+      "backbone": "ridge",
+      "seconds": 1.3891750000184402,
+      "atoms": 8138,
+      "queries": 172
+    },
+    {
+      "unit": "machine-2-1",
+      "backbone": "pca",
+      "seconds": 0.9671004998963326,
+      "atoms": 736,
+      "queries": 154
+    },
+    {
+      "unit": "machine-2-1",
+      "backbone": "ridge",
+      "seconds": 0.7963046999648213,
+      "atoms": 309,
+      "queries": 154
+    },
+    {
+      "unit": "machine-2-2",
+      "backbone": "pca",
+      "seconds": 1.1456166999414563,
+      "atoms": 4653,
+      "queries": 133
+    },
+    {
+      "unit": "machine-2-2",
+      "backbone": "ridge",
+      "seconds": 1.2567293000174686,
+      "atoms": 4962,
+      "queries": 133
+    },
+    {
+      "unit": "machine-2-3",
+      "backbone": "pca",
+      "seconds": 1.2946505000581965,
+      "atoms": 7864,
+      "queries": 128
+    },
+    {
+      "unit": "machine-2-3",
+      "backbone": "ridge",
+      "seconds": 1.393033199943602,
+      "atoms": 7489,
+      "queries": 128
+    },
+    {
+      "unit": "machine-2-4",
+      "backbone": "pca",
+      "seconds": 1.2014685000758618,
+      "atoms": 701,
+      "queries": 154
+    },
+    {
+      "unit": "machine-2-4",
+      "backbone": "ridge",
+      "seconds": 1.2988058999180794,
+      "atoms": 5060,
+      "queries": 154
+    },
+    {
+      "unit": "machine-2-5",
+      "backbone": "pca",
+      "seconds": 1.0984312000218779,
+      "atoms": 541,
+      "queries": 167
+    },
+    {
+      "unit": "machine-2-5",
+      "backbone": "ridge",
+      "seconds": 0.9343606999609619,
+      "atoms": 485,
+      "queries": 167
+    },
+    {
+      "unit": "machine-2-6",
+      "backbone": "pca",
+      "seconds": 1.518694799975492,
+      "atoms": 5950,
+      "queries": 149
+    },
+    {
+      "unit": "machine-2-6",
+      "backbone": "ridge",
+      "seconds": 2.645188399939798,
+      "atoms": 22201,
+      "queries": 149
+    },
+    {
+      "unit": "machine-2-7",
+      "backbone": "pca",
+      "seconds": 1.2739335000514984,
+      "atoms": 199,
+      "queries": 152
+    },
+    {
+      "unit": "machine-2-7",
+      "backbone": "ridge",
+      "seconds": 0.9756314000114799,
+      "atoms": 286,
+      "queries": 152
+    },
+    {
+      "unit": "machine-2-8",
+      "backbone": "pca",
+      "seconds": 2.178562399931252,
+      "atoms": 30577,
+      "queries": 100
+    },
+    {
+      "unit": "machine-2-8",
+      "backbone": "ridge",
+      "seconds": 1.672504200018011,
+      "atoms": 15621,
+      "queries": 100
+    },
+    {
+      "unit": "machine-2-9",
+      "backbone": "pca",
+      "seconds": 2.728056799969636,
+      "atoms": 25257,
+      "queries": 158
+    },
+    {
+      "unit": "machine-2-9",
+      "backbone": "ridge",
+      "seconds": 4.226239799987525,
+      "atoms": 61057,
+      "queries": 158
+    },
+    {
+      "unit": "machine-3-1",
+      "backbone": "pca",
+      "seconds": 1.1174572999589145,
+      "atoms": 4710,
+      "queries": 104
+    },
+    {
+      "unit": "machine-3-1",
+      "backbone": "ridge",
+      "seconds": 2.9352630999637768,
+      "atoms": 18597,
+      "queries": 104
+    },
+    {
+      "unit": "machine-3-10",
+      "backbone": "pca",
+      "seconds": 1.0040499001042917,
+      "atoms": 1193,
+      "queries": 165
+    },
+    {
+      "unit": "machine-3-10",
+      "backbone": "ridge",
+      "seconds": 1.7908375000115484,
+      "atoms": 13889,
+      "queries": 165
+    },
+    {
+      "unit": "machine-3-11",
+      "backbone": "pca",
+      "seconds": 3.705809500068426,
+      "atoms": 48539,
+      "queries": 111
+    },
+    {
+      "unit": "machine-3-11",
+      "backbone": "ridge",
+      "seconds": 11.216347399982624,
+      "atoms": 165792,
+      "queries": 111
+    },
+    {
+      "unit": "machine-3-2",
+      "backbone": "pca",
+      "seconds": 0.9083629000233486,
+      "atoms": 9,
+      "queries": 98
+    },
+    {
+      "unit": "machine-3-2",
+      "backbone": "ridge",
+      "seconds": 0.8150882000336424,
+      "atoms": 11,
+      "queries": 98
+    },
+    {
+      "unit": "machine-3-3",
+      "backbone": "pca",
+      "seconds": 1.2728190999478102,
+      "atoms": 2111,
+      "queries": 189
+    },
+    {
+      "unit": "machine-3-3",
+      "backbone": "ridge",
+      "seconds": 1.5432933999691159,
+      "atoms": 1820,
+      "queries": 189
+    },
+    {
+      "unit": "machine-3-4",
+      "backbone": "pca",
+      "seconds": 2.987287599942647,
+      "atoms": 23884,
+      "queries": 96
+    },
+    {
+      "unit": "machine-3-4",
+      "backbone": "ridge",
+      "seconds": 41.77874169999268,
+      "atoms": 605210,
+      "queries": 96
+    },
+    {
+      "unit": "machine-3-5",
+      "backbone": "pca",
+      "seconds": 1.662730999989435,
+      "atoms": 14539,
+      "queries": 110
+    },
+    {
+      "unit": "machine-3-5",
+      "backbone": "ridge",
+      "seconds": 2.7229504000861198,
+      "atoms": 28152,
+      "queries": 110
+    },
+    {
+      "unit": "machine-3-6",
+      "backbone": "pca",
+      "seconds": 1.5053878999315202,
+      "atoms": 7843,
+      "queries": 158
+    },
+    {
+      "unit": "machine-3-6",
+      "backbone": "ridge",
+      "seconds": 2.3478325000032783,
+      "atoms": 25557,
+      "queries": 158
+    },
+    {
+      "unit": "machine-3-7",
+      "backbone": "pca",
+      "seconds": 1.5698038999689743,
+      "atoms": 11713,
+      "queries": 132
+    },
+    {
+      "unit": "machine-3-7",
+      "backbone": "ridge",
+      "seconds": 2.6936786000151187,
+      "atoms": 20691,
+      "queries": 132
+    },
+    {
+      "unit": "machine-3-8",
+      "backbone": "pca",
+      "seconds": 1.279788399930112,
+      "atoms": 6343,
+      "queries": 122
+    },
+    {
+      "unit": "machine-3-8",
+      "backbone": "ridge",
+      "seconds": 4.240549599984661,
+      "atoms": 42583,
+      "queries": 122
+    },
+    {
+      "unit": "machine-3-9",
+      "backbone": "pca",
+      "seconds": 1.9121084000216797,
+      "atoms": 7623,
+      "queries": 110
+    },
+    {
+      "unit": "machine-3-9",
+      "backbone": "ridge",
+      "seconds": 2.8579827999928966,
+      "atoms": 22832,
+      "queries": 110
+    }
+  ],
+  "elapsed_seconds": 145.55383099999744,
+  "no_new_training": true,
+  "review_tape": "same original coarse review provenance at both cadences",
+  "method": [
+    "full",
+    "bitmap_change",
+    "bitmap_change_fill",
+    "coverage_summary",
+    "coverage_fill",
+    "adaptive_coverage_fill"
+  ],
+  "budgets": [
+    65536,
+    262144
+  ],
+  "cost_rows": 672,
+  "metric_rows": 1344,
+  "source_files_unchanged": true,
+  "source_after_sha256": {
+    "review_fine_experiments_20261023.py": "85b2d38c91450e10713da0f6a97a32ab48e1eb168838d61c8bdcd322d2b12b3a",
+    "review_fine_stream_20261023.py": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+    "review_experiments_20261023.py": "ae901929ca8496120901fe69f9ba6a13531e74ed95df4290a544113ee51c7758",
+    "review_archive_core_20261023.py": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637"
+  }
+}

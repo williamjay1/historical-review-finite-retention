@@ -1,0 +1,125 @@
+{
+  "scope": "Conservative recursive AST closure, including optional-function imports",
+  "local_modules": [
+    {
+      "file": "archive_codec_20261009.py",
+      "sha256": "5c801770c4dab28b53a1a4c49b9ccc28ab65cba4e02b39bc777bacd29e5817d9",
+      "local_imports": [
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "archive_task_audit_20261009.py",
+      "sha256": "12e98f300b7ff8aaf39d4f7d54e5bb41010cb4210076bb2bbd25609f33749a9a",
+      "local_imports": [
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "evidence_representation_audit.py",
+      "sha256": "76544bdb11b50fc79447751d893a439d0f890c6c7dfe432ab634fe3d7dfefa33",
+      "local_imports": [
+        "notification_workflow_analysis",
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "notification_design.py",
+      "sha256": "0ab1d3a4c73bc64a3861f3b5e984c1e1e52bb9fea55053a9faa7b63cb774fb89",
+      "local_imports": [
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "notification_workflow_analysis.py",
+      "sha256": "c8aa568326c0515ede249ef8e1edf0a7bc0ae879a413ad5c64bbc79a7449821f",
+      "local_imports": [
+        "notification_design",
+        "revision_decision_audit"
+      ]
+    },
+    {
+      "file": "review_archive_core_20261023.py",
+      "sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+      "local_imports": [
+        "archive_codec_20261009"
+      ]
+    },
+    {
+      "file": "review_experiments_20261023.py",
+      "sha256": "6493f667b1d5b4f3ea8173f3f3efce35f949a8db74fd10307fc3cd92ff9cc170",
+      "local_imports": [
+        "archive_codec_20261009",
+        "archive_task_audit_20261009",
+        "evidence_representation_audit",
+        "review_archive_core_20261023"
+      ]
+    },
+    {
+      "file": "review_fine_stream_20261023.py",
+      "sha256": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+      "local_imports": [
+        "archive_codec_20261009",
+        "archive_task_audit_20261009",
+        "evidence_representation_audit"
+      ]
+    },
+    {
+      "file": "review_frozen_inputs_20261023.py",
+      "sha256": "209b50313c03fcafb5f1bef2c0891624d37d2a8a153c1c70b1ee209f40402675",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_online_20261023.py",
+      "sha256": "366c446dbc538818753049711526d7e1b1ee7ee3ebcf5adb286b7ef04314902e",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_fine_stream_20261023"
+      ]
+    },
+    {
+      "file": "review_replay_frozen_20261023.py",
+      "sha256": "2c73bd0fc05a88dc858e4687fc27ddba15972ee63d3b69b4d096346e4b720d58",
+      "local_imports": [
+        "review_archive_core_20261023",
+        "review_experiments_20261023",
+        "review_frozen_inputs_20261023",
+        "review_online_20261023"
+      ]
+    },
+    {
+      "file": "revision_decision_audit.py",
+      "sha256": "d8e8b341bd79d22339897a47b203ad4ae72d22c27f0c1b9e27a27eea91bdf9da",
+      "local_imports": []
+    }
+  ],
+  "nonlocal_import_roots": [
+    "__future__",
+    "argparse",
+    "ast",
+    "csv",
+    "ctypes",
+    "dataclasses",
+    "datetime",
+    "gzip",
+    "hashlib",
+    "itertools",
+    "json",
+    "math",
+    "numpy",
+    "os",
+    "pandas",
+    "pathlib",
+    "platform",
+    "shutil",
+    "struct",
+    "sys",
+    "time",
+    "zlib"
+  ]
+}

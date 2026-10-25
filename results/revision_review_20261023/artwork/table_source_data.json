@@ -1,0 +1,465 @@
+[
+  {
+    "label": "1",
+    "source": "ESWA_Manuscript.md",
+    "line": 131,
+    "caption": "**Table 1. Complete storage under the same high record and metadata contract.** Histories are device and model or mission and model combinations and are related observations. KiB denotes 1,024 bytes. The 1 MiB column is a feasibility census of actual complete sizes.",
+    "cells": [
+      [
+        "Source and cadence",
+        "Histories",
+        "Fit 64 KiB",
+        "Fit 256 KiB",
+        "Fit 1 MiB",
+        "Median / maximum bytes"
+      ],
+      [
+        "ESA, coarse",
+        "4",
+        "1",
+        "2",
+        "4",
+        "210,967 / 554,282"
+      ],
+      [
+        "SMD, coarse",
+        "56",
+        "54",
+        "55",
+        "56",
+        "6,338 / 305,207"
+      ],
+      [
+        "SMD, fine",
+        "56",
+        "36",
+        "53",
+        "55",
+        "39,840 / 2,743,495"
+      ]
+    ]
+  },
+  {
+    "label": "2",
+    "source": "ESWA_Manuscript.md",
+    "line": 145,
+    "caption": "**Table 2. Fine SMD task service at 256 KiB.** Joint first and complete report use the 2,329 positive annotated queries. Certified negative and unknown use the full 4,508 query workload, which contains 2,179 reference negative queries. All method answers are checked against the same full reference. Complete denotes an archive that stores full history or declines service; its small refusal frame is charged separately from successful compression.",
+    "cells": [
+      [
+        "Representation",
+        "Joint first",
+        "Complete positive report",
+        "Certified negative",
+        "Unknown support"
+      ],
+      [
+        "Complete",
+        "2,167",
+        "2,167",
+        "2,174",
+        "167"
+      ],
+      [
+        "Bitmap + change",
+        "2,180",
+        "633",
+        "2,179",
+        "0"
+      ],
+      [
+        "Bitmap + change + fill",
+        "2,199",
+        "1,521",
+        "2,179",
+        "0"
+      ],
+      [
+        "Coverage summary",
+        "1,912",
+        "325",
+        "2,161",
+        "79"
+      ],
+      [
+        "Coverage + fill",
+        "2,123",
+        "1,462",
+        "2,165",
+        "29"
+      ],
+      [
+        "Full if fits",
+        "2,247",
+        "2,174",
+        "2,179",
+        "7"
+      ]
+    ]
+  },
+  {
+    "label": "3",
+    "source": "ESWA_Manuscript.md",
+    "line": 170,
+    "caption": "**Table 3. Actual bytes and positive tasks on the constrained coarse ridge history at 256 KiB.** There are 60,483 source atoms and 20 positive annotated targets. Unsaved is the number of original atoms omitted. The complete candidate is declined; its frame uses 1,990 bytes while its required complete size is 305,207 bytes. Full if fits selects the same state as coverage+fill here and is omitted as a duplicate row.",
+    "cells": [
+      [
+        "Representation",
+        "Actual bytes",
+        "Slack bytes",
+        "Unsaved atoms",
+        "Joint first / 20",
+        "Complete report / 20"
+      ],
+      [
+        "Complete, declined",
+        "1,990",
+        "260,154",
+        "60,483",
+        "0",
+        "0"
+      ],
+      [
+        "Bitmap + change",
+        "78,661",
+        "183,483",
+        "55,725",
+        "13",
+        "2"
+      ],
+      [
+        "Bitmap + change + fill",
+        "262,133",
+        "11",
+        "44,258",
+        "14",
+        "2"
+      ],
+      [
+        "Coverage summary",
+        "20,907",
+        "241,237",
+        "59,424",
+        "10",
+        "2"
+      ],
+      [
+        "Coverage + fill",
+        "262,139",
+        "5",
+        "44,347",
+        "11",
+        "2"
+      ]
+    ]
+  },
+  {
+    "label": "4",
+    "source": "ESWA_Manuscript.md",
+    "line": 190,
+    "caption": "**Table 4. Online constrained fine ridge history at 256 KiB with 1,024 decision chunks.** Positive tasks have denominator 134; support answers have denominator 176. Evictions and p95 timing cover the chronological run. All four policies use identical arrivals and queries. Query timing is warm cache wall clock time for reopening and decoding the archive in this implementation.",
+    "cells": [
+      [
+        "Policy",
+        "Joint first",
+        "Complete positive",
+        "Unknown support",
+        "Evicted chunks",
+        "Query p95, ms"
+      ],
+      [
+        "Complete FIFO",
+        "24",
+        "24",
+        "144",
+        "22",
+        "10.13"
+      ],
+      [
+        "Bitmap + change FIFO",
+        "50",
+        "12",
+        "3",
+        "3",
+        "4.29"
+      ],
+      [
+        "Coverage summary FIFO",
+        "56",
+        "12",
+        "0",
+        "0",
+        "3.50"
+      ],
+      [
+        "Adaptive complete / summary",
+        "24",
+        "6",
+        "118",
+        "21",
+        "6.63"
+      ]
+    ]
+  },
+  {
+    "label": "S1",
+    "source": "ESWA_Supplementary.md",
+    "line": 19,
+    "caption": "**Table S1. SMD opportunity and evidence denominators.** Each column pools 28 devices for one backbone. A positive annotated target contains at least one eligible high on its annotated variable; counts do not measure distinct faults successfully diagnosed.",
+    "cells": [
+      [
+        "Quantity",
+        "PCA coarse",
+        "PCA fine",
+        "Ridge coarse",
+        "Ridge fine"
+      ],
+      [
+        "Binary incidents",
+        "327",
+        "327",
+        "327",
+        "327"
+      ],
+      [
+        "Incidents with an active decision opportunity",
+        "249",
+        "327",
+        "249",
+        "327"
+      ],
+      [
+        "Incidents with any channel high",
+        "143",
+        "238",
+        "142",
+        "239"
+      ],
+      [
+        "Incidents with annotated variable high",
+        "122",
+        "216",
+        "135",
+        "224"
+      ],
+      [
+        "Annotated incident variable targets",
+        "2,254",
+        "2,254",
+        "2,254",
+        "2,254"
+      ],
+      [
+        "Targets without an active decision",
+        "371",
+        "0",
+        "371",
+        "0"
+      ],
+      [
+        "Positive annotated targets",
+        "749",
+        "1,101",
+        "932",
+        "1,228"
+      ],
+      [
+        "Original high records",
+        "24,415",
+        "238,339",
+        "111,954",
+        "1,124,754"
+      ]
+    ]
+  },
+  {
+    "label": "S2",
+    "source": "ESWA_Supplementary.md",
+    "line": 69,
+    "caption": "**Table S2. Fine SMD annotated target service.** Denominators are 1,101 positive/2,254 total queries for PCA and 1,228 positive/2,254 total for ridge. Each cell gives joint first position/numeric successes, complete positive reports and unknown support answers, in that order. Unknown counts use all queries. Every evaluated certificate agrees with original records.",
+    "cells": [
+      [
+        "Method",
+        "PCA 64 KiB",
+        "Ridge 64 KiB",
+        "PCA 256 KiB",
+        "Ridge 256 KiB"
+      ],
+      [
+        "Complete",
+        "810 / 810 / 317",
+        "434 / 434 / 1,089",
+        "1,101 / 1,101 / 0",
+        "1,066 / 1,066 / 167"
+      ],
+      [
+        "Bitmap + change",
+        "892 / 307 / 0",
+        "885 / 257 / 0",
+        "1,065 / 332 / 0",
+        "1,115 / 301 / 0"
+      ],
+      [
+        "Bitmap + change + fill",
+        "893 / 478 / 0",
+        "887 / 318 / 0",
+        "1,077 / 871 / 0",
+        "1,122 / 650 / 0"
+      ],
+      [
+        "Coverage summary",
+        "928 / 196 / 27",
+        "976 / 126 / 74",
+        "928 / 196 / 27",
+        "984 / 129 / 52"
+      ],
+      [
+        "Coverage + fill",
+        "953 / 407 / 12",
+        "987 / 232 / 68",
+        "1,047 / 866 / 7",
+        "1,076 / 596 / 22"
+      ],
+      [
+        "Adaptive coverage + fill",
+        "1,015 / 825 / 11",
+        "993 / 462 / 67",
+        "1,101 / 1,101 / 0",
+        "1,146 / 1,073 / 7"
+      ]
+    ]
+  },
+  {
+    "label": "S3",
+    "source": "ESWA_Supplementary.md",
+    "line": 94,
+    "caption": "**Table S3. Mission 1 ridge, 256 KiB, 1,024 decision chunks.** There are 69 positive and 176 total queries per method.",
+    "cells": [
+      [
+        "Method",
+        "Joint first / 69",
+        "Complete positive / 69",
+        "Unknown / 176",
+        "Query p95 (ms)"
+      ],
+      [
+        "Complete",
+        "42",
+        "42",
+        "36",
+        "87.65"
+      ],
+      [
+        "Bitmap + change",
+        "56",
+        "48",
+        "0",
+        "38.68"
+      ],
+      [
+        "Coverage summary",
+        "38",
+        "33",
+        "25",
+        "5.86"
+      ],
+      [
+        "Adaptive",
+        "39",
+        "34",
+        "36",
+        "50.75"
+      ]
+    ]
+  },
+  {
+    "label": "S4",
+    "source": "ESWA_Supplementary.md",
+    "line": 103,
+    "caption": "**Table S4. Fine machine 3-4 ridge, 256 KiB, 1,024 decision chunks.** There are 134 positive and 176 total queries per method.",
+    "cells": [
+      [
+        "Method",
+        "Joint first / 134",
+        "Complete positive / 134",
+        "Unknown / 176",
+        "Query p95 (ms)"
+      ],
+      [
+        "Complete",
+        "24",
+        "24",
+        "144",
+        "10.13"
+      ],
+      [
+        "Bitmap + change",
+        "50",
+        "12",
+        "3",
+        "4.29"
+      ],
+      [
+        "Coverage summary",
+        "56",
+        "12",
+        "0",
+        "3.50"
+      ],
+      [
+        "Adaptive",
+        "24",
+        "6",
+        "118",
+        "6.63"
+      ]
+    ]
+  },
+  {
+    "label": "S5",
+    "source": "ESWA_Supplementary.md",
+    "line": 120,
+    "caption": "**Table S5. Forecasts of complete size for the next prefix.** Feasible means the next complete archive actually fits. False feasible is an incorrect promise of fit; false infeasible is a missed complete storage opportunity. Repeated forecasts are related observations.",
+    "cells": [
+      [
+        "Cap",
+        "Payload factor",
+        "True feasible",
+        "False feasible",
+        "True infeasible",
+        "False infeasible"
+      ],
+      [
+        "64 KiB",
+        "1.00",
+        "299",
+        "15",
+        "32",
+        "2"
+      ],
+      [
+        "64 KiB",
+        "1.25",
+        "297",
+        "11",
+        "36",
+        "4"
+      ],
+      [
+        "256 KiB",
+        "1.00",
+        "334",
+        "4",
+        "9",
+        "1"
+      ],
+      [
+        "256 KiB",
+        "1.25",
+        "332",
+        "4",
+        "9",
+        "3"
+      ]
+    ]
+  }
+]

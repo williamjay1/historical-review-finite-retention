@@ -1,0 +1,26 @@
+[
+  {
+    "file": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Manuscript.docx",
+    "bytes": 1311280,
+    "sha256": "b56cbd3ec959dbd31a030d828bc60e879c2161c78dff9d12811efb5969bf6a0b",
+    "source_sha256": "7d85637100925428a9a8ef7109ece2b1bb32423ea57c87a632521cb0ed7326df",
+    "native_tables": 4,
+    "inline_figures": 2,
+    "native_equations": 35,
+    "pages_word_export": 16,
+    "citations_resolved": true,
+    "render_status": "Microsoft Word PDF export inspected; 16 pages; tables and figures full width"
+  },
+  {
+    "file": "D:\\MLWork\\ESWA_feedback_design_20260927\\manuscript\\ESWA_Supplementary.docx",
+    "bytes": 38170,
+    "sha256": "ab585c19cff09e064720481f07bad89a1ec13ae37527848658d785fa1a4e224d",
+    "source_sha256": "b2df688caf34cc444f41ebc6e631b34a12eecf5d84fb338e3a75f34af433b37e",
+    "native_tables": 5,
+    "inline_figures": 0,
+    "native_equations": 17,
+    "pages_word_export": 7,
+    "citations_resolved": true,
+    "render_status": "Microsoft Word PDF export inspected; 7 pages; tables full width"
+  }
+]

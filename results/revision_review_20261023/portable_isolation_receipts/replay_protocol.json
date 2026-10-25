@@ -1,0 +1,22 @@
+{
+  "mode": "static",
+  "inputs": "D:\\MLWork\\ESWA_feedback_design_20260927\\results\\revision_review_20261023\\frozen_inputs",
+  "output": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded",
+  "code_root": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023",
+  "script_directory": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\scripts",
+  "selected_streams": [
+    [
+      "SMD",
+      "machine-3-4",
+      "ridge",
+      "fine"
+    ]
+  ],
+  "budgets": [
+    262144
+  ],
+  "block": 1024,
+  "pilot": true,
+  "no_training": true,
+  "record_scope": "Frozen high-score service records; selected window-last observations; no original raw-loader reads"
+}

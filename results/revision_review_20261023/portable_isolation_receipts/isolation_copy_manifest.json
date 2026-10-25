@@ -1,0 +1,55 @@
+{
+  "copied_without_moving_sources": true,
+  "no_canonical_archives_copied": true,
+  "files": [
+    {
+      "file": "replay_completion.json",
+      "package_relative": "portable_isolation_receipts/replay_completion.json",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\replay_completion.json",
+      "sha256": "d29bcce6bf8feda80b66ba1bfbbf80f24b33c74fe230e12c2e219347dd8963ba",
+      "bytes": 3143
+    },
+    {
+      "file": "replay_protocol.json",
+      "package_relative": "portable_isolation_receipts/replay_protocol.json",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\replay_protocol.json",
+      "sha256": "53a950623c5e34d1dc4a5a985dcf8da53c16ec36e83eb10150da28117da9b2ca",
+      "bytes": 796
+    },
+    {
+      "file": "filesystem_guard_receipt.json",
+      "package_relative": "portable_isolation_receipts/filesystem_guard_receipt.json",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\filesystem_guard_receipt.json",
+      "sha256": "9d032f9149517d8e9d88e617d9a47b8ccd310cb40ed5dba466575255cac00ade",
+      "bytes": 121883
+    },
+    {
+      "file": "local_import_closure.json",
+      "package_relative": "portable_isolation_receipts/local_import_closure.json",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\local_import_closure.json",
+      "sha256": "202aaf6312bebef4ee58e9322ec7601e9d56bbe316834bc5a9677d3833d03f00",
+      "bytes": 3632
+    },
+    {
+      "file": "static_costs.csv",
+      "package_relative": "portable_isolation_receipts/static_costs.csv",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_costs.csv",
+      "sha256": "67d979512f213d1474422d9e96aea9d7c9caf7c05990b166c7eac32cd02e70ae",
+      "bytes": 945
+    },
+    {
+      "file": "static_metrics.csv",
+      "package_relative": "portable_isolation_receipts/static_metrics.csv",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\results\\isolated_static256_guarded\\static_metrics.csv",
+      "sha256": "205107c7ffce3f9a34ba8f0e93df9e82b1663314886880f4155b1858644f3111",
+      "bytes": 2556
+    },
+    {
+      "file": "copied_code_manifest.json",
+      "package_relative": "portable_isolation_receipts/copied_code_manifest.json",
+      "source": "D:\\MLWork\\ESWA_feedback_design_20260927\\temp\\portable_code_root_20261023\\copied_code_manifest.json",
+      "sha256": "202aaf6312bebef4ee58e9322ec7601e9d56bbe316834bc5a9677d3833d03f00",
+      "bytes": 3632
+    }
+  ]
+}

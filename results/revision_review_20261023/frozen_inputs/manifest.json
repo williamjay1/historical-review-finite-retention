@@ -1,0 +1,5014 @@
+{
+  "schema": "archive-review-frozen-input-v1",
+  "completed": true,
+  "streams": 116,
+  "total_bytes": 15404641,
+  "total_atoms": 1739845,
+  "total_queries": 17802,
+  "elapsed_seconds": 48.278737299959175,
+  "python": "3.12.10",
+  "numpy": "2.5.1",
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637",
+  "source_sha256": {
+    "review_frozen_inputs_20261023.py": "209b50313c03fcafb5f1bef2c0891624d37d2a8a153c1c70b1ee209f40402675",
+    "review_experiments_20261023.py": "6493f667b1d5b4f3ea8173f3f3efce35f949a8db74fd10307fc3cd92ff9cc170",
+    "review_fine_stream_20261023.py": "44a9d89cbdec99d909b40e50fa30f68cf84cd57f0ee9580f02a79484396e65c1",
+    "review_archive_core_20261023.py": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637"
+  },
+  "all_reopened_and_exact": true,
+  "no_training": true,
+  "no_raw_dataset_bundle": true,
+  "contains_selected_original_windowlast_values": true,
+  "source_files_unchanged": true,
+  "notes": "Derived service inputs; transport NPZ size is not the experimental retained-byte cost.",
+  "files": [
+    {
+      "dataset": "ESA",
+      "unit": "1",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "ESA_1_pca_coarse.npz",
+      "sha256": "51e10e52d5e41d37eb9ce09e7273f6beff836bdca85998ae8a63e4355dc99fa8",
+      "bytes": 1036617,
+      "atoms": 127991,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 2047856,
+      "atom_payload_sha256": "832528a4eb26b7b2a9aae67523683a2bfa7a2c02dad0cbd5c00905e4c090d512",
+      "cycles": 736415,
+      "channels": 58,
+      "high_count": 127991,
+      "high_packed_bytes": 5339009,
+      "eligible_packed_bytes": 92052,
+      "queries": 603,
+      "stages": 55,
+      "header_sha256": "c0014eb231156d426dcb3321c93b7e4d40691ef330ea5908b89bff139ea816cd",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "ESA",
+      "unit": "1",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "ESA_1_ridge_coarse.npz",
+      "sha256": "a00743b98708c9924de10a8f9b0550809b0f4264a45ba99e62c43a12fd29a334",
+      "bytes": 657625,
+      "atoms": 91561,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 1464976,
+      "atom_payload_sha256": "2226d278d939f432099bc51e949a996edab8c7cc75c7e94a6963ff701677010e",
+      "cycles": 736415,
+      "channels": 58,
+      "high_count": 91561,
+      "high_packed_bytes": 5339009,
+      "eligible_packed_bytes": 92052,
+      "queries": 603,
+      "stages": 55,
+      "header_sha256": "340b28cea8b189d62dc1fc781ea5b446f6d414a0eb92858c70ecb478bd5afeb3",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "ESA",
+      "unit": "2",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "ESA_2_pca_coarse.npz",
+      "sha256": "f810a02a4dc567cf557483c52ecc63e43416f1573dfa3aa03ea021200f732814",
+      "bytes": 80252,
+      "atoms": 6530,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 104480,
+      "atom_payload_sha256": "d7898e3dab651c7fe29f9eb40f23459c2143b7d93e720be981131e58868d3772",
+      "cycles": 306240,
+      "channels": 47,
+      "high_count": 6530,
+      "high_packed_bytes": 1799160,
+      "eligible_packed_bytes": 38280,
+      "queries": 94,
+      "stages": 6,
+      "header_sha256": "39d7414edc9a87a850e42eb7e13ba54c1c56a4c999a374d67753b010daf68ebe",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "ESA",
+      "unit": "2",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "ESA_2_ridge_coarse.npz",
+      "sha256": "23aed336058718f46a193270785127b334aee4ab70592669567ae4c0fc2bb299",
+      "bytes": 163856,
+      "atoms": 14301,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 228816,
+      "atom_payload_sha256": "b576f07c92f9451e50503b2e8de13dc24ecb8a605e30f9ae3747d0e98abb33b0",
+      "cycles": 306240,
+      "channels": 47,
+      "high_count": 14301,
+      "high_packed_bytes": 1799160,
+      "eligible_packed_bytes": 38280,
+      "queries": 94,
+      "stages": 6,
+      "header_sha256": "e2e4fd8a6ae5dd805052061006bd46df3f92076aa151d738a50d77810e1a4dc6",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-1",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-1_pca_coarse.npz",
+      "sha256": "fc2ca20ee6e6b2e9505b2df5b26224cff3b6b4f0c02d3e0d5f0cd91c9ca454ab",
+      "bytes": 26236,
+      "atoms": 2258,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 36128,
+      "atom_payload_sha256": "c48a22888b5141b88194a2b649715ed61ba5dee82954a2f1ae121b6abe46aff1",
+      "cycles": 2847,
+      "channels": 38,
+      "high_count": 2258,
+      "high_packed_bytes": 13524,
+      "eligible_packed_bytes": 356,
+      "queries": 138,
+      "stages": 8,
+      "header_sha256": "f01d501fa03123ebdbceede77f404845fe33772637bcfa4fcfcb63ba424070e4",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-1",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-1_ridge_coarse.npz",
+      "sha256": "d849e6834648e4060eb5029b3573dfb50da4c35b2129b223bffd69f20f579f64",
+      "bytes": 29300,
+      "atoms": 2350,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 37600,
+      "atom_payload_sha256": "79d3cf63c22c16067ba25f39136ede1bbf7c7b86bae84d19a2586b17e8c894ff",
+      "cycles": 2847,
+      "channels": 38,
+      "high_count": 2350,
+      "high_packed_bytes": 13524,
+      "eligible_packed_bytes": 356,
+      "queries": 138,
+      "stages": 8,
+      "header_sha256": "39e591ead485d506c763cc27f4009f204515414d4cf30a39e88e619bf2ebf451",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-2",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-2_pca_coarse.npz",
+      "sha256": "263bbf98c2345dae79d0b82e0728e2ac5e8c52238872c0b28dfa07edac273f2f",
+      "bytes": 5298,
+      "atoms": 17,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 272,
+      "atom_payload_sha256": "8b2cd54d4e002b028a0e7d32a28807e0f099c4f71a714dc918f5de8c2cecd7f3",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 17,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 132,
+      "stages": 10,
+      "header_sha256": "b788e696f9f413fae133a0f0fdee766694cbe4328b938dfadd03682db5452764",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-2",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-2_ridge_coarse.npz",
+      "sha256": "d87519b0502522565bfb82b88ad97f0f583d744e0bbfaf3581cdf733c4c003d2",
+      "bytes": 6384,
+      "atoms": 109,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 1744,
+      "atom_payload_sha256": "df5355d0b6cf10d29db6cc80f244ab9fdbb10f820d5974892a548e80c788d0b2",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 109,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 132,
+      "stages": 10,
+      "header_sha256": "79e337c6d120ab42f5b1b741d3eb629ecae1406733f58a3d6236d532c73e56d7",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-3",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-3_pca_coarse.npz",
+      "sha256": "0422173561cb9c6b6b786cd5d9046b06c864fa76b1dca5a35ab36e01211502d2",
+      "bytes": 5075,
+      "atoms": 14,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 224,
+      "atom_payload_sha256": "7bfe3f8f6b085d442fefd2290f37476fae848a908c86f92589e9d78e1a05f035",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 14,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 112,
+      "stages": 12,
+      "header_sha256": "2fe43084fd83f658a136a5d91409b555968c5b088f26df349eb365e79ada40ce",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-3",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-3_ridge_coarse.npz",
+      "sha256": "8a6996187d0e12fc715f8e2bc1e801e3114d77862587254a9011d9f89edfffab",
+      "bytes": 5029,
+      "atoms": 10,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 160,
+      "atom_payload_sha256": "f228b1200431d6edf22d14e8b9c91cffdeaf057f9c64096b01c00adc3f10884b",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 10,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 112,
+      "stages": 12,
+      "header_sha256": "baae05c18187ce848f5f18406b2b0214de619edfb705b835d4840493717e5e75",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-4",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-4_pca_coarse.npz",
+      "sha256": "d1d551ced6e77e6d2441722d969d39b3dcf391eb52986fed932872ce8d1bfecf",
+      "bytes": 5200,
+      "atoms": 4,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 64,
+      "atom_payload_sha256": "f133c9e05680f3fe2f292daf4ada994e7333c27a287e97c1f5f563531af0c06a",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 4,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 164,
+      "stages": 12,
+      "header_sha256": "ecf80234837ca210ed3729d32dee31a6de96c7674c9ee008e3bddb8e27e2da8a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-4",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-4_ridge_coarse.npz",
+      "sha256": "a7cdef8bed20669c7aa9fc1222615880f9665c84f01c7809c5df2afbbcd6cca6",
+      "bytes": 5205,
+      "atoms": 4,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 64,
+      "atom_payload_sha256": "f133c9e05680f3fe2f292daf4ada994e7333c27a287e97c1f5f563531af0c06a",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 4,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 164,
+      "stages": 12,
+      "header_sha256": "f38d6eba87ca939821253e6bfe4e4235e1d5e5e1fd1064f7e01acc997e8a8859",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-5",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-5_pca_coarse.npz",
+      "sha256": "9ea34312242c26800dd526bca45510acfd3502c2f4acfc4fbd73030d48cde9be",
+      "bytes": 6445,
+      "atoms": 113,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 1808,
+      "atom_payload_sha256": "ee5cd56363487b22e1ef916dbecb3be3ea0cde7283880c0983a61574ca9f4266",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 113,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 138,
+      "stages": 7,
+      "header_sha256": "9c2054b2ecba2fdc85e767f5b589c729b16513eff988d5f1ee34f72267f056f3",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-5",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-5_ridge_coarse.npz",
+      "sha256": "511d3e2fdec06f27b64ddb0b0750fdb64d15062c80499ee603f6587bb12f287d",
+      "bytes": 10284,
+      "atoms": 491,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 7856,
+      "atom_payload_sha256": "f34ec005e131ff240c4920f6696df29eef680e916a7d01edd6705a2bf2e158fc",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 491,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 138,
+      "stages": 7,
+      "header_sha256": "9359749b2f66a9b77029b401fa05f91f2f16ce28e04dd618b6060332c5b4737a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-6",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-6_pca_coarse.npz",
+      "sha256": "e05a7787b462b13051673de573cdf9aa17899b8a0cffb3bc019ea276c5cb03c3",
+      "bytes": 13428,
+      "atoms": 672,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 10752,
+      "atom_payload_sha256": "5c0a834172915303d8ebc7ab96fe1a318c15b5c3a90e7a1abce154957dc7048a",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 672,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 360,
+      "stages": 30,
+      "header_sha256": "fef182b0c11193a86f696904b4b6ca8cde48643ee0027b449df6a09679b3ce0a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-6",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-6_ridge_coarse.npz",
+      "sha256": "631739430a64b64577f1d157f7689c8c8ed9266d050de20422a4e274cfc160f0",
+      "bytes": 22108,
+      "atoms": 1510,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 24160,
+      "atom_payload_sha256": "f21bba2dab36eb56e118f909e054228be9c768a4a75f5ebd8bc3990fe50fcfa0",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 1510,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 360,
+      "stages": 30,
+      "header_sha256": "e681e9e11ad99363c6a31aacb17e2c1a6ba9df012b4bbd6931b44eea52c35866",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-7",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-7_pca_coarse.npz",
+      "sha256": "d41766c1b0681a112efac748fab070d4ee76c561dd0a60c708455d4d57e12c73",
+      "bytes": 6090,
+      "atoms": 55,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 880,
+      "atom_payload_sha256": "13f2db15cfc5487d5847d5c1605e8608c13b86e207904278c1ec01a0083feb76",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 55,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 196,
+      "stages": 13,
+      "header_sha256": "8b7c9252e9492cbe839d8d3ee0b43ff0c1a01d44e536c29196b852d13acffb57",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-7",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-7_ridge_coarse.npz",
+      "sha256": "11ccb186dc9d376fd9f65304833daf3e1b3afe272d2ba1dc4e77d3d323ff02b7",
+      "bytes": 10319,
+      "atoms": 483,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 7728,
+      "atom_payload_sha256": "537256770370a593929998629c1de5c8d2f88788e52c3bd736ad9d26eea3871d",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 483,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 196,
+      "stages": 13,
+      "header_sha256": "33357e46bdb70d91e3982f4b07e8079b6324fa759f7c78fb64069a2d6faf9ce1",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-8",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-8_pca_coarse.npz",
+      "sha256": "e670dec5bad60ad2fe363331a3c30296ee785be3b30374debc1c5423a4dbac7e",
+      "bytes": 7141,
+      "atoms": 149,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 2384,
+      "atom_payload_sha256": "191a39860d4faf684a66ace950e60281fe5e8457826c67cde21ae00db75be24d",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 149,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 172,
+      "stages": 20,
+      "header_sha256": "a19398c76a464e59239c3c51aa9db90055538268126cbb61f7bc3056e9c45a94",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-8",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-1-8_ridge_coarse.npz",
+      "sha256": "9534fe3af750ceafb9dc855251474117925f94ccd918e35ddfe40208f3fc7c76",
+      "bytes": 13017,
+      "atoms": 761,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 12176,
+      "atom_payload_sha256": "47e36b5da5dae93a51965e032827cdb25a9687cdd413c6fdfdda10eff49e26d4",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 761,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 172,
+      "stages": 20,
+      "header_sha256": "f99912f71820912ed615b8130c9da9cea934e07a42ef8004474311a998036587",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-1",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-1_pca_coarse.npz",
+      "sha256": "b848212f87415f81845a587f3bea107a5523a9f8afa5eb8d774ba9b4f80f8a1c",
+      "bytes": 5897,
+      "atoms": 60,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 960,
+      "atom_payload_sha256": "0faaa3148eecd78002060341658427cfd76ac21b05979336d6cc71645752dc80",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 60,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 154,
+      "stages": 13,
+      "header_sha256": "7d08a0c6024cecbc429b18eef7325d760692d8cb76869d342c1ac9d6f124c9de",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-1",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-1_ridge_coarse.npz",
+      "sha256": "8bc90f6dc9d476c413c40583d3ec906ae197d8da7861b904afe61bbf96bb682b",
+      "bytes": 5202,
+      "atoms": 4,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 64,
+      "atom_payload_sha256": "3a0660c6fc694526893793080cd26ece130932719b2f26e7b36b53cc4e210815",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 4,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 154,
+      "stages": 13,
+      "header_sha256": "f1e24e80fdc55a631e677a68979c4bc3645d1891c840236d632e4f05dc1dfde8",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-2",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-2_pca_coarse.npz",
+      "sha256": "3fcaaf6f4ec97af891b0af60a2e3de45e24eb3806ab1096ed05a7d2bc9b95d9a",
+      "bytes": 8634,
+      "atoms": 314,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 5024,
+      "atom_payload_sha256": "434833340b4b417cc25a3ce72c9474bb225fdce9a10f1ce47f32c2af0901ca63",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 314,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 133,
+      "stages": 11,
+      "header_sha256": "3eddaa9c6bcd9ff93d636486a5249015a868802df377c22ab827f398a646729d",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-2",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-2_ridge_coarse.npz",
+      "sha256": "848408cfa9df93eff9296ca479061f3fd38686898eb3dbc2a90e9a020ae791a4",
+      "bytes": 9510,
+      "atoms": 411,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 6576,
+      "atom_payload_sha256": "b9330c2a3c65a15de3cd2313b8ddfb131db7c0c069356d95c21124d45c8a707f",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 411,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 133,
+      "stages": 11,
+      "header_sha256": "0a354f9c9b9df9595b65507bd9e97d4b9fed177eb8fd8d9545965165eacfaa53",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-3",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-3_pca_coarse.npz",
+      "sha256": "95772bd5fddbd4a942397a569a923e20fcaba5aad631b4c201f54c37bebe3021",
+      "bytes": 11091,
+      "atoms": 738,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 11808,
+      "atom_payload_sha256": "4983ee3c328eda62314886d47a98a31b2af4cfa71c308688d12ba0ceeb485386",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 738,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 128,
+      "stages": 10,
+      "header_sha256": "80d563d3559f2b562e5e345d757e1938da3e7d830c9e7aad7e6773c4e4b780dd",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-3",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-3_ridge_coarse.npz",
+      "sha256": "240a1cef16dc586c79b0a79c85ffa522995fa22c058724f2a86a0d6e29d64d10",
+      "bytes": 12740,
+      "atoms": 754,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 12064,
+      "atom_payload_sha256": "883b3dcd57e9acf9a90fe4498479fbd508201a54a4b612a32254e7802337232b",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 754,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 128,
+      "stages": 10,
+      "header_sha256": "9f86bfe3134aa50c109b60742365c985d3ca3dc3a636ebaf04240c8d6d79c4ee",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-4",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-4_pca_coarse.npz",
+      "sha256": "9a3d2ed16bf091877a35369451620d30790fdcb2ef5f587ec13a71cff592c5cc",
+      "bytes": 6172,
+      "atoms": 67,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 1072,
+      "atom_payload_sha256": "c1dbde01b492301bc0df70430c2e4d98bbd24f9a20eb3ca2b6c169dc43f0b8d9",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 67,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 154,
+      "stages": 20,
+      "header_sha256": "f95a9073cf9cdc0ab061479e5c737cb7bd0e7306a306349d50de2fa139c83794",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-4",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-4_ridge_coarse.npz",
+      "sha256": "6762f77476ee71ac228655bc125e398f77490acc17ff9c8479cd5ba9daaaa59a",
+      "bytes": 10568,
+      "atoms": 505,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 8080,
+      "atom_payload_sha256": "d0887b5350a9f9016e5d4b18c9464a31d9f551b687eef5bfb15f850498d6d29b",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 505,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 154,
+      "stages": 20,
+      "header_sha256": "f7a1ba6360b861124f50ac441ee5cefc22c84def16a9cd282cd3fce60d40b6e0",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-5",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-5_pca_coarse.npz",
+      "sha256": "db730ef0ceb1f996e967ad74d0c0e680cae5611981e2ab1b95964561e944e283",
+      "bytes": 5966,
+      "atoms": 45,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 720,
+      "atom_payload_sha256": "d9376c1261be23dd2bcbeee26a2404c986c17117af97fa1af6ca1798106c5e87",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 45,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 167,
+      "stages": 21,
+      "header_sha256": "bdeb2af0c0e4285bbd288f48b2bd4baf742b915bcac6261c313501aaa7fc4fe5",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-5",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-5_ridge_coarse.npz",
+      "sha256": "527970ba3afae114f403876496e4480c13671b6acce2d49b14cc5793d1b5f6db",
+      "bytes": 5483,
+      "atoms": 12,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 192,
+      "atom_payload_sha256": "5de40f1815fc1f45035f0da73901eb73513a0ebd4d94c0c85e205ae305622518",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 12,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 167,
+      "stages": 21,
+      "header_sha256": "85da53951ae898f65b58a906989f9145dfc68666e05b76b0cba2d03dbb8dfe96",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-6",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-6_pca_coarse.npz",
+      "sha256": "d5d06693d2dfef27db822310404982de0fb6f4db048a259b282d41d1bda92f4d",
+      "bytes": 12060,
+      "atoms": 625,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 10000,
+      "atom_payload_sha256": "f34c3f5cb8940fc8bdc448cf7b23eb886bbdac00c86ceb66cedb42dfbd80ff7f",
+      "cycles": 2874,
+      "channels": 38,
+      "high_count": 625,
+      "high_packed_bytes": 13652,
+      "eligible_packed_bytes": 360,
+      "queries": 149,
+      "stages": 8,
+      "header_sha256": "85e67684299dee1373c709b856975de4d51fceb2666614ed7c699aed7060accb",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-6",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-6_ridge_coarse.npz",
+      "sha256": "7a3495f0b7e933b6dd0d9e6a18dffff64e1180c5fa195d7948098c44bb637aee",
+      "bytes": 28540,
+      "atoms": 2311,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 36976,
+      "atom_payload_sha256": "7aa30d3ec45875c21872efddba4eb0e2bc92c07ce85968e7d28200138fc3bcc8",
+      "cycles": 2874,
+      "channels": 38,
+      "high_count": 2311,
+      "high_packed_bytes": 13652,
+      "eligible_packed_bytes": 360,
+      "queries": 149,
+      "stages": 8,
+      "header_sha256": "610c561648d36aba3b4004a8958ae6147a2cb945c1066d6d613c3cb4f646a1e0",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-7",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-7_pca_coarse.npz",
+      "sha256": "deed8d9007dc07940fa11b62253aaab285b6b6a411cd9b185bd01112c6c870d6",
+      "bytes": 5356,
+      "atoms": 20,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 320,
+      "atom_payload_sha256": "31619cb7bdb2ca3067c552f2ed2fa5c5fc4f425c92fd3f77d1fdd175c49dbf32",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 20,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 152,
+      "stages": 20,
+      "header_sha256": "7e65815a2b1ad4f6c6a7711cee19789de2ea320623df2ef194af91febdc4f6d0",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-7",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-7_ridge_coarse.npz",
+      "sha256": "799314c72b6aec1d4503e7fc3bf2578b381f0445ab662d67791c8366b10c6081",
+      "bytes": 5553,
+      "atoms": 32,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 512,
+      "atom_payload_sha256": "be17f3dee48cb1002f2969c2c7403b8c90b61c9a55eb64596c0e99f173de7310",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 32,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 152,
+      "stages": 20,
+      "header_sha256": "bb509e976de16aa18a44b623b7e728e84727f5d465627d65329270d73a84499f",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-8",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-8_pca_coarse.npz",
+      "sha256": "2039f2bbe151d449180e5e2278ceaf53325c08785b0e663cb43efb94c4bb0db4",
+      "bytes": 28301,
+      "atoms": 3051,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 48816,
+      "atom_payload_sha256": "73dae810d9950aa04ece8cecc8ba00a54ba3a4620f5c5e5091d57f93d810eab7",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 3051,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 100,
+      "stages": 1,
+      "header_sha256": "03eb2ab058aea2324a6b936735b41ee06a6556b1a2ab9154a1a28fa06a5d1ed5",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-8",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-8_ridge_coarse.npz",
+      "sha256": "39914601efa5e785b4b35f225710ac8363288e305c291da50f637f70288a43d3",
+      "bytes": 20942,
+      "atoms": 1692,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 27072,
+      "atom_payload_sha256": "d0e99c6daa48a3b86478934ed2e60fedef57fea52cc848344017a79e3ce57a61",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 1692,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 100,
+      "stages": 1,
+      "header_sha256": "9d19a37272977f7a902688c86b3ce9690ead7d6eb40db8281fb8df59812445b6",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-9",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-9_pca_coarse.npz",
+      "sha256": "5c81aa3402179c15c520d4bfa816985e8d0343d8f8b3ab9c55f8235d0c625979",
+      "bytes": 30295,
+      "atoms": 2567,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 41072,
+      "atom_payload_sha256": "1a13ee1cc96ad83bd9a44c6c2449c05a26a5b6bf69a0e128a091b53ec604d645",
+      "cycles": 2872,
+      "channels": 38,
+      "high_count": 2567,
+      "high_packed_bytes": 13642,
+      "eligible_packed_bytes": 359,
+      "queries": 158,
+      "stages": 10,
+      "header_sha256": "99bacfcdea5fbe188dde83156a8f31980b4633c97bf48d3faf0d48c628f619ae",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-9",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-2-9_ridge_coarse.npz",
+      "sha256": "d310d773e080a5cb2b9315dd2bf25dde51cc177e40bc524002832d0635d5e496",
+      "bytes": 61730,
+      "atoms": 6070,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 97120,
+      "atom_payload_sha256": "cecc8297ec6a655b51ba1bc210763b292ccdaed314acd375b4ee01a442e68054",
+      "cycles": 2872,
+      "channels": 38,
+      "high_count": 6070,
+      "high_packed_bytes": 13642,
+      "eligible_packed_bytes": 359,
+      "queries": 158,
+      "stages": 10,
+      "header_sha256": "3206f131047aef8007f4f8c8440566bd4c3de12bee7c73384d880e294619087d",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-10",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-10_pca_coarse.npz",
+      "sha256": "3939179b5c8451778966eda6327b85714cad38a3daabd65ed37c687036a3dfbd",
+      "bytes": 7373,
+      "atoms": 219,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 3504,
+      "atom_payload_sha256": "5d30eac5d12a5bc4a36bb3ea51d6c432c75bc237c2c505ff56dc92dae4ddc091",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 219,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 165,
+      "stages": 13,
+      "header_sha256": "13fea0f7a582d6905f695b96847363b152eb0411bd06d4a98bf3d0bec2f84ec4",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-10",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-10_ridge_coarse.npz",
+      "sha256": "3f71de8dbd7d8b2228bbfb52fa3c6a2aab35de3acbec2b92a2d7c2e8bb9d588e",
+      "bytes": 20135,
+      "atoms": 1533,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 24528,
+      "atom_payload_sha256": "8947548e9ac20b0d4de240d0fad51e491f5de4a29b5f002c2726a43ee4900c02",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 1533,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 165,
+      "stages": 13,
+      "header_sha256": "562d1a3720d29419d55bf68fe324ff464e2ae6c42284160eb36d91d9d8ebae18",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-11",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-11_pca_coarse.npz",
+      "sha256": "89a390ea30f13b89f3e63af27452eb5d1880c1b794dc2fb1b17194005b169ace",
+      "bytes": 48428,
+      "atoms": 5580,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 89280,
+      "atom_payload_sha256": "fd3827090454f39d8de0c24f85d1d63041423072ca80e1dcc40f2223d57738ca",
+      "cycles": 2869,
+      "channels": 38,
+      "high_count": 5580,
+      "high_packed_bytes": 13628,
+      "eligible_packed_bytes": 359,
+      "queries": 111,
+      "stages": 3,
+      "header_sha256": "0416d7d99a14725bc82485a901e7e236170beacb057097fb30e0caa4b3de3801",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-11",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-11_ridge_coarse.npz",
+      "sha256": "c90fe24460daf75998fc46cac43611e6799def14a1b9a73a3fef9912645eb1d2",
+      "bytes": 149807,
+      "atoms": 16204,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 259264,
+      "atom_payload_sha256": "5fb2403a908a50eda554f159d936ce055c4667c8f58702b4940fa58ee2d7741f",
+      "cycles": 2869,
+      "channels": 38,
+      "high_count": 16204,
+      "high_packed_bytes": 13628,
+      "eligible_packed_bytes": 359,
+      "queries": 111,
+      "stages": 3,
+      "header_sha256": "b62c76c742eabd3b66760b19f3da127ada8acea4fd353ee6a690df9528669aad",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-1",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-1_pca_coarse.npz",
+      "sha256": "5855a7d82a24208ad7baf1f28ea01478c233f02bfcae2fa3fd53d4fb5c060681",
+      "bytes": 9984,
+      "atoms": 488,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 7808,
+      "atom_payload_sha256": "e04f9b753cb6ef061392b8b1865c02b3e203b0d4cf5dba82ccd28b6918e19ffb",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 488,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 104,
+      "stages": 4,
+      "header_sha256": "613d1f529479ed562d9486e6ae64b8759ce81a4e57d78817406ed1b995a748f4",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-1",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-1_ridge_coarse.npz",
+      "sha256": "a0119155cdb16363cf8529a9a54193f3362b1777c3f26d2832ddfc0fd210ffee",
+      "bytes": 25077,
+      "atoms": 1889,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 30224,
+      "atom_payload_sha256": "34a1405c47bb3371666da929a73dc3c556c73869a0d051204552cabcf134e911",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 1889,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 104,
+      "stages": 4,
+      "header_sha256": "41b3b142f9bd9f55f538453e6f72b151629eb90ce075080a1a8e1cb380332d74",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-2",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-2_pca_coarse.npz",
+      "sha256": "56a4e0753be4553746946b2cabc45fe80667bdd60be97b08b11c231c8cdb34f3",
+      "bytes": 4731,
+      "atoms": 0,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 0,
+      "atom_payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 0,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 98,
+      "stages": 10,
+      "header_sha256": "31357517e7a99ea8a81931d3bfe54c6d20c1c938195f7d1b8bf27958e053cfb6",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-2",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-2_ridge_coarse.npz",
+      "sha256": "a40987ff8adfad7db3b0015f1b4f08def7ee9a6cc19879101c2ccb59853d564d",
+      "bytes": 4817,
+      "atoms": 2,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 32,
+      "atom_payload_sha256": "c8b1f04037f81eb6eccf25e67e1d53225edb75a99cb40ea85ce3b5c565a7b758",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 2,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 98,
+      "stages": 10,
+      "header_sha256": "e978f7b38beeff22173c957dd338fe5c60c0b6b1bc67cae025397f9b3924d519",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-3",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-3_pca_coarse.npz",
+      "sha256": "ab7e3679a0ddfb8e238539d39f27f2e9500d354db94d730683d720c7574de858",
+      "bytes": 8227,
+      "atoms": 231,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 3696,
+      "atom_payload_sha256": "468afa39ee5e29a034512f9d05a9710a46c5917ff3f2b2b682d52e9df68b40bb",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 231,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 189,
+      "stages": 26,
+      "header_sha256": "4b34af83e3ff71efea77543548fe071315d33476fb964ce6a4ed31f1e96d19f7",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-3",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-3_ridge_coarse.npz",
+      "sha256": "a5ea1534717b665fade4c3faa96b8380510500dd0569608f756ba48f629346a6",
+      "bytes": 9444,
+      "atoms": 359,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 5744,
+      "atom_payload_sha256": "e3df00e0842c45247e87b7ede0676aa7ed50e7701de3359caec78dbbac97aadd",
+      "cycles": 2370,
+      "channels": 38,
+      "high_count": 359,
+      "high_packed_bytes": 11258,
+      "eligible_packed_bytes": 297,
+      "queries": 189,
+      "stages": 26,
+      "header_sha256": "8757d1a7bafbaaf3e6555118253877dafd64ee7f1eee04b2db0ccf552f53eb5e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-4",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-4_pca_coarse.npz",
+      "sha256": "f1e0846625a7e27f08728c45d2133381d495a2d640873341fd880caced0c7555",
+      "bytes": 20602,
+      "atoms": 2374,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 37984,
+      "atom_payload_sha256": "3b3baafd056d150f95ab9868d9c63031dd6a9ebb2180d09346de35bf1dc92365",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 2374,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 96,
+      "stages": 8,
+      "header_sha256": "ae09a252d36e9ba5b75eb3ad583455cef28d5643e5ad6fbbf35218fc780731c5",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-4",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-4_ridge_coarse.npz",
+      "sha256": "1130fc763dc5cb6d2907377d817c554843ee25725db38f5f8dcbb48c31f35f66",
+      "bytes": 526253,
+      "atoms": 60483,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 967728,
+      "atom_payload_sha256": "d183400244319625c7240ef3c4360389ea01ee9d719059b911a3a74a5e4a355a",
+      "cycles": 2368,
+      "channels": 38,
+      "high_count": 60483,
+      "high_packed_bytes": 11248,
+      "eligible_packed_bytes": 296,
+      "queries": 96,
+      "stages": 8,
+      "header_sha256": "22d05b0a7904486fe344fa62f6818105df828dcd9a28712686b9dd8300bf1547",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-5",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-5_pca_coarse.npz",
+      "sha256": "af86d82e6cf8c70b67e29ce06b2c7c0dd3c97d1ffb87f5b923d7378e4c3e5c11",
+      "bytes": 17291,
+      "atoms": 1448,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 23168,
+      "atom_payload_sha256": "bbc8797bde5491d1c7e576241408c54771cfdd5ec6ecfc5ad90d768321411142",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 1448,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 110,
+      "stages": 11,
+      "header_sha256": "daf62c87e5910dba4c21819ca592a1edf4c2f78f6c7957083cb04b33ed9b17c4",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-5",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-5_ridge_coarse.npz",
+      "sha256": "bfcf057fba2c1efa94f167e2293477d75e068cb3b6b5f284115a4983a93154aa",
+      "bytes": 31226,
+      "atoms": 2793,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 44688,
+      "atom_payload_sha256": "a4050a37b0792ddb0a958680abf521b0ecbc493e5649c308060448ca7e0e5a74",
+      "cycles": 2369,
+      "channels": 38,
+      "high_count": 2793,
+      "high_packed_bytes": 11253,
+      "eligible_packed_bytes": 297,
+      "queries": 110,
+      "stages": 11,
+      "header_sha256": "8a9bb47173cbbe9513b0c25d2235abb1e479b3487180d0ff57b67fa7a2ecb32e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-6",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-6_pca_coarse.npz",
+      "sha256": "f6458b3e13b1b92d3cc3c6096b3fff47516ea82c27662f6f07b73b705e3e06bc",
+      "bytes": 13507,
+      "atoms": 758,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 12128,
+      "atom_payload_sha256": "785d6e156947565b557d76549a4016a4773885c01d47f8362849b0bf3b2de74e",
+      "cycles": 2872,
+      "channels": 38,
+      "high_count": 758,
+      "high_packed_bytes": 13642,
+      "eligible_packed_bytes": 359,
+      "queries": 158,
+      "stages": 11,
+      "header_sha256": "24ff5d0a60109e32cee6a6409bf43b32019134e382b47222b04f0598eda5f708",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-6",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-6_ridge_coarse.npz",
+      "sha256": "c51d1ed1640bd138f1eb1c5ad2ba09d36fbdc81d2e07bd7e63637049ec8fe6fe",
+      "bytes": 30076,
+      "atoms": 2449,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 39184,
+      "atom_payload_sha256": "e28517e0096a7f6902b425e1df9a1d0378fc87823609eb2419cb73c0a92233e3",
+      "cycles": 2872,
+      "channels": 38,
+      "high_count": 2449,
+      "high_packed_bytes": 13642,
+      "eligible_packed_bytes": 359,
+      "queries": 158,
+      "stages": 11,
+      "header_sha256": "f5603ac279fc0a8be538f7bed4d73a85593e17a8710746a9a9893cc172e04a94",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-7",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-7_pca_coarse.npz",
+      "sha256": "eac49612f40b43423a282820d170820a0e48326c1c02145a0a64423cda4c3ffb",
+      "bytes": 13310,
+      "atoms": 1181,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 18896,
+      "atom_payload_sha256": "534f140c6e1339cea17ef94f696283ee76485212ed89f8d2164400bb5d4c68d2",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 1181,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 132,
+      "stages": 5,
+      "header_sha256": "ef628e5853d4ae580da9c71df6a1945c93611ef23d27b9f2fddbd0e31ada6808",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-7",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-7_ridge_coarse.npz",
+      "sha256": "60a5bb6852d81c9bccb878ffc789f07a08ac6bc77849ef3c1e651494e03867b3",
+      "bytes": 22113,
+      "atoms": 2194,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 35104,
+      "atom_payload_sha256": "79b072e8384cfd572a8474b23ac95d466b1ffec351ddf571c2c38db063964795",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 2194,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 132,
+      "stages": 5,
+      "header_sha256": "85f69b41f28bf9d68e1ed73cdffb4cc60bf089906a78abb070ebb28aed19c939",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-8",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-8_pca_coarse.npz",
+      "sha256": "1fcea73a3e41d33ced4e7fffedd60b4c9b177045ab7d28fe690ae7c91ee015c2",
+      "bytes": 11427,
+      "atoms": 611,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 9776,
+      "atom_payload_sha256": "4feaedfd414f7e2c592c21c5a35f8b956888b3619189233e7f55cd460056a554",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 611,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 122,
+      "stages": 6,
+      "header_sha256": "7855ea959b5b92559e600e730b9036c0b18a8566812fd0ef98644d4ca0a44725",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-8",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-8_ridge_coarse.npz",
+      "sha256": "4361be68bd82ecb890fb7ccee2f1542e8ab57df7fc72e37ded04565a7743185e",
+      "bytes": 44655,
+      "atoms": 4244,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 67904,
+      "atom_payload_sha256": "183bfc5cfe2c11a19c177d9b076653818ba59af6985f2bc3a55401cf3fd42ce4",
+      "cycles": 2870,
+      "channels": 38,
+      "high_count": 4244,
+      "high_packed_bytes": 13633,
+      "eligible_packed_bytes": 359,
+      "queries": 122,
+      "stages": 6,
+      "header_sha256": "97d83ecf124e5279fb4fdf52ed7735d140ec8bc573bf7c8731cff8c102b4dc9e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-9",
+      "backbone": "pca",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-9_pca_coarse.npz",
+      "sha256": "8a0c9ecce42c47363f48064ca51fb3883c09da94ca66bcefaf16685727900a62",
+      "bytes": 12985,
+      "atoms": 756,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 12096,
+      "atom_payload_sha256": "8e397d89975917b0d97e00054d3cf49af2e8474bcc05131ff34378f9a9dacd71",
+      "cycles": 2871,
+      "channels": 38,
+      "high_count": 756,
+      "high_packed_bytes": 13638,
+      "eligible_packed_bytes": 359,
+      "queries": 110,
+      "stages": 4,
+      "header_sha256": "f935189c8a6a6cda5a05ab8fd96c434ea3651167a48749d8f024b8d2491676eb",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-9",
+      "backbone": "ridge",
+      "cadence": "coarse",
+      "file": "SMD_machine-3-9_ridge_coarse.npz",
+      "sha256": "75655963651c014c26de4df3332459776bba073f6cc0e95ad752dff2549ae26a",
+      "bytes": 24861,
+      "atoms": 2295,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 36720,
+      "atom_payload_sha256": "03ff3466e583995a5c66b81493716761b75b1042141562e702e56df6fffd8880",
+      "cycles": 2871,
+      "channels": 38,
+      "high_count": 2295,
+      "high_packed_bytes": 13638,
+      "eligible_packed_bytes": 359,
+      "queries": 110,
+      "stages": 4,
+      "header_sha256": "1b10a3870970892983b83d2b8a3fde911b594f9ee550619b1ff4811e9c2622ff",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-1",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-1_pca_fine.npz",
+      "sha256": "91fbe967a044233c68b1e8147dc89a43ea03533940182c633e5b19e0243e573a",
+      "bytes": 196067,
+      "atoms": 22418,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 358688,
+      "atom_payload_sha256": "ddc97a3c8c6bd92557b8b5d405ea1face9db683c3d93efb1975454c65253e874",
+      "cycles": 28470,
+      "channels": 38,
+      "high_count": 22418,
+      "high_packed_bytes": 135233,
+      "eligible_packed_bytes": 3559,
+      "queries": 138,
+      "stages": 8,
+      "header_sha256": "f8414f9d7cef7d60cdff2e72f02af15c87de76aa58b40f1e35e59b55d8294e6f",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-1",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-1_ridge_fine.npz",
+      "sha256": "954edab1f50f2b2d1aa16a76880040e31e2c53482d0418444154fd9d8e1e11f3",
+      "bytes": 227894,
+      "atoms": 23201,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 371216,
+      "atom_payload_sha256": "8332b349d34cc30a4fe93397607171781a1400ba72d2db4da8f3a651fd794bf9",
+      "cycles": 28470,
+      "channels": 38,
+      "high_count": 23201,
+      "high_packed_bytes": 135233,
+      "eligible_packed_bytes": 3559,
+      "queries": 138,
+      "stages": 8,
+      "header_sha256": "1c92569916520f9a66fdb5d299be9aa7d337019f2f5a739bcbf421ce78d71732",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-2",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-2_pca_fine.npz",
+      "sha256": "fee86a4c497294486edff2875f1bc41e56910a877feb9e3be19ae6a6597bb52b",
+      "bytes": 7151,
+      "atoms": 170,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 2720,
+      "atom_payload_sha256": "6e73c50f76dbedbc3102470fa2f684582215fc3d81514e6bf30ac2051ccbe98d",
+      "cycles": 23685,
+      "channels": 38,
+      "high_count": 170,
+      "high_packed_bytes": 112504,
+      "eligible_packed_bytes": 2961,
+      "queries": 132,
+      "stages": 10,
+      "header_sha256": "f1940d2cbacb4cc9a39eacdbbfaa744f567505a86c9d88611d5f55eb22f2f9b0",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-2",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-2_ridge_fine.npz",
+      "sha256": "f9ab99fcb9dc533eabdd861b793ded3f87a39d64d3da640a2446b6bd08057463",
+      "bytes": 15440,
+      "atoms": 1019,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 16304,
+      "atom_payload_sha256": "e7ffe322a1b474a0624d75e8380c571c16cca96fd391c19c2fe91259e37e419e",
+      "cycles": 23685,
+      "channels": 38,
+      "high_count": 1019,
+      "high_packed_bytes": 112504,
+      "eligible_packed_bytes": 2961,
+      "queries": 132,
+      "stages": 10,
+      "header_sha256": "21a084bdbe8a4cd0cafe8f7b784f179cbd9c443cf69139375657616c81152485",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-3",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-3_pca_fine.npz",
+      "sha256": "279d374f46cfc540c469a32f0c0d9cc65041e4f1d0fa69d7ff4c24d42f10abb1",
+      "bytes": 6185,
+      "atoms": 133,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 2128,
+      "atom_payload_sha256": "25ba60b0401bdd52559c4f9c8c7f9cea960cada70fc1fffd6545f7e4b7c4b563",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 133,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 112,
+      "stages": 12,
+      "header_sha256": "7e092386c3d9f49e3d5857fa7768e2598ddbd300f64863638bbc8c40cb5352f8",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-3",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-3_ridge_fine.npz",
+      "sha256": "2fc8c1ebe82dd2775c11e0fa8e6a66af947f30fab2d039d91b5557d20d317707",
+      "bytes": 5804,
+      "atoms": 93,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 1488,
+      "atom_payload_sha256": "006ef4686a2aebd7336bc81e5db742ba15358e27455bc53494cee96a41ec69b1",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 93,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 112,
+      "stages": 12,
+      "header_sha256": "f6918c2d3ca86a3248ee8d942540aa47b76b48ef514a87901b68b52cd3fa0f2e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-4",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-4_pca_fine.npz",
+      "sha256": "6ab8720a0d487815d7511b84cc115d489f288774d9f601fc385b9f0e2f5ef68f",
+      "bytes": 5737,
+      "atoms": 39,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 624,
+      "atom_payload_sha256": "d2fd6b1c980aae7287458c50b2c0b231115eeca9cbebefe5bb5350e6d6c5995e",
+      "cycles": 23698,
+      "channels": 38,
+      "high_count": 39,
+      "high_packed_bytes": 112566,
+      "eligible_packed_bytes": 2963,
+      "queries": 164,
+      "stages": 12,
+      "header_sha256": "33d6967e8e3616c59d66cd0661be7da77f272f9d721ebc0fd6e1442bdf5f4dd2",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-4",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-4_ridge_fine.npz",
+      "sha256": "a88704a605c4c400821afb2ff2aabb16b9f215a34a81617415bc831ecdd2e259",
+      "bytes": 5743,
+      "atoms": 39,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 624,
+      "atom_payload_sha256": "d2fd6b1c980aae7287458c50b2c0b231115eeca9cbebefe5bb5350e6d6c5995e",
+      "cycles": 23698,
+      "channels": 38,
+      "high_count": 39,
+      "high_packed_bytes": 112566,
+      "eligible_packed_bytes": 2963,
+      "queries": 164,
+      "stages": 12,
+      "header_sha256": "e3b67ea3fd0e50f9bcc3d62a43a45627fd91612328ef924171d8784d24dcf11e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-5",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-5_pca_fine.npz",
+      "sha256": "4af155c0562092901ad0c1047a616810b15c7f74b806d07f20d738eedcc0b24a",
+      "bytes": 19148,
+      "atoms": 1348,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 21568,
+      "atom_payload_sha256": "7ccd194f75c5975305c90ab56ea6b50f77ed9c133de75d342e062d27ac735c89",
+      "cycles": 23697,
+      "channels": 38,
+      "high_count": 1348,
+      "high_packed_bytes": 112561,
+      "eligible_packed_bytes": 2963,
+      "queries": 138,
+      "stages": 7,
+      "header_sha256": "24c3464cd2e93b686389d1f3ae2bcff2700b946a66f8cefe3c6d24ebe807083a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-5",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-5_ridge_fine.npz",
+      "sha256": "79cadf3d4e19a2d7573b2b2a8e39d61d574981f1aeb4367465a08251597e56ba",
+      "bytes": 59823,
+      "atoms": 5682,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 90912,
+      "atom_payload_sha256": "e307071dc9a4bd6ad430ea548c969a8880acabd4195d13e4e71daa0b689c7ef1",
+      "cycles": 23697,
+      "channels": 38,
+      "high_count": 5682,
+      "high_packed_bytes": 112561,
+      "eligible_packed_bytes": 2963,
+      "queries": 138,
+      "stages": 7,
+      "header_sha256": "874aa499a773670b98e5bd0a690b2b8f44a5fc8907fb3bed48e57ebcb6a6403a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-6",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-6_pca_fine.npz",
+      "sha256": "8f6734ddd5153825fecf6bf8a2e37051ef5a68229a89db216f739fb999ea8fc0",
+      "bytes": 79527,
+      "atoms": 7276,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 116416,
+      "atom_payload_sha256": "5f49426acbac346945b8387f41528f8d6883fe0e437fbcdb8cb82ce807394369",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 7276,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 360,
+      "stages": 30,
+      "header_sha256": "b29713e49c9149bbfc65f074401525abab1e7f3203217054ad12b1a980ae250c",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-6",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-6_ridge_fine.npz",
+      "sha256": "2d52c6f25c934ccdff95f4549fc53cadc7d92b1dbcd649e2f16676b43e241cc1",
+      "bytes": 202436,
+      "atoms": 19530,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 312480,
+      "atom_payload_sha256": "0d5c065f20173995bdfb2b0bc38e30304e5d53e105329f8c69a921e84a6bf5e3",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 19530,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 360,
+      "stages": 30,
+      "header_sha256": "9897892c9e38277624b8851c2c3a70a8686f9f9b141fe977805a544bb014d646",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-7",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-7_pca_fine.npz",
+      "sha256": "a598d9375d1017ce01a540f3f125d3c9639c6c14a38084231aef842303e1016f",
+      "bytes": 10487,
+      "atoms": 486,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 7776,
+      "atom_payload_sha256": "9fe050e137b9a62348a8c4b8f77ff917ff7ca6d3145b54965d970513735db50e",
+      "cycles": 23688,
+      "channels": 38,
+      "high_count": 486,
+      "high_packed_bytes": 112518,
+      "eligible_packed_bytes": 2961,
+      "queries": 196,
+      "stages": 13,
+      "header_sha256": "5abbb2b64731e3b0b787d331ca4efae7b33ab0bb4f05dd2e734c77061145ea69",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-7",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-7_ridge_fine.npz",
+      "sha256": "eb44f728d2e3f335ac19a697e7335a0fcf1bce60a64c43f31a46e0753b240141",
+      "bytes": 47649,
+      "atoms": 4448,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 71168,
+      "atom_payload_sha256": "d4f8244bff85936d1b3cd43c38ec01f05e37a595f3889a27243a623cd333825c",
+      "cycles": 23688,
+      "channels": 38,
+      "high_count": 4448,
+      "high_packed_bytes": 112518,
+      "eligible_packed_bytes": 2961,
+      "queries": 196,
+      "stages": 13,
+      "header_sha256": "dbdbe075c6ff8e8ca5d666fba7386ef4054fdf013d8cb35c64b2337e6cda5120",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-8",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-1-8_pca_fine.npz",
+      "sha256": "b74ccaf5f3c54d95508c6d03adc6200a570996398f0d2fc35141b0c2bff8b1d5",
+      "bytes": 20512,
+      "atoms": 1484,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 23744,
+      "atom_payload_sha256": "04ed9961f9765f68da6a5512983cf7372b6a0fe52a5073a7983311e05404ccbe",
+      "cycles": 23690,
+      "channels": 38,
+      "high_count": 1484,
+      "high_packed_bytes": 112528,
+      "eligible_packed_bytes": 2962,
+      "queries": 172,
+      "stages": 20,
+      "header_sha256": "a5ee626034b3a19d9346804e07f9cc0659a51dd34b9d94b8261919aae135e730",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-1-8",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-1-8_ridge_fine.npz",
+      "sha256": "ecf91a113e3a47e688099fc207755b8f5ec7c851a0b6d80e898734997b7d9e59",
+      "bytes": 80989,
+      "atoms": 8138,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 130208,
+      "atom_payload_sha256": "b65ae2acbf02a7a4d9aeaee3855ded1bb54a904740df04eecbb4fedfde1b5868",
+      "cycles": 23690,
+      "channels": 38,
+      "high_count": 8138,
+      "high_packed_bytes": 112528,
+      "eligible_packed_bytes": 2962,
+      "queries": 172,
+      "stages": 20,
+      "header_sha256": "2d68049b46f58c3535a0a5c7508edbb8e7850efc2668b76463e11fc7f35ac9ed",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-1",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-1_pca_fine.npz",
+      "sha256": "c1116eabb6b287ce7d300a574c3059d5431a7ff397d67c52bcee9dbd42456e87",
+      "bytes": 12827,
+      "atoms": 736,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 11776,
+      "atom_payload_sha256": "1209044de4f3b82bd4f996ee833e78c5a93ab62132dc6a47158fa5ea479b68a6",
+      "cycles": 23685,
+      "channels": 38,
+      "high_count": 736,
+      "high_packed_bytes": 112504,
+      "eligible_packed_bytes": 2961,
+      "queries": 154,
+      "stages": 13,
+      "header_sha256": "d23c73de3097e28ab33cece437de85a0053923a5221d54fa214d4172bfed633b",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-1",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-1_ridge_fine.npz",
+      "sha256": "2ae591f1ced6881eee5e20e48c50f235038d1fe982d7682a1da90d7656d1fcd0",
+      "bytes": 8869,
+      "atoms": 309,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 4944,
+      "atom_payload_sha256": "cd4fafc8705d7f3716fe8a496b14efb17a5db260f7924e17ed0c6698b152ceff",
+      "cycles": 23685,
+      "channels": 38,
+      "high_count": 309,
+      "high_packed_bytes": 112504,
+      "eligible_packed_bytes": 2961,
+      "queries": 154,
+      "stages": 13,
+      "header_sha256": "7bc1fd680552201f68927488110916fc10454cbcadd6c3158d96510b366dfa1c",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-2",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-2_pca_fine.npz",
+      "sha256": "ba02f3e8de25d0ce1c1b2dc8e1545bc010e1c58912c8fda42be5c64359f39af5",
+      "bytes": 49146,
+      "atoms": 4653,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 74448,
+      "atom_payload_sha256": "77e619eab92cfd672d27c5a3231ccae93ed4e635282c36d2a475e1175d49740a",
+      "cycles": 23691,
+      "channels": 38,
+      "high_count": 4653,
+      "high_packed_bytes": 112533,
+      "eligible_packed_bytes": 2962,
+      "queries": 133,
+      "stages": 11,
+      "header_sha256": "175480f09204d641df7567cbb9c1172d97ecf2b377c8121e4b5307d6b7ed48b9",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-2",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-2_ridge_fine.npz",
+      "sha256": "b6c459f94222351000cde62c85fad8ff7f6d195924580f87a83d1780cf23bdb7",
+      "bytes": 52178,
+      "atoms": 4962,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 79392,
+      "atom_payload_sha256": "2342ba5c2d2fae6cc727f6d71a91a2a45aa0e74a0325d7e89e3b2f9303e3e0f2",
+      "cycles": 23691,
+      "channels": 38,
+      "high_count": 4962,
+      "high_packed_bytes": 112533,
+      "eligible_packed_bytes": 2962,
+      "queries": 133,
+      "stages": 11,
+      "header_sha256": "b1a0a132da12fe0873356a0f5b06d7b9adaa3c638194bb1435510a1c62447970",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-3",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-3_pca_fine.npz",
+      "sha256": "112268eb5f8560d00a5513e3a88c6c99373f858c1e49bfa8cb4ba700559b36f4",
+      "bytes": 64943,
+      "atoms": 7864,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 125824,
+      "atom_payload_sha256": "26fe148f4f80c471c3d8b761026facc43349ff2c1f36f13c885bdd537b06072e",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 7864,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 128,
+      "stages": 10,
+      "header_sha256": "1d7bbaea6f98e78dffcbe540679241faf5185c15b6f9785e28bb23b336e4ce92",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-3",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-3_ridge_fine.npz",
+      "sha256": "2ee66368f0ab5588268d6e0ffa25a85851bc0c1b411cc3d69546f972affbe4b8",
+      "bytes": 73669,
+      "atoms": 7489,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 119824,
+      "atom_payload_sha256": "f7aeba6921a1ff8714e04f41520d66b64c94fe43c633f7281bf63e671f07e6c4",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 7489,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 128,
+      "stages": 10,
+      "header_sha256": "e29050022064b1e8cc6f47739a802f6083c28962e64d049b64d81a0bbd7699e7",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-4",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-4_pca_fine.npz",
+      "sha256": "b1c56a2570b2c186f716979c18ccfa4bd32f55e53f6a3711efdef1c3b792f86c",
+      "bytes": 12641,
+      "atoms": 701,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 11216,
+      "atom_payload_sha256": "345cf5ae6927b17aafbc2ccc14646253c49a6a250641ad8cce4e785323b03ca8",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 701,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 154,
+      "stages": 20,
+      "header_sha256": "597a0bc442102b474051f0e136caca8fdc7be3cb319adc0caaf4f7a11a688eab",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-4",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-4_ridge_fine.npz",
+      "sha256": "ebb0de1172c5a2a039e1cc3ce2ae6182a9892f627fc9f2570ada7890ffc99a82",
+      "bytes": 54182,
+      "atoms": 5060,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 80960,
+      "atom_payload_sha256": "3a7a2adb6be3dc89e23d38d8d5f3674a6fa7b6fca256c391b7a722816eea0afa",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 5060,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 154,
+      "stages": 20,
+      "header_sha256": "a8f6dc3b262c986a509e05aca34c860de8292fcbf363fc7db511776f1c3ff8fc",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-5",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-5_pca_fine.npz",
+      "sha256": "57ec72187b15b577e3d5c7d53e2e86c8ccdc96f292f4612e0c6c056b1a967fc8",
+      "bytes": 11579,
+      "atoms": 541,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 8656,
+      "atom_payload_sha256": "778c8299c88b76bec962aaefbbc0a9fef80a7262353344d2308d3c491c420902",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 541,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 167,
+      "stages": 21,
+      "header_sha256": "dbf42f37f581da2dc3e5df92c0e78acc9677e861c8349a2931a544e8c08a2dc7",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-5",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-5_ridge_fine.npz",
+      "sha256": "e2bc45222420838985e995eeb36cd4a1a5dab110f5cacd014cc655bb21cf27b9",
+      "bytes": 10579,
+      "atoms": 485,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 7760,
+      "atom_payload_sha256": "f2aa88d00be751db332d2e147527bce0c16e49a243218723e0c5cac1af963284",
+      "cycles": 23680,
+      "channels": 38,
+      "high_count": 485,
+      "high_packed_bytes": 112480,
+      "eligible_packed_bytes": 2960,
+      "queries": 167,
+      "stages": 21,
+      "header_sha256": "06b85b07f365b3da19a0be85f1e84c838627fdca8690973ec261376fa9e94a2d",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-6",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-6_pca_fine.npz",
+      "sha256": "360816e5f39b9e17fef4ca656dc6a635109c7013ff6bda3efa415300f2f09d55",
+      "bytes": 65007,
+      "atoms": 5950,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 95200,
+      "atom_payload_sha256": "96c545baf830202ccd2aecbefb5385bafe8a56c4eaadec0fbf7180a8615dead7",
+      "cycles": 28734,
+      "channels": 38,
+      "high_count": 5950,
+      "high_packed_bytes": 136487,
+      "eligible_packed_bytes": 3592,
+      "queries": 149,
+      "stages": 8,
+      "header_sha256": "4c0cbd2e1f763daed090ea886b3ce02bd641e967e0b15b1b308d061db9489026",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-6",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-6_ridge_fine.npz",
+      "sha256": "97260883ea5ee2b776c9d5bd678a83ca0adcc9662b5042dce14d1514b4347200",
+      "bytes": 218513,
+      "atoms": 22201,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 355216,
+      "atom_payload_sha256": "119f26743d56ce602e100708efbbd57f683a48f2fb1d481ec80c8aabc0621e83",
+      "cycles": 28734,
+      "channels": 38,
+      "high_count": 22201,
+      "high_packed_bytes": 136487,
+      "eligible_packed_bytes": 3592,
+      "queries": 149,
+      "stages": 8,
+      "header_sha256": "2cc8513ec44e463d88698fa6921e26b89e24743761f7e5edf5b6140513975f8a",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-7",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-7_pca_fine.npz",
+      "sha256": "12bcaaf0108d403ac4af14355e977a8600f287852f053bb72f3936fce870476b",
+      "bytes": 7580,
+      "atoms": 199,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 3184,
+      "atom_payload_sha256": "664ffa780f10735a7f2bbb8fe2a4e66f3c532c9afa0fa9170c3c408f924638b3",
+      "cycles": 23687,
+      "channels": 38,
+      "high_count": 199,
+      "high_packed_bytes": 112514,
+      "eligible_packed_bytes": 2961,
+      "queries": 152,
+      "stages": 20,
+      "header_sha256": "31100b910f72faec1100a1a03baff73d18442420366b09883a9c008a05e41d5f",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-7",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-7_ridge_fine.npz",
+      "sha256": "603c649ad54b1ce62e5ffe6078404cb7f7d902c6cb820769b99e16c159ff1ff7",
+      "bytes": 8533,
+      "atoms": 286,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 4576,
+      "atom_payload_sha256": "1eabbe25b216674ea152c3261e074435c9d873d354de4494f6e2a9ce662d7c60",
+      "cycles": 23687,
+      "channels": 38,
+      "high_count": 286,
+      "high_packed_bytes": 112514,
+      "eligible_packed_bytes": 2961,
+      "queries": 152,
+      "stages": 20,
+      "header_sha256": "fc56508f3083765bcdd6d6d9097f8e06180c1cd538c9f61c72819aa4312c753e",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-8",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-8_pca_fine.npz",
+      "sha256": "694d5a659c89c4b5753e6f8220605cfcc23c4ec2e985a797214cf3a4752e7e84",
+      "bytes": 215478,
+      "atoms": 30577,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 489232,
+      "atom_payload_sha256": "db85b68db147bdc55573aa3867fa7c8c6c83cee8bbab34570e21c3caede2d848",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 30577,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 100,
+      "stages": 1,
+      "header_sha256": "989c568289fc7a3f121a4f2d13666f74b617ad509090a9a26be6d8f0638d5d71",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-8",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-8_ridge_fine.npz",
+      "sha256": "b9628d6a8d4d93dd09d8e25e5342a11714baaccac5a475ea1651b9a4783b1d3e",
+      "bytes": 139874,
+      "atoms": 15621,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 249936,
+      "atom_payload_sha256": "2ffefd2d587c4dd2d3f391c3dcc5e521a63327a8a58fe4420d8132154925790a",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 15621,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 100,
+      "stages": 1,
+      "header_sha256": "da93310b6082f6e767aca332c8a054cdb3c350d1877a2f3fdea092b8ed2a20eb",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-9",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-2-9_pca_fine.npz",
+      "sha256": "43d6153440c7c5d24196ff37e48a63004da35b9444b1b0219e0f88a8b163b92d",
+      "bytes": 237265,
+      "atoms": 25257,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 404112,
+      "atom_payload_sha256": "a2702465e74b9f9be70ca92d10f6d6f0aaaaf0c947dfd9085d104c4db7cb426c",
+      "cycles": 28713,
+      "channels": 38,
+      "high_count": 25257,
+      "high_packed_bytes": 136387,
+      "eligible_packed_bytes": 3590,
+      "queries": 158,
+      "stages": 10,
+      "header_sha256": "fe073b38eebda3212f12d6b18e7abf5d513fc1698aa65117f5ddcada35a693a6",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-2-9",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-2-9_ridge_fine.npz",
+      "sha256": "de82e35c2eea36cc6ac1bb6c85963278fe2c9d76b2af8eeb39758ba737c300f3",
+      "bytes": 543379,
+      "atoms": 61057,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 976912,
+      "atom_payload_sha256": "b453c3c2ae4aca9f2a8f38ecde3bb3510bbd7377940988230440636aecad19e4",
+      "cycles": 28713,
+      "channels": 38,
+      "high_count": 61057,
+      "high_packed_bytes": 136387,
+      "eligible_packed_bytes": 3590,
+      "queries": 158,
+      "stages": 10,
+      "header_sha256": "65fc1b6a32cc719fa5ca46cb5f599ba0529597d1220a35a1b30d1425b8d73c84",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-1",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-1_pca_fine.npz",
+      "sha256": "6ee9f77944985e07965695b6a33aa460a509d694f9338173c0b14d5080cd7112",
+      "bytes": 50145,
+      "atoms": 4710,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 75360,
+      "atom_payload_sha256": "a4e1d4d5e12a68e645fcfbeeaf9e623f794ad3a3e96e8cf7e3a437a8dd2691b4",
+      "cycles": 28691,
+      "channels": 38,
+      "high_count": 4710,
+      "high_packed_bytes": 136283,
+      "eligible_packed_bytes": 3587,
+      "queries": 104,
+      "stages": 4,
+      "header_sha256": "6c7615f1d4d2b1c8554f938e16ea09e615268d3f9954ed4bbd32bc96107b6dae",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-1",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-1_ridge_fine.npz",
+      "sha256": "db65e3d32ad0de36ecfc5048860813f2950bfa0e1f37b03af771d288c472ab09",
+      "bytes": 192301,
+      "atoms": 18597,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 297552,
+      "atom_payload_sha256": "5d7b93a91160254acb0f6af3fa9ec31fbf6c2de43a72aada42958e7d2c25e0a1",
+      "cycles": 28691,
+      "channels": 38,
+      "high_count": 18597,
+      "high_packed_bytes": 136283,
+      "eligible_packed_bytes": 3587,
+      "queries": 104,
+      "stages": 4,
+      "header_sha256": "e8fc0a4bb2f843375aa6714ce5fa976d8d38868238407916504cd0117a1e88c0",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-10",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-10_pca_fine.npz",
+      "sha256": "0073e439ffd8604340c0386cd1d8343f56982cf3499a643b2269384e2fd9d23c",
+      "bytes": 16170,
+      "atoms": 1193,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 19088,
+      "atom_payload_sha256": "098da928e56a201fceddf75230c15afdd11b48dc7455fdc8007568c2376df88e",
+      "cycles": 23684,
+      "channels": 38,
+      "high_count": 1193,
+      "high_packed_bytes": 112499,
+      "eligible_packed_bytes": 2961,
+      "queries": 165,
+      "stages": 13,
+      "header_sha256": "1f93cec506efdb1acc276bbce88e7a0f084f3dfd52297814690036148d1be857",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-10",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-10_ridge_fine.npz",
+      "sha256": "442e0dfae58d3ac027587dbcb1b4091829c9679bc85d4fdb37bfd18b8a22ff48",
+      "bytes": 132722,
+      "atoms": 13889,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 222224,
+      "atom_payload_sha256": "3976f8af4b1d8212599ef7fdde0d772a643819abdd1831cb22645a2bb5005d99",
+      "cycles": 23684,
+      "channels": 38,
+      "high_count": 13889,
+      "high_packed_bytes": 112499,
+      "eligible_packed_bytes": 2961,
+      "queries": 165,
+      "stages": 13,
+      "header_sha256": "4d85c23b27e81e338e4c22e3676b4c0221b94a51eb5d358ed0859a2e2fcdd1dc",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-11",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-11_pca_fine.npz",
+      "sha256": "ab339f850353a17728fb35f881c5321616c10626c98f5f9ca91f16b89d9fe9fc",
+      "bytes": 356814,
+      "atoms": 48539,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 776624,
+      "atom_payload_sha256": "11bd8a68c204b9af6aab5b382ef827817f49435a7962518da465bfe3069d9854",
+      "cycles": 28687,
+      "channels": 38,
+      "high_count": 48539,
+      "high_packed_bytes": 136264,
+      "eligible_packed_bytes": 3586,
+      "queries": 111,
+      "stages": 3,
+      "header_sha256": "b7fc4c0979f1f0a034a190bd694bd2a3d495299f854a0fd7e1779cfb9c0e8c10",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-11",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-11_ridge_fine.npz",
+      "sha256": "9820b7866cfd7469cacf74c59f33e80536bf7e0b5eb9486da5b313cb7688b674",
+      "bytes": 1450992,
+      "atoms": 165792,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 2652672,
+      "atom_payload_sha256": "b1f252c2652e8db69e778b7e8bf5380a6318622496724a31615ae330179aabb2",
+      "cycles": 28687,
+      "channels": 38,
+      "high_count": 165792,
+      "high_packed_bytes": 136264,
+      "eligible_packed_bytes": 3586,
+      "queries": 111,
+      "stages": 3,
+      "header_sha256": "a8fa60aa18e8e062b666f403ee35aab96ba6f1cdd18d8e10a6efdadb681ca7e5",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-2",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-2_pca_fine.npz",
+      "sha256": "156e5ba33f0c81f781ce32592d4bbdedebe95f2aaa9776a001b32ca75609ffc7",
+      "bytes": 5065,
+      "atoms": 9,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 144,
+      "atom_payload_sha256": "56f8e8ad5eee8874fbff142a6d036a680d2a6cc2d49bf6329de7fc533d313d7f",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 9,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 98,
+      "stages": 10,
+      "header_sha256": "7e2509b6bab9ab9584ce3bab5f5ed9cc10e169b68c205535a8573574a126aa51",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-2",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-2_ridge_fine.npz",
+      "sha256": "781b3527f9f539d677381aade37f3474a3719aa37771cd3597fdeaecbc364718",
+      "bytes": 5107,
+      "atoms": 11,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 176,
+      "atom_payload_sha256": "74f415fe577d9e91fabdc21c9f5d17c09a023e57ac5af2cab0304fec16f65c7e",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 11,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 98,
+      "stages": 10,
+      "header_sha256": "d75f7113ba533632b9bc12ce5ddfab3619e47d86a4284e63f44e900edcb7bd80",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-3",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-3_pca_fine.npz",
+      "sha256": "9c0cd119554d9815c3f955b6c3db4f0e5a3caed9cfd1826757ebffaa3f9b8a9f",
+      "bytes": 25960,
+      "atoms": 2111,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 33776,
+      "atom_payload_sha256": "24c5bcc95482b831cf008635a7afc33c3549e5bd891d0da6d50d522de58588b6",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 2111,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 189,
+      "stages": 26,
+      "header_sha256": "5c50018344a3073c698fddce15601817461ddab0cb72550a301172488f4b5d61",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-3",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-3_ridge_fine.npz",
+      "sha256": "e4d9714284ec44dddae66106965397d23c8493f752451768ff35f26e30145d2d",
+      "bytes": 22397,
+      "atoms": 1820,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 29120,
+      "atom_payload_sha256": "1bf65c7fb44f8e19bcf25dca3b9998ce1590db98ab6d91f0652f3d68a13096da",
+      "cycles": 23694,
+      "channels": 38,
+      "high_count": 1820,
+      "high_packed_bytes": 112547,
+      "eligible_packed_bytes": 2962,
+      "queries": 189,
+      "stages": 26,
+      "header_sha256": "17c1736758d72c49ab6129992da2f7c32165f2a7fbf823dcca58d242f2a35710",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-4",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-4_pca_fine.npz",
+      "sha256": "d92a88fabcd4be78ba8347429ad18f463b89a6173f4f9e10430676f4589e8f36",
+      "bytes": 145356,
+      "atoms": 23884,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 382144,
+      "atom_payload_sha256": "35238416f7dc5340eb2aff9d0744547dfa15da1a5939876b6a8cd067f1dba984",
+      "cycles": 23678,
+      "channels": 38,
+      "high_count": 23884,
+      "high_packed_bytes": 112471,
+      "eligible_packed_bytes": 2960,
+      "queries": 96,
+      "stages": 8,
+      "header_sha256": "bf7007c3b8536bb00da0302ccb19955e6321eb47fc6a9d7a8886c5dad725b2c9",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-4",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-4_ridge_fine.npz",
+      "sha256": "2751142506f134de6871a3497d9a1a167d356e3f74c93df47c78dbdee0a7992b",
+      "bytes": 5130318,
+      "atoms": 605210,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 9683360,
+      "atom_payload_sha256": "1a98d406cbb99128d5d47c756e68528685ae0cc90de6988a5f72ad2512a41ffe",
+      "cycles": 23678,
+      "channels": 38,
+      "high_count": 605210,
+      "high_packed_bytes": 112471,
+      "eligible_packed_bytes": 2960,
+      "queries": 96,
+      "stages": 8,
+      "header_sha256": "200be382b3485c4fffcab4bdd33cc54dfee2588b6af4d9dcbe256c57d67e5cc8",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-5",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-5_pca_fine.npz",
+      "sha256": "37d85eda3b66b40efebb0ce15726e2ba5152655a7192bd396295f8a0f1bbf2f6",
+      "bytes": 114384,
+      "atoms": 14539,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 232624,
+      "atom_payload_sha256": "28cc413d81a24ba0acc28e76808cb3e170748d6b6006a16175ba2004fcca5a3f",
+      "cycles": 23682,
+      "channels": 38,
+      "high_count": 14539,
+      "high_packed_bytes": 112490,
+      "eligible_packed_bytes": 2961,
+      "queries": 110,
+      "stages": 11,
+      "header_sha256": "a24b4f88168a489555737ccb70d7770f111212045ecef2d3e4102367a5cc81d7",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-5",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-5_ridge_fine.npz",
+      "sha256": "a028a771d9d5edc495192c7eab5898075732caf81e9de2ed4dcb55cba6c43c75",
+      "bytes": 250919,
+      "atoms": 28152,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 450432,
+      "atom_payload_sha256": "14b276564c43760b2022dfce3161b519f337b6342560e95fcf3180eac63ca205",
+      "cycles": 23682,
+      "channels": 38,
+      "high_count": 28152,
+      "high_packed_bytes": 112490,
+      "eligible_packed_bytes": 2961,
+      "queries": 110,
+      "stages": 11,
+      "header_sha256": "6e5da93aab1c83cee51642a0639234c4feae35583487bd7a448a6f3f32f78609",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-6",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-6_pca_fine.npz",
+      "sha256": "e314ccf9c4913103ab06ddba0075d72e819a9044c50ae6e6cd3507dd47d121a5",
+      "bytes": 82366,
+      "atoms": 7843,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 125488,
+      "atom_payload_sha256": "6c78703ce83e894758f47a525bf5b352dcfc478d3107d038bdebf5f2d9c4f91e",
+      "cycles": 28717,
+      "channels": 38,
+      "high_count": 7843,
+      "high_packed_bytes": 136406,
+      "eligible_packed_bytes": 3590,
+      "queries": 158,
+      "stages": 11,
+      "header_sha256": "ce40639325305dc6b9919bae1053eda2fa2822867f28af9f6751b20824a246ff",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-6",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-6_ridge_fine.npz",
+      "sha256": "60248d11adff1ad6292fb25104cf7333548583a4d9afdf6946c697bad4524b25",
+      "bytes": 247070,
+      "atoms": 25557,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 408912,
+      "atom_payload_sha256": "7c7ed296b986664f808716f95fa882a6338fd38cb54a373ec0fbc0e3f2c14240",
+      "cycles": 28717,
+      "channels": 38,
+      "high_count": 25557,
+      "high_packed_bytes": 136406,
+      "eligible_packed_bytes": 3590,
+      "queries": 158,
+      "stages": 11,
+      "header_sha256": "2ace568c55433cbe25f83f75248f58db70c1811511d760d93446536fe3a24593",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-7",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-7_pca_fine.npz",
+      "sha256": "505c7f1a204630ace7cdb3d592d73cf11d9cbd58c0378b0563957513205acf21",
+      "bytes": 81900,
+      "atoms": 11713,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 187408,
+      "atom_payload_sha256": "ad06e14784e7f8c306b2af0b2859dd1e880d96cd039103aea27f393bf48d81cd",
+      "cycles": 28696,
+      "channels": 38,
+      "high_count": 11713,
+      "high_packed_bytes": 136306,
+      "eligible_packed_bytes": 3587,
+      "queries": 132,
+      "stages": 5,
+      "header_sha256": "3d4fc96ae2bee910eba7056dd72088b0455614ccb5cdeca160e3417df7277ad5",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-7",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-7_ridge_fine.npz",
+      "sha256": "2aebd84cd4bfb12b9bbaa17716c5fa3d5035227e73480952b1ab326b11d170ec",
+      "bytes": 154757,
+      "atoms": 20691,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 331056,
+      "atom_payload_sha256": "c9c2fae25e3b05860ea2d05d943964f41ced75e5c8291c39eb6274291bb7f961",
+      "cycles": 28696,
+      "channels": 38,
+      "high_count": 20691,
+      "high_packed_bytes": 136306,
+      "eligible_packed_bytes": 3587,
+      "queries": 132,
+      "stages": 5,
+      "header_sha256": "4430a4b033018fb63c6c588fad28c3ed94867d32311d4f96ec5a762db432e6ff",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-8",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-8_pca_fine.npz",
+      "sha256": "a8f4f78218a166b934cc5f281b9a09500a8bb782a79b7a1f2ccf0a76a6543998",
+      "bytes": 64558,
+      "atoms": 6343,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 101488,
+      "atom_payload_sha256": "4a388827a63c106e4dd2a27826150f639019e36552ff029023422768bcab1038",
+      "cycles": 28695,
+      "channels": 38,
+      "high_count": 6343,
+      "high_packed_bytes": 136302,
+      "eligible_packed_bytes": 3587,
+      "queries": 122,
+      "stages": 6,
+      "header_sha256": "a733d51325730a1ccf9d5a50437c418c0a3c98f97c1ad48eb1083f9f0571015b",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-8",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-8_ridge_fine.npz",
+      "sha256": "5df5ddd9b3f24f8e8c6fd2d85bee3e98c458a04b481fcacb42fc249eba9b9b71",
+      "bytes": 385755,
+      "atoms": 42583,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 681328,
+      "atom_payload_sha256": "cc2e3cc7a8a9d314bb2aa415dbdf4fa46a24aafb73e3e694e34f96da35d53d53",
+      "cycles": 28695,
+      "channels": 38,
+      "high_count": 42583,
+      "high_packed_bytes": 136302,
+      "eligible_packed_bytes": 3587,
+      "queries": 122,
+      "stages": 6,
+      "header_sha256": "db15dd894751ebf55bebc380ba44cb6eb0b96f7acb304dca9afcc6d64069dc60",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-9",
+      "backbone": "pca",
+      "cadence": "fine",
+      "file": "SMD_machine-3-9_pca_fine.npz",
+      "sha256": "358d958bc813d5faf336aeb55c104af8901bbd043e918cd55538744ffacd05db",
+      "bytes": 79602,
+      "atoms": 7623,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 121968,
+      "atom_payload_sha256": "9928fa933a677cea67fedc3122ea73a8cbaf4f979025d7de8f471ef2fc02dcfb",
+      "cycles": 28704,
+      "channels": 38,
+      "high_count": 7623,
+      "high_packed_bytes": 136344,
+      "eligible_packed_bytes": 3588,
+      "queries": 110,
+      "stages": 4,
+      "header_sha256": "af9e93e5ea8b3047e317b7c7af8830fff7a7ea75794296647761fe120a50189f",
+      "roundtrip_exact": true
+    },
+    {
+      "dataset": "SMD",
+      "unit": "machine-3-9",
+      "backbone": "ridge",
+      "cadence": "fine",
+      "file": "SMD_machine-3-9_ridge_fine.npz",
+      "sha256": "16944c2dd9dfdbb6c76bb48e657180f2eb761f347050433d63b7d7e72e28afb6",
+      "bytes": 187871,
+      "atoms": 22832,
+      "atom_dtype": [
+        [
+          "t",
+          "<u4"
+        ],
+        [
+          "ch",
+          "<u2"
+        ],
+        [
+          "v",
+          "<u2"
+        ],
+        [
+          "q",
+          "<f4"
+        ],
+        [
+          "x",
+          "<f4"
+        ]
+      ],
+      "atom_payload_bytes": 365312,
+      "atom_payload_sha256": "c6fc38297a7caf3ece13ee9ce7b6a31e72e3ce94f9ef5a7d8855940a6a9545c8",
+      "cycles": 28704,
+      "channels": 38,
+      "high_count": 22832,
+      "high_packed_bytes": 136344,
+      "eligible_packed_bytes": 3588,
+      "queries": 110,
+      "stages": 4,
+      "header_sha256": "3b3648acd8336b2e7efc16bb9d5f4351f80c84d39fdcd0379d2d7df6873f6cd3",
+      "roundtrip_exact": true
+    }
+  ]
+}

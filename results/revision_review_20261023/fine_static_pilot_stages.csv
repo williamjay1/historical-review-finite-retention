@@ -1,0 +1,9 @@
+dataset,unit,backbone,cadence,incident_id,category,window_opportunity,active_opportunity,pre_opportunity,annotated_channels,full_model_high,pre_model_high,full_annotated_high,pre_annotated_high,full_cycles,pre_cycles,excluded_own_cutoff_cycles
+SMD,machine-3-4,ridge,fine,0,anomaly,True,True,True,8,True,True,True,True,786,786,0
+SMD,machine-3-4,ridge,fine,1,anomaly,True,True,True,2,True,True,True,True,76,76,0
+SMD,machine-3-4,ridge,fine,2,anomaly,True,True,True,4,True,True,True,True,3,3,0
+SMD,machine-3-4,ridge,fine,3,anomaly,True,True,True,3,True,True,True,True,6,6,0
+SMD,machine-3-4,ridge,fine,4,anomaly,True,True,True,3,True,True,True,True,4,4,0
+SMD,machine-3-4,ridge,fine,5,anomaly,True,True,True,3,True,True,True,True,10,10,0
+SMD,machine-3-4,ridge,fine,6,anomaly,True,True,True,4,True,True,True,True,51,51,0
+SMD,machine-3-4,ridge,fine,7,anomaly,True,True,True,3,True,True,True,True,41,41,0

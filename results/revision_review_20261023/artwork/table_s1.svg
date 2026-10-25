@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="182pt" viewBox="0 0 518.740157 182" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T15:53:13.195592</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Source-exact editable paper table generator</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 182 
+L 518.740157 182 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="line2d_1">
+   <path d="M 6 6 
+L 512.740157 6 
+" style="fill: none; stroke: #000000; stroke-width: 0.75"/>
+  </g>
+  <g id="line2d_2">
+   <path d="M 6 28 
+L 512.740157 28 
+" style="fill: none; stroke: #000000; stroke-width: 0.45"/>
+  </g>
+  <g id="line2d_3">
+   <path d="M 6 176 
+L 512.740157 176 
+" style="fill: none; stroke: #000000; stroke-width: 0.75"/>
+  </g>
+  <g id="cell-r0-c0">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="18.81125" transform="rotate(-0 11 18.81125)">Quantity</text>
+  </g>
+  <g id="cell-r0-c1">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="19.505234" transform="rotate(-0 291.10874 19.505234)">PCA coarse</text>
+  </g>
+  <g id="cell-r0-c2">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="19.505234" transform="rotate(-0 363.319213 19.505234)">PCA fine</text>
+  </g>
+  <g id="cell-r0-c3">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="18.768594" transform="rotate(-0 435.529685 18.768594)">Ridge coarse</text>
+  </g>
+  <g id="cell-r0-c4">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="18.81125" transform="rotate(-0 507.740157 18.81125)">Ridge fine</text>
+  </g>
+  <g id="cell-r1-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="39.018594" transform="rotate(-0 11 39.018594)">Binary incidents</text>
+  </g>
+  <g id="cell-r1-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="39.721328" transform="rotate(-0 291.10874 39.721328)">327</text>
+  </g>
+  <g id="cell-r1-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="39.721328" transform="rotate(-0 363.319213 39.721328)">327</text>
+  </g>
+  <g id="cell-r1-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="39.721328" transform="rotate(-0 435.529685 39.721328)">327</text>
+  </g>
+  <g id="cell-r1-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="39.721328" transform="rotate(-0 507.740157 39.721328)">327</text>
+  </g>
+  <g id="cell-r2-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="57.518594" transform="rotate(-0 11 57.518594)">Incidents with an active decision opportunity</text>
+  </g>
+  <g id="cell-r2-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="58.222969" transform="rotate(-0 291.10874 58.222969)">249</text>
+  </g>
+  <g id="cell-r2-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="58.221328" transform="rotate(-0 363.319213 58.221328)">327</text>
+  </g>
+  <g id="cell-r2-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="58.222969" transform="rotate(-0 435.529685 58.222969)">249</text>
+  </g>
+  <g id="cell-r2-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="58.221328" transform="rotate(-0 507.740157 58.221328)">327</text>
+  </g>
+  <g id="cell-r3-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="76.018594" transform="rotate(-0 11 76.018594)">Incidents with any channel high</text>
+  </g>
+  <g id="cell-r3-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="76.721328" transform="rotate(-0 291.10874 76.721328)">143</text>
+  </g>
+  <g id="cell-r3-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="76.721328" transform="rotate(-0 363.319213 76.721328)">238</text>
+  </g>
+  <g id="cell-r3-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="76.765625" transform="rotate(-0 435.529685 76.765625)">142</text>
+  </g>
+  <g id="cell-r3-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="76.721328" transform="rotate(-0 507.740157 76.721328)">239</text>
+  </g>
+  <g id="cell-r4-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="94.518594" transform="rotate(-0 11 94.518594)">Incidents with annotated variable high</text>
+  </g>
+  <g id="cell-r4-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="95.265625" transform="rotate(-0 291.10874 95.265625)">122</text>
+  </g>
+  <g id="cell-r4-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="95.222969" transform="rotate(-0 363.319213 95.222969)">216</text>
+  </g>
+  <g id="cell-r4-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="95.221328" transform="rotate(-0 435.529685 95.221328)">135</text>
+  </g>
+  <g id="cell-r4-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="95.265625" transform="rotate(-0 507.740157 95.265625)">224</text>
+  </g>
+  <g id="cell-r5-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="113.018594" transform="rotate(-0 11 113.018594)">Annotated incident variable targets</text>
+  </g>
+  <g id="cell-r5-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="113.270156" transform="rotate(-0 291.10874 113.270156)">2,254</text>
+  </g>
+  <g id="cell-r5-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="113.270156" transform="rotate(-0 363.319213 113.270156)">2,254</text>
+  </g>
+  <g id="cell-r5-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="113.270156" transform="rotate(-0 435.529685 113.270156)">2,254</text>
+  </g>
+  <g id="cell-r5-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="113.270156" transform="rotate(-0 507.740157 113.270156)">2,254</text>
+  </g>
+  <g id="cell-r6-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="131.518594" transform="rotate(-0 11 131.518594)">Targets without an active decision</text>
+  </g>
+  <g id="cell-r6-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="132.221328" transform="rotate(-0 291.10874 132.221328)">371</text>
+  </g>
+  <g id="cell-r6-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="132.222969" transform="rotate(-0 363.319213 132.222969)">0</text>
+  </g>
+  <g id="cell-r6-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="132.221328" transform="rotate(-0 435.529685 132.221328)">371</text>
+  </g>
+  <g id="cell-r6-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="132.222969" transform="rotate(-0 507.740157 132.222969)">0</text>
+  </g>
+  <g id="cell-r7-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="150.018594" transform="rotate(-0 11 150.018594)">Positive annotated targets</text>
+  </g>
+  <g id="cell-r7-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="150.722969" transform="rotate(-0 291.10874 150.722969)">749</text>
+  </g>
+  <g id="cell-r7-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="150.270156" transform="rotate(-0 363.319213 150.270156)">1,101</text>
+  </g>
+  <g id="cell-r7-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="150.721328" transform="rotate(-0 435.529685 150.721328)">932</text>
+  </g>
+  <g id="cell-r7-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="150.270156" transform="rotate(-0 507.740157 150.270156)">1,228</text>
+  </g>
+  <g id="cell-r8-c0">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start" x="11" y="168.563437" transform="rotate(-0 11 168.563437)">Original high records</text>
+  </g>
+  <g id="cell-r8-c1">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="291.10874" y="168.770156" transform="rotate(-0 291.10874 168.770156)">24,415</text>
+  </g>
+  <g id="cell-r8-c2">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="363.319213" y="168.770156" transform="rotate(-0 363.319213 168.770156)">238,339</text>
+  </g>
+  <g id="cell-r8-c3">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="435.529685" y="168.770156" transform="rotate(-0 435.529685 168.770156)">111,954</text>
+  </g>
+  <g id="cell-r8-c4">
+   <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end" x="507.740157" y="168.770156" transform="rotate(-0 507.740157 168.770156)">1,124,754</text>
+  </g>
+ </g>
+</svg>

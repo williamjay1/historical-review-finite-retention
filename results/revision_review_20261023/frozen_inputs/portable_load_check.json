@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "isolated_loader_numpy_stdlib_only": true,
+  "loader_does_not_import_source_adapters": true,
+  "core_separately_imported_legacy_modules": [
+    "evidence_representation_audit"
+  ],
+  "checks": [
+    {
+      "file": "ESA_1_pca_coarse.npz",
+      "atoms": 127991,
+      "full_bytes": 554282,
+      "queries_checked": 32,
+      "passed": true
+    },
+    {
+      "file": "SMD_machine-3-4_ridge_fine.npz",
+      "atoms": 605210,
+      "full_bytes": 2743495,
+      "queries_checked": 32,
+      "passed": true
+    }
+  ],
+  "core_sha256": "6ffa3462733abd162d9a6d612464ef5bec9ead680335b0f9d83330d36d44d637"
+}

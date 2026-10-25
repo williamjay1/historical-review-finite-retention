@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "preview_count": 11,
+  "preview_sha256": {
+    "figure1_storage_task_preview.png": "2350542b34b4b283f33bd4ab387b6ed69359d165275d987d2e9ffb98e50f7520",
+    "figure2_online_age_preview.png": "ffdd16de5723d9c68562f56c7a2351af84c67f09fe2d198fb04f4b2d6a3d1bce",
+    "table_1_preview.png": "2baa9a58bb236790dc12445ed34b05fb2fad8d104fcf21a45c222b3553302a4b",
+    "table_2_preview.png": "b5425252a065b7fb6aba21eeacf472e36d596efc79eac6be39c06c1ad5974189",
+    "table_3_preview.png": "9fb6a031567715997f78e33deb30b0d0934e205b47ee1e36512e56a208accbbe",
+    "table_4_preview.png": "9c9dc249000964535f418f73a7448a356c8311dd64c1d20098b43a3451dc0d2f",
+    "table_s1_preview.png": "82ccf7819ea7a03897a94ef80889eb172232204181a1cbdc438e447ca5632259",
+    "table_s2_preview.png": "367e2e1a8a03b5a85b2222be77d0f55db1890034cd5bb19f7d00084567b8a809",
+    "table_s3_preview.png": "a39ceb9ff6eb8d3677022b02b657a707108f76ebb779d8ae88fa25911d968af6",
+    "table_s4_preview.png": "c236162469cd1e336dd4af62ab8129df02cf0413cd4ad12ed727473301c130ab",
+    "table_s5_preview.png": "1802e038544673c2a904d2bcc6eb8538b67b05ac2229d76154b8a8b0548ef6fc"
+  },
+  "figure1_label_change": "Full-if-fits changed to Full if fits; plotted values and source data unchanged",
+  "table_sources": [
+    "manuscript/ESWA_Manuscript.md",
+    "manuscript/ESWA_Supplementary.md"
+  ],
+  "all_tables_rebuilt_from_final_sources": true,
+  "figure2_unchanged": true,
+  "visual_inspection": [
+    "figure1_storage_task_preview.png",
+    "figure2_online_age_preview.png",
+    "table_2_preview.png"
+  ],
+  "layout_inspection": "All 4 main tables and all 5 supplementary tables were inspected in the Word PDF pages; no overlap, clipping, or cell overflow was found.",
+  "scope": "All 2 figures and 9 tables present as PDF/SVG plus 1200 dpi PNG. Geometry checks passed for every artwork file. No raster content in PDF or SVG."
+}

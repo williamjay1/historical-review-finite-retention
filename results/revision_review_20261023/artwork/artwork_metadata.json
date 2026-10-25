@@ -1,0 +1,101 @@
+{
+  "style": "Nature-style scientific presentation; SciencePlots + explicit Arial geometry",
+  "width_mm": 183,
+  "height_mm": 110,
+  "ordinary_font_pt": 7,
+  "panel_letter_pt": 8,
+  "vector_formats": [
+    "PDF (embedded TrueType)",
+    "SVG (editable text)"
+  ],
+  "native_raster_dpi": 1200,
+  "preview_dpi": 150,
+  "palette": [
+    "#36658C",
+    "#BB643A",
+    "#2A8576",
+    "#786494"
+  ],
+  "script_sha256": "f85b8fc7f31d8bacb08949d2c5cf6fc4ddff5c929dcdc2e501f9b52758247889",
+  "inference": "Descriptive display; no independence, significance, or deployment-prevalence inference",
+  "figures": [
+    {
+      "stem": "figure1_storage_task",
+      "geometry_report": "figure1_storage_task_geometry.json",
+      "geometry_ok": true,
+      "visual_qa": {
+        "status": "pass",
+        "mechanism": "Actual preview inspection with native view_image",
+        "inspected_preview_sha256": "2350542b34b4b283f33bd4ab387b6ed69359d165275d987d2e9ffb98e50f7520",
+        "checks": [
+          "No overlapping text",
+          "No text crossing data lines or spines",
+          "No clipped labels",
+          "Legends outside data",
+          "Readable Arial text at the stated physical canvas"
+        ],
+        "scope": "Visual layout only; values verified from source CSVs, not read from the image"
+      },
+      "physical_mm": [
+        182.9999999999947,
+        109.99999999998333
+      ],
+      "raster_pixels": [
+        8645,
+        5196
+      ],
+      "raster_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "source_hashes": {
+        "results\\revision_review_20261023\\all_static_costs.csv": "8e811b251c71e4b82952539a8cd5221a5b73c4dd92a0b73e400d79a9e261e75f",
+        "results\\revision_review_20261023\\static_task_summary.csv": "6c7c4573324cf0dd53678c7e1af318e265d7afd785bae1f3b25b16d9b579bd0a"
+      },
+      "files": {
+        "figure1_storage_task.pdf": "097e550deb322c619482f6cdab8d614cb83e301a21bc8611b05bb591b299d217",
+        "figure1_storage_task.svg": "fac3a6dd832fd53e375eafd9eb68094ef0f405db0d0311263c23ce6b5e7475c1",
+        "figure1_storage_task.png": "b80126db3d37f10fdc8cba04ffa021229aa7a52c57e3427a5bb971d536bd00fe"
+      }
+    },
+    {
+      "stem": "figure2_online_age",
+      "geometry_report": "figure2_online_age_geometry.json",
+      "geometry_ok": true,
+      "visual_qa": {
+        "status": "pass",
+        "mechanism": "Actual preview inspection with native view_image",
+        "inspected_preview_sha256": "ffdd16de5723d9c68562f56c7a2351af84c67f09fe2d198fb04f4b2d6a3d1bce",
+        "checks": [
+          "No overlapping text",
+          "No text crossing data lines or spines",
+          "No clipped labels",
+          "Legends outside data",
+          "Readable Arial text at the stated physical canvas"
+        ],
+        "scope": "Visual layout only; values verified from source CSVs, not read from the image"
+      },
+      "physical_mm": [
+        182.9999999999947,
+        109.99999999998333
+      ],
+      "raster_pixels": [
+        8645,
+        5196
+      ],
+      "raster_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "source_hashes": {
+        "results\\revision_review_20261023\\online_age_summary.csv": "a057c792e8505354b222f0431e5f6814fc2554954cd00044279b667d8614982e",
+        "results\\revision_review_20261023\\online_summary_b1024.csv": "f87e56f4aa295af07939149650a767766ce63b71af1918ef45c9c40670a7f6ca"
+      },
+      "files": {
+        "figure2_online_age.pdf": "21a5cdc81ba92340360800a4bb6e3b4ccef7ac105a10b126080dd15b31853267",
+        "figure2_online_age.svg": "5654464bfd01cf8309d6f17fef4c50486d3852ff29f93efd3afbe3b22d263f3a",
+        "figure2_online_age.png": "03ccf325552adce1dcf9d571fa8bbd749bc0a82f3f0af812647fdf2e6bc59365"
+      }
+    }
+  ]
+}
