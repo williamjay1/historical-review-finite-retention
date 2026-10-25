@@ -6,9 +6,8 @@ sources for:
 **Historical review under finite monitoring retention: Complete compression,
 semantic summaries and service boundaries**
 
-This is the public reproducibility repository for the manuscript. The
-manuscript is under review. A Zenodo DOI will be added here after the archive
-release.
+This is the public reproducibility repository for the manuscript. A Zenodo
+DOI will be added here after the archive release.
 
 ## What the study asks
 
