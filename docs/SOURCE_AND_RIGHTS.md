@@ -47,5 +47,5 @@ responsibility for the manuscript.
 
 ## Release status
 
-The GitHub repository is public. A Zenodo archive and DOI are created by the
-authors after the repository release. No DOI is asserted by this file.
+The GitHub repository is public and archived at
+https://doi.org/10.5281/zenodo.23646555.

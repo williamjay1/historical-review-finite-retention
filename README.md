@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23646555.svg)](https://doi.org/10.5281/zenodo.23646555)
+
 # Historical review under finite monitoring retention
 
 Code, derived data, serialized archives, canonical results and manuscript
@@ -6,8 +8,9 @@ sources for:
 **Historical review under finite monitoring retention: Complete compression,
 semantic summaries and service boundaries**
 
-This is the public reproducibility repository for the manuscript. A Zenodo
-DOI will be added here after the archive release.
+This is the public reproducibility repository for the manuscript. The archived
+release is available at https://doi.org/10.5281/zenodo.23646555 (version
+v1.0.0).
 
 ## What the study asks
 
@@ -76,16 +79,16 @@ representative pilot was. See `docs/REPRODUCTION.md` and
 
 ## Data and code availability
 
-Suggested statement for the manuscript after the Zenodo release:
+Statement used in the manuscript:
 
 > The code, 116 frozen service streams, 1,392 serialized static archives, 304
 > online snapshot archives, canonical result tables, figure and table source
 > data, and reproduction instructions are available at
 > https://github.com/williamjay1/historical-review-finite-retention. The release
-> is archived in Zenodo under DOI [DOI].
+> is archived at https://doi.org/10.5281/zenodo.23646555.
 
-Replace `[DOI]` with the version DOI after the archive release. The concept DOI
-can be used for "all versions". See `docs/DATA_AVAILABILITY.md`.
+The manuscript data statement uses this single release DOI. See
+`docs/DATA_AVAILABILITY.md`.
 
 ## Licenses
 
@@ -99,8 +102,9 @@ See `NOTICE.md` for attribution and changes.
 
 ## Citation
 
-Cite the manuscript and the Zenodo version DOI once assigned. The repository
-does not yet assert a DOI.
+Cite the manuscript and the archived release:
+
+> https://doi.org/10.5281/zenodo.23646555
 
 ## Contact
 

@@ -1,8 +1,9 @@
 # Citation
 
-Cite the manuscript and the Zenodo version DOI once assigned.
+Cite the manuscript and the archived release:
 
-The repository does not yet assert a DOI. After the archive release, add the
-version DOI to this file and to `README.md`.
+> The code and derived data are archived at
+> https://doi.org/10.5281/zenodo.23646555.
 
-For all versions, use the Zenodo concept DOI.
+The version DOI for this release is 10.5281/zenodo.23646555.
+
